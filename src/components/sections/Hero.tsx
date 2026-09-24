@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { profile } from '../../data/profile';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
 import HeroBackground from '../HeroBackground';
