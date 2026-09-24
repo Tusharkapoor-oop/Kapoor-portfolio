@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Command } from 'lucide-react';
+import { Menu, X, Command, FileText } from 'lucide-react';
+import { profile } from '../../data/profile';
 
 const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -59,6 +60,17 @@ const Navigation = () => {
               </a>
             ))}
 
+            <a
+              href={profile.resumeUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs font-mono px-3 py-1.5 rounded-lg bg-card border border-cardBorder hover:border-accent/50 text-foreground hover:text-white transition-all flex items-center gap-1.5 group"
+            >
+              <FileText size={12} className="text-accent" />
+              <span>Resume</span>
+              <span className="text-muted/60 group-hover:text-accent transition-colors text-[10px]">↗</span>
+            </a>
+
             <button
               onClick={handleOpenPalette}
               title="Open Command Palette (⌘K / Ctrl+K)"
@@ -71,6 +83,15 @@ const Navigation = () => {
 
           {/* Mobile Actions */}
           <div className="flex items-center gap-3 md:hidden">
+            <a
+              href={profile.resumeUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="p-2 text-muted hover:text-foreground border border-cardBorder rounded bg-card/60"
+              title="Resume"
+            >
+              <FileText size={16} className="text-accent" />
+            </a>
             <button
               onClick={handleOpenPalette}
               aria-label="Open command palette"
@@ -110,6 +131,16 @@ const Navigation = () => {
                   {link.name}
                 </a>
               ))}
+              <a
+                href={profile.resumeUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                className="py-2.5 text-accent hover:text-white transition-colors flex items-center justify-between"
+              >
+                <span>Download Resume (PDF)</span>
+                <span>↗</span>
+              </a>
             </div>
           </motion.div>
         )}

@@ -24,7 +24,7 @@ function App() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 mix-blend-screen transition-opacity duration-1000"
           style={{
-            backgroundImage: "url('/scholar_full_bg.jpg')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}scholar_full_bg.jpg')`,
             maskImage: 'radial-gradient(ellipse 95% 85% at 50% 30%, black 50%, transparent 100%)',
             WebkitMaskImage: 'radial-gradient(ellipse 95% 85% at 50% 30%, black 50%, transparent 100%)',
           }}
