@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { profile } from '../../data/profile';
 import { Search, ArrowRight, CornerDownLeft, ExternalLink, Mail, FileText } from 'lucide-react';
 

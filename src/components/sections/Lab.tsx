@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { lab } from '../../data/site';
 import { profile } from '../../data/profile';
 

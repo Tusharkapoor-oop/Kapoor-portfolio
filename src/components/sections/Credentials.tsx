@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { education, certifications, achievements } from '../../data/credentials';
 
 const EASE = [0.16, 1, 0.3, 1] as const;

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { profile } from '../../data/profile';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
-import { Copy, Check, Mail, Code2, ArrowUpRight, Phone, MessageSquare, Briefcase, Sparkles } from 'lucide-react';
+import { Copy, Check, Mail, Code2, ArrowUpRight, MessageSquare, Briefcase, Sparkles } from 'lucide-react';
 
 const contactOptions = [
   {

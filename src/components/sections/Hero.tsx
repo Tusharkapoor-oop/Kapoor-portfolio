@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { profile } from '../../data/profile';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
+import HeroBackground from '../HeroBackground';
 import { ArrowDown, Mail, Code2, MapPin, Clock, Sparkles } from 'lucide-react';
 
 const Hero = () => {
@@ -26,12 +27,13 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="pt-8 pb-16 min-h-[80vh] flex flex-col justify-center">
+    <section className="relative pt-8 pb-16 min-h-[80vh] flex flex-col justify-center">
+      <HeroBackground />
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ type: 'spring', stiffness: 90, damping: 20 }}
-        className="space-y-8"
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        className="relative space-y-8"
       >
         {/* Status bar: Location, Local Time, Availability */}
         <div className="flex flex-wrap items-center gap-3 text-xs font-mono text-muted">

@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { nowItems } from '../../data/site';
 
 const EASE = [0.16, 1, 0.3, 1] as const;

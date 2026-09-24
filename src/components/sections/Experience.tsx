@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { experience, leadership } from '../../data/experience';
-import { Users, Globe2, Briefcase, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
+import { Users, Globe2, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
 
 const Experience = () => {
   return (
