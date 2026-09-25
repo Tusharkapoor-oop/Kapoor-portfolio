@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { profile } from '../../data/profile';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
 import { Copy, Check, Mail, Code2, ArrowUpRight, MessageSquare, Briefcase, Sparkles } from 'lucide-react';

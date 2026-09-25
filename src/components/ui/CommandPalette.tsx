@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { profile } from '../../data/profile';
 import { Search, ArrowRight, CornerDownLeft, ExternalLink, Mail, FileText } from 'lucide-react';
 
@@ -138,9 +138,10 @@ const CommandPalette = () => {
     cmd.category.toLowerCase().includes(search.toLowerCase())
   );
 
-  useEffect(() => {
+  const handleSearchChange = (value: string) => {
+    setSearch(value);
     setSelectedIndex(0);
-  }, [search]);
+  };
 
   const handleKeyDownList = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowDown') {
@@ -183,7 +184,7 @@ const CommandPalette = () => {
                 placeholder="Type a command or jump to section..."
                 className="w-full bg-transparent border-none outline-none text-foreground placeholder:text-muted/50 font-mono text-sm"
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 autoFocus
               />
               <kbd className="text-[10px] font-mono px-1.5 py-0.5 border border-cardBorder rounded text-muted/60">

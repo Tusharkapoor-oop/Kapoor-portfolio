@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { experience, leadership } from '../../data/experience';
 import { Users, Globe2, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
 

@@ -1,5 +1,5 @@
 import { useState, Fragment } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { projects, projectFilters } from '../../data/projects';
 import { Activity, ChevronDown, ChevronUp, Database, Users, Calendar, Sparkles, Terminal } from 'lucide-react';
 

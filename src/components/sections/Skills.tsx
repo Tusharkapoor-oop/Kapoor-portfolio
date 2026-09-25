@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { skills, skillGroups, skillLinks } from '../../data/skills';
 import { Layers, Sparkles } from 'lucide-react';
 

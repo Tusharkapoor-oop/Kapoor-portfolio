@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { workshopRepos } from '../../data/skills';
 import { profile } from '../../data/profile';
 import { GithubIcon } from '../ui/Icons';

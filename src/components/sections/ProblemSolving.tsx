@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { leetcode } from '../../data/skills';
 import { profile } from '../../data/profile';
 import { Terminal, Award, Code2, ArrowUpRight } from 'lucide-react';

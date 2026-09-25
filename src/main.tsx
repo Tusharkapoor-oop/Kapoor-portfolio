@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { MotionConfig } from 'framer-motion'
+import { MotionConfig } from 'motion/react'
 import { ReactLenis } from 'lenis/react'
 import 'lenis/dist/lenis.css'
 import './index.css'
