@@ -42,7 +42,6 @@ export const nowItems: NowItem[] = [
 ];
 
 export const lab = [
-  { title: 'aura-gesture-', note: 'Gesture experiments, early stage.' },
   { title: 'DSA_PYTHON', note: 'Problem-solving practice, ongoing.' },
-  { title: 'OS_LAB_KRMU', note: 'Operating systems coursework in Python.' },
+  { title: 'OS_LAB_Linux_Ubantu', note: 'Operating systems coursework in Python.' },
 ];
