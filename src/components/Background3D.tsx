@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Float, MeshDistortMaterial, Sparkles } from '@react-three/drei';
+import { Float, MeshDistortMaterial, Sparkles, Image as Image3D } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Warm jewel palette — matches the site, never neon-default
@@ -8,6 +8,21 @@ const GOLD = '#E8A33D';
 const EMBER = '#E85D2A';
 const TEAL = '#2DD4BF';
 const ROSE = '#FB7185';
+
+const FloatingArt = () => {
+  return (
+    <Float speed={1.5} rotationIntensity={0.2} floatIntensity={0.5}>
+      <Image3D
+        url={`${import.meta.env.BASE_URL}scholar_art_3d.jpg`}
+        position={[2, 0, -6]}
+        scale={[12, 15]}
+        rotation={[0, -0.15, 0.05]}
+        transparent
+        opacity={0.85}
+      />
+    </Float>
+  );
+};
 
 const FloatingShapes = () => {
   const group = useRef<THREE.Group>(null);
@@ -65,6 +80,7 @@ const Background3D = () => {
         <directionalLight position={[-10, -10, -5]} intensity={0.8} color={EMBER} />
         <pointLight position={[0, 0, 0]} intensity={1.2} color={GOLD} />
 
+        <FloatingArt />
         <FloatingShapes />
 
         <Sparkles count={120} scale={14} size={2.5} speed={0.3} opacity={0.5} color={GOLD} />
