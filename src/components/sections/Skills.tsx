@@ -55,11 +55,11 @@ const Skills = () => {
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ type: 'spring', stiffness: 100, damping: 20, delay: idx * 0.04 }}
+            transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1], delay: idx * 0.04 }}
             className="space-y-3"
           >
             <div className="border-b border-cardBorder/60 pb-2">
-              <h3 className="text-xs font-mono text-accent font-semibold uppercase tracking-widest">
+              <h3 className={`text-xs font-mono font-semibold uppercase tracking-widest ${['text-gold', 'text-teal', 'text-rose', 'text-violet', 'text-gold', 'text-teal', 'text-rose', 'text-violet'][idx % 8]}`}>
                 0{idx + 1} // {group.title}
               </h3>
               <p className="text-[11px] font-mono text-muted/50 mt-0.5">{group.hint}</p>

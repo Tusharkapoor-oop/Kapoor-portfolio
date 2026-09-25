@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import Navigation from './components/ui/Navigation';
 import CommandPalette from './components/ui/CommandPalette';
 import Hero from './components/sections/Hero';
@@ -13,24 +14,16 @@ import Credentials from './components/sections/Credentials';
 import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
 
+// Three.js is heavy — split it into its own chunk so first paint stays fast
+const Background3D = lazy(() => import('./components/Background3D'));
+
 function App() {
   return (
     <div id="top" className="min-h-screen bg-background text-foreground flex flex-col items-center relative">
 
-      {/* Scholar backdrop — static, no blend mode (blend forces repaint on scroll) */}
-      <div
-        className="pointer-events-none fixed inset-0 z-0 overflow-hidden"
-        aria-hidden="true"
-      >
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-          style={{
-            backgroundImage: `url('${import.meta.env.BASE_URL}scholar_full_bg.jpg')`,
-            transform: 'translateZ(0)',
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background" />
-      </div>
+      <Suspense fallback={null}>
+        <Background3D />
+      </Suspense>
 
       <Navigation />
       <CommandPalette />

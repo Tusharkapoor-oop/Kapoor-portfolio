@@ -1,12 +1,22 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
+import { motion, useMotionValue, useSpring, useTransform } from 'motion/react';
 import { profile } from '../../data/profile';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
-import HeroBackground from '../HeroBackground';
 import { ArrowDown, Mail, Code2, MapPin, Clock, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   const [time, setTime] = useState<string>('');
+  // 3D tilt: cursor drives a tiny rotateX/rotateY on the hero copy
+  const mx = useMotionValue(0);
+  const my = useMotionValue(0);
+  const rotateX = useSpring(useTransform(my, [-0.5, 0.5], [6, -6]), {
+    stiffness: 120,
+    damping: 18,
+  });
+  const rotateY = useSpring(useTransform(mx, [-0.5, 0.5], [-8, 8]), {
+    stiffness: 120,
+    damping: 18,
+  });
 
   useEffect(() => {
     const updateTime = () => {
@@ -27,12 +37,24 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative pt-8 pb-16 min-h-[80vh] flex flex-col justify-center">
-      <HeroBackground />
+    <section
+      className="relative pt-8 pb-16 min-h-[80vh] flex flex-col justify-center"
+      style={{ perspective: 1200 }}
+      onMouseMove={(e) => {
+        const r = e.currentTarget.getBoundingClientRect();
+        mx.set((e.clientX - r.left) / r.width - 0.5);
+        my.set((e.clientY - r.top) / r.height - 0.5);
+      }}
+      onMouseLeave={() => {
+        mx.set(0);
+        my.set(0);
+      }}
+    >
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        style={{ rotateX, rotateY, transformStyle: 'preserve-3d' }}
         className="relative space-y-8"
       >
         {/* Status bar: Location, Local Time, Availability */}
@@ -58,8 +80,8 @@ const Hero = () => {
             <span>Tushar Kapoor // Applied AI & Systems Engineering</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-foreground leading-[1.12]">
-            Engineering systems that reason through real-world complexity.
+          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-foreground leading-[1.05]">
+            Engineering systems that <span className="text-gradient-fire">reason</span> through real-world complexity.
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-muted leading-relaxed font-normal pt-2">
@@ -107,7 +129,8 @@ const Hero = () => {
         <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-cardBorder/60">
           <a
             href="#work"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground text-background font-mono text-xs font-semibold hover:bg-white transition-all shadow-md"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-mono text-xs font-bold text-background transition-all hover:brightness-110 shadow-lg shadow-accent/25"
+            style={{ background: 'linear-gradient(100deg, #E8A33D, #E85D2A 55%, #FB7185 130%)' }}
           >
             <span>Explore Built Systems</span>
             <ArrowDown size={14} />

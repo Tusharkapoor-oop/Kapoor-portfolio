@@ -11,6 +11,8 @@ type P = { x: number; y: number; r: number; a: number; s: number; o: number };
  */
 const HeroBackground = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const glowRef = useRef<HTMLDivElement>(null);
+  const geoRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -55,9 +57,29 @@ const HeroBackground = () => {
     };
 
     let t = 0;
+    // 3D depth: lerped mouse offset, applied as translate3d per layer
+    let tmx = 0;
+    let tmy = 0;
+    let cmx = 0;
+    let cmy = 0;
+    const onMouse = (e: MouseEvent) => {
+      tmx = (e.clientX / window.innerWidth - 0.5) * 2;
+      tmy = (e.clientY / window.innerHeight - 0.5) * 2;
+    };
+    const fine = window.matchMedia('(pointer: fine)').matches;
+    if (fine) window.addEventListener('mousemove', onMouse, { passive: true });
     const tick = () => {
       if (!running) return;
       t += 1 / 60;
+      // ease current toward target — buttery, never 1:1 with the cursor
+      cmx += (tmx - cmx) * 0.045;
+      cmy += (tmy - cmy) * 0.045;
+      if (glowRef.current) {
+        glowRef.current.style.transform = `translate3d(${(cmx * 18).toFixed(2)}px, ${(cmy * 12).toFixed(2)}px, 0)`;
+      }
+      if (geoRef.current) {
+        geoRef.current.style.transform = `translate3d(${(cmx * -26).toFixed(2)}px, ${(cmy * -18).toFixed(2)}px, 0)`;
+      }
       ctx.clearRect(0, 0, w, h);
       const cx = w * 0.42;
       const cy = h * 0.42;
@@ -109,14 +131,29 @@ const HeroBackground = () => {
       running = false;
       cancelAnimationFrame(raf);
       io.disconnect();
+      window.removeEventListener('mousemove', onMouse);
     };
   }, []);
 
   return (
     <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden" style={{ willChange: 'transform', transform: 'translateZ(0)' }}>
+      {/* Layer 0 — floating color orbs (blurred once, animated by transform only) */}
+      <div
+        className="animate-drift-a absolute -top-32 -left-32 h-[28rem] w-[28rem] rounded-full will-change-transform"
+        style={{ background: 'radial-gradient(circle, rgba(232,163,61,0.16), transparent 65%)', filter: 'blur(50px)' }}
+      />
+      <div
+        className="animate-drift-b absolute top-1/3 -right-40 h-[30rem] w-[30rem] rounded-full will-change-transform"
+        style={{ background: 'radial-gradient(circle, rgba(45,212,191,0.10), transparent 65%)', filter: 'blur(60px)' }}
+      />
+      <div
+        className="animate-drift-a absolute -bottom-48 left-1/3 h-[26rem] w-[26rem] rounded-full will-change-transform"
+        style={{ background: 'radial-gradient(circle, rgba(251,113,133,0.08), transparent 65%)', filter: 'blur(60px)', animationDelay: '-7s' }}
+      />
       {/* Layer 1 — lamplight */}
       <div
-        className="absolute inset-0"
+        ref={glowRef}
+        className="absolute -inset-8 will-change-transform"
         style={{
           background:
             'radial-gradient(52rem 30rem at 12% 8%, rgba(232,163,61,0.10), transparent 62%), radial-gradient(40rem 24rem at 45% 78%, rgba(232,93,42,0.06), transparent 65%)',
@@ -124,7 +161,8 @@ const HeroBackground = () => {
       />
       {/* Layer 2 — geometry, dissolves before the text */}
       <svg
-        className="absolute inset-0 h-full w-full"
+        ref={geoRef}
+        className="absolute -inset-8 h-[calc(100%+4rem)] w-[calc(100%+4rem)] will-change-transform"
         viewBox="0 0 1200 800"
         preserveAspectRatio="xMidYMid slice"
         style={{

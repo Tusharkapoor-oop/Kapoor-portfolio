@@ -3,6 +3,17 @@ import { motion, AnimatePresence } from 'motion/react';
 import { projects, projectFilters } from '../../data/projects';
 import { Activity, ChevronDown, ChevronUp, Database, Users, Calendar, Sparkles, Terminal } from 'lucide-react';
 
+// Bold color system — number + type label cycle jewel tones per project
+const PROJECT_HUES = ['text-gold', 'text-teal', 'text-rose', 'text-violet'] as const;
+const CATEGORY_HUES: Record<string, string> = {
+  'AGENTIC AI': 'text-violet',
+  'AI / ML': 'text-gold',
+  DATA: 'text-teal',
+  CLOUD: 'text-rose',
+  IOT: 'text-teal',
+  HACKATHON: 'text-rose',
+};
+
 const projectNarratives: Record<
   string,
   {
@@ -108,21 +119,21 @@ const Projects = () => {
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
-              transition={{ type: 'spring', stiffness: 90, damping: 20, delay: idx * 0.05 }}
-              className="bg-card/50 border border-cardBorder rounded-2xl p-6 sm:p-8 hover:border-foreground/25 transition-all duration-300"
+              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: idx * 0.05 }}
+              className="bg-card/50 border border-cardBorder rounded-2xl p-6 sm:p-8 hover:border-accent/40 transition-colors duration-300"
             >
               {/* Title & Metadata */}
               <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-4">
                 <div>
                   <div className="flex items-center gap-3">
-                    <span className="font-mono text-xs text-accent">0{idx + 1} //</span>
+                    <span className={`font-mono text-xs font-bold ${PROJECT_HUES[idx % PROJECT_HUES.length]}`}>0{idx + 1} //</span>
                     <h3 className="text-2xl font-bold tracking-tight text-foreground">
                       {project.title}
                     </h3>
                   </div>
 
                   <div className="flex flex-wrap items-center gap-3 font-mono text-xs text-muted/80 mt-2">
-                    <span className="text-accent font-medium">{project.type}</span>
+                    <span className={`font-medium ${CATEGORY_HUES[project.categories[0]] ?? 'text-gold'}`}>{project.type}</span>
                     {project.role && (
                       <span className="flex items-center gap-1 text-foreground font-medium bg-background px-2 py-0.5 rounded border border-cardBorder">
                         <Users size={12} className="text-accent" />
