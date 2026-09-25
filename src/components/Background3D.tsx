@@ -11,14 +11,14 @@ const ROSE = '#FB7185';
 
 const FloatingArt = () => {
   return (
-    <Float speed={1.5} rotationIntensity={0.2} floatIntensity={0.5}>
+    <Float speed={1.5} rotationIntensity={0.15} floatIntensity={0.4}>
       <Image3D
-        url={`${import.meta.env.BASE_URL}scholar_art_3d.jpg`}
-        position={[2, 0, -6]}
-        scale={[12, 15]}
-        rotation={[0, -0.15, 0.05]}
+        url={`${import.meta.env.BASE_URL}scholar_art_3d_wide.jpg`}
+        position={[0, 0, -8]}
+        scale={[24, 13.5]}
+        rotation={[0, 0, 0.02]}
         transparent
-        opacity={0.85}
+        opacity={0.95}
       />
     </Float>
   );
@@ -86,8 +86,8 @@ const Background3D = () => {
         <Sparkles count={120} scale={14} size={2.5} speed={0.3} opacity={0.5} color={GOLD} />
       </Canvas>
       {/* Scrim — site background wins, shapes stay ambient */}
-      <div className="absolute inset-0 bg-background/55" />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-transparent to-background" />
+      <div className="absolute inset-0 bg-background/30" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95" />
     </div>
   );
 };
