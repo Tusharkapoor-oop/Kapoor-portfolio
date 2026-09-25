@@ -67,7 +67,7 @@ const FloatingShapes = () => {
   );
 };
 
-const Background3D = () => {
+const Background3D = ({ showShapes = true }: { showShapes?: boolean }) => {
   return (
     <div className="pointer-events-none fixed inset-0 z-0" aria-hidden="true">
       <Canvas
@@ -81,7 +81,7 @@ const Background3D = () => {
         <pointLight position={[0, 0, 0]} intensity={1.2} color={GOLD} />
 
         <FloatingArt />
-        <FloatingShapes />
+        {showShapes && <FloatingShapes />}
 
         <Sparkles count={120} scale={14} size={2.5} speed={0.3} opacity={0.5} color={GOLD} />
       </Canvas>

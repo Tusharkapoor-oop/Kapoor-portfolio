@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import Navigation from './components/ui/Navigation';
 import CommandPalette from './components/ui/CommandPalette';
 import Hero from './components/sections/Hero';
@@ -13,16 +13,28 @@ import Skills from './components/sections/Skills';
 import Credentials from './components/sections/Credentials';
 import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
+import { Layers } from 'lucide-react';
 
 // Three.js is heavy — split it into its own chunk so first paint stays fast
 const Background3D = lazy(() => import('./components/Background3D'));
 
 function App() {
+  const [showShapes, setShowShapes] = useState(true);
+
   return (
     <div id="top" className="min-h-screen bg-background text-foreground flex flex-col items-center relative">
+      
+      {/* Floating Toggle Button */}
+      <button 
+        onClick={() => setShowShapes(!showShapes)}
+        className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-card/80 backdrop-blur-md border border-cardBorder text-muted hover:text-accent hover:border-accent/50 transition-all shadow-lg"
+        title="Toggle 3D Floating Shapes"
+      >
+        <Layers size={20} className={showShapes ? 'opacity-100' : 'opacity-40'} />
+      </button>
 
       <Suspense fallback={null}>
-        <Background3D />
+        <Background3D showShapes={showShapes} />
       </Suspense>
 
       <Navigation />
