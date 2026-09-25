@@ -24,6 +24,16 @@ const FloatingArt = () => {
   );
 };
 
+const CameraRig = () => {
+  useFrame((state) => {
+    // smoothly move camera based on mouse coordinates
+    state.camera.position.x = THREE.MathUtils.lerp(state.camera.position.x, state.pointer.x * 1.5, 0.05);
+    state.camera.position.y = THREE.MathUtils.lerp(state.camera.position.y, state.pointer.y * 1.5, 0.05);
+    state.camera.lookAt(0, 0, 0);
+  });
+  return null;
+};
+
 const FloatingShapes = () => {
   const group = useRef<THREE.Group>(null);
 
@@ -80,6 +90,7 @@ const Background3D = ({ showShapes = true }: { showShapes?: boolean }) => {
         <directionalLight position={[-10, -10, -5]} intensity={0.8} color={EMBER} />
         <pointLight position={[0, 0, 0]} intensity={1.2} color={GOLD} />
 
+        <CameraRig />
         <FloatingArt />
         {showShapes && <FloatingShapes />}
 

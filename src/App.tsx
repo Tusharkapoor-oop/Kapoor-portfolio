@@ -13,6 +13,8 @@ import Skills from './components/sections/Skills';
 import Credentials from './components/sections/Credentials';
 import Contact from './components/sections/Contact';
 import Footer from './components/Footer';
+import CustomCursor from './components/ui/CustomCursor';
+import Loader from './components/ui/Loader';
 import { Layers } from 'lucide-react';
 
 // Three.js is heavy — split it into its own chunk so first paint stays fast
@@ -23,6 +25,9 @@ function App() {
 
   return (
     <div id="top" className="min-h-screen bg-background text-foreground flex flex-col items-center relative">
+      
+      <Loader />
+      <CustomCursor />
       
       {/* Floating Toggle Button */}
       <button 
