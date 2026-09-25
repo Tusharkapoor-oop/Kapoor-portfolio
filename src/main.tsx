@@ -9,7 +9,7 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <MotionConfig reducedMotion="user">
-      <ReactLenis root options={{ lerp: 0.1, duration: 1.2, anchors: true }}>
+      <ReactLenis root options={{ lerp: 0.08, smoothWheel: true, anchors: true, syncTouch: true }}>
         <App />
       </ReactLenis>
     </MotionConfig>

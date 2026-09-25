@@ -113,7 +113,7 @@ const HeroBackground = () => {
   }, []);
 
   return (
-    <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden">
+    <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden" style={{ willChange: 'transform', transform: 'translateZ(0)' }}>
       {/* Layer 1 — lamplight */}
       <div
         className="absolute inset-0"
@@ -129,6 +129,8 @@ const HeroBackground = () => {
         preserveAspectRatio="xMidYMid slice"
         style={{
           opacity: 0.05,
+          willChange: 'transform',
+          transform: 'translateZ(0)',
           maskImage: 'radial-gradient(46rem 30rem at 38% 42%, black 30%, transparent 78%)',
           WebkitMaskImage: 'radial-gradient(46rem 30rem at 38% 42%, black 30%, transparent 78%)',
         }}
@@ -154,7 +156,11 @@ const HeroBackground = () => {
         </g>
       </svg>
       {/* Layer 3 — breath */}
-      <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" />
+      <canvas 
+        ref={canvasRef} 
+        className="absolute inset-0 h-full w-full" 
+        style={{ willChange: 'transform', transform: 'translateZ(0)' }} 
+      />
       {/* Scrim — text always wins */}
       <div
         className="absolute inset-0"

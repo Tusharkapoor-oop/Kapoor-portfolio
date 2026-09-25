@@ -16,22 +16,6 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div id="top" className="min-h-screen bg-background text-foreground flex flex-col items-center relative">
-      {/* Spiritual & Scholar Deep Sacred Geometry Background (Full Canvas) */}
-      <div
-        className="pointer-events-none fixed inset-0 h-screen w-screen z-0 overflow-hidden"
-        aria-hidden="true"
-      >
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 mix-blend-screen transition-opacity duration-1000"
-          style={{
-            backgroundImage: `url('${import.meta.env.BASE_URL}scholar_full_bg.jpg')`,
-            maskImage: 'radial-gradient(ellipse 95% 85% at 50% 30%, black 50%, transparent 100%)',
-            WebkitMaskImage: 'radial-gradient(ellipse 95% 85% at 50% 30%, black 50%, transparent 100%)',
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/20 to-background/90" />
-      </div>
-
       <Navigation />
       <CommandPalette />
 
