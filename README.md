@@ -1,6 +1,7 @@
-# Kapoor Portfolio
+# Kapoor Portfolio — AI-Powered Portfolio (cinematic)
 
-**Dark-first, motion-heavy engineering portfolio** — React 19 + Vite + Tailwind 4 + three.js, deployed to GitHub Pages on every push to `main`.
+**White-paper / red-ink, scroll-driven cinematic portfolio** — React 19 + Vite + TypeScript, Lenis smooth
+scroll behind a custom scene director, CSS-3D only (no WebGL), deployed to GitHub Pages on every push to `main`.
 
 > **Live:** https://tusharkapoor-oop.github.io/Kapoor-portfolio/ — deployed automatically by
 > `.github/workflows/deploy.yml` on every push to `main`.
@@ -11,66 +12,74 @@
 
 | Feature | Implementation |
 |---|---|
-| 3D background | `three.js` via `@react-three/fiber` + `drei`, lazy-loaded (`src/components/Background3D.tsx`) |
-| Smooth scroll | `lenis` |
-| Motion | `motion` (framer-motion successor) — section reveals, staggered entrances |
-| Command palette | `⌘K` overlay (`CommandPalette.tsx`) for keyboard navigation |
-| Custom cursor | `CustomCursor.tsx` (pointer-devices only) |
-| Content sections | Hero · Lab · Projects · Experience · ProblemSolving · Workshop · Credentials · Skills · Now · Contact · Footer |
-| Data-driven content | `src/data/*.ts` — projects, skills, experience, credentials, profile (edit these, not the JSX) |
-| Design tokens | Tailwind 4 + `DESIGN_SYSTEM.md` (colors, type scale, spacing — read before styling) |
+| Scroll engine | `src/engine/director.ts` — one Lenis + GSAP-ticker RAF loop; scenes register via `[data-scene]` and receive `{ enter, p, exit, vis }` every frame |
+| Frame API | `src/engine/hooks.ts` — `useScene(id, cb)` / `useFrame(cb)`; all animation writes go through refs (zero re-renders while scrolling) |
+| Hero | Anton nameplate, giant watermark, dual CTAs (`MagneticButton`), scroll cue |
+| About | Word-by-word manifesto reveal, tilt stat cards, rolling odometer counters |
+| Work | 3D card deck: perspective flip + crossfade between the three builds, masked reveal, project mocks (chat / gauge / heatmap) |
+| Journey | Outlined Anton year odometer (2024 → 2028), SVG line-draw timeline |
+| Toolkit | Fibonacci-sphere skill orbit — billboarded chips around a red core, mouse-parallax tilt, z-sorted glass chips |
+| Awards | Flip-in counters + 3D certificate cylinder |
+| Contact | Red curtain sweep (left → right) with a clipped white blade edge + halos; each element reveals as the edge passes it; HUD elements invert individually |
+| Chrome | Preloader, per-element inverting HUD (logo / nav / progress), custom cursor (fine pointers only) |
+| Content | `src/data.ts` — single source of truth (identity, manifesto, projects, journey, skills, certs, contact) |
+| Design tokens | `src/styles.css` + `DESIGN_SYSTEM.md` (read before styling) |
 
 ## Project structure
 
 ```
 src/
-  components/        # UI (Hero, Projects, Contact, CommandPalette, …)
-  data/              # profile.ts, projects.ts, skills.ts, experience.ts, …
-  index.css          # Tailwind 4 tokens + global styles
-  main.tsx → App.tsx
+  data.ts              # ALL content — edit here, not in the scenes
+  engine/
+    director.ts        # Lenis + RAF loop, scene registry, scrollTo/scrollTop
+    hooks.ts           # useFrame/useScene/applyReveals, easings, reduced-motion
+  components/
+    Chrome.tsx         # Preloader, HUD (logo/nav/progress + inversion), Cursor
+    Odometer.tsx       # mechanical digit strip (carry model)
+    TiltCard.tsx       # pointer-tilt wrapper
+    MagneticButton.tsx # magnetic hover CTA
+  scenes/              # Hero · About · Work · Journey · Skills · Awards · Contact
+  styles.css           # tokens + every section's styles (single stylesheet)
 public/
-  Tushar_Kapoor_Resume.pdf   # generated from resume/resume.html
-  scholar_art_3d_wide.webp   # 3D background texture
-  og-image.jpg               # social preview card
-resume/                        # résumé source (HTML + JSON Resume) + build script
-.github/workflows/deploy.yml   # Pages CI/CD (lint → typecheck → build → deploy)
-.github/workflows/ci.yml       # PR checks (lint → typecheck → build)
-DESIGN_SYSTEM.md               # visual language
+  og-image.jpg         # 1200×630 social card (regenerate from the hero)
+  favicon.svg
+resume/                # résumé source (HTML + JSON Resume) + build script
+.github/workflows/     # ci.yml (checks) + deploy.yml (Pages, main only)
+DESIGN_SYSTEM.md       # visual language, motion grammar, mobile rules
 ```
 
 ## Development
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173
-npm run lint       # oxlint
-npm run build      # vite build → dist/
-npm run preview    # serve dist/ locally
+npm run dev           # http://localhost:5173
+npm run lint          # oxlint
+npm run build         # vite build → dist/
+npm run preview       # serve dist/ locally
 npm run resume:build  # regenerate public/Tushar_Kapoor_Resume.pdf from resume/resume.html
 ```
 
 ## CI/CD
 
 `deploy.yml` runs on every push to `main`:
+`npm ci` → `npm run lint` → `npx tsc -b` → `npm run build` → upload `dist/` → Pages deploy.
 
-1. `npm ci` (lockfile-pinned) → 2. `npm run lint` → 3. `npx tsc -b` → 4. `npm run build` → 5. upload `dist/` as Pages artifact → 6. deploy.
-
-`ci.yml` runs the same three checks on pull requests and non-`main` branches.
-Permissions are least-privilege (`contents: read`, `pages: write`, `id-token: write`) with concurrency cancellation for superseded builds.
-Dependabot keeps npm packages and Actions up to date weekly.
+`ci.yml` runs the same checks on pull requests and non-`main` branches.
+Least-privilege permissions, concurrency cancellation, weekly Dependabot.
 
 ## Performance notes (honest)
 
-- All imagery is optimized: the 3D background texture is WebP (~110 KB) and the social card is a dedicated 1200×630 JPEG (~140 KB); ~5 MB of unused source images were removed.
-- three.js (~550 KB min) is code-split into a lazy `Background3D` chunk — the main bundle stays three-free and loads first (verified by checking the entry chunk for the `WebGLRenderer` string).
-- The 3D scene honors `prefers-reduced-motion` (freezes instead of a continuous rAF loop).
+- **No WebGL.** The whole site is DOM + CSS 3D; there is no three.js chunk at all.
+- Fonts are self-hosted via `@fontsource` (anton, inter-tight, jetbrains-mono) — no external font requests.
+- Scrolling writes styles imperatively through refs — React never re-renders mid-scroll.
+- `prefers-reduced-motion` is honored: the orbit stops spinning and CSS animations are disabled.
 - No Lighthouse number is claimed here because none has been measured in CI yet (planned: `npx lighthouse-ci` job).
 
 ## Known limitations
 
-- README screenshots/GIF are TODO.
 - No unit tests yet — lint + `tsc` + build are the current gates (enforced in CI).
 - Lighthouse CI is planned but not wired up yet.
+- README screenshots are TODO (the live site is the reference).
 
 ## License
 
