@@ -32,6 +32,8 @@ function App() {
       {/* Floating Toggle Button */}
       <button 
         onClick={() => setShowShapes(!showShapes)}
+        aria-label="Toggle 3D background shapes"
+        aria-pressed={showShapes}
         className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-card/80 backdrop-blur-md border border-cardBorder text-muted hover:text-accent hover:border-accent/50 transition-all shadow-lg"
         title="Toggle 3D Floating Shapes"
       >
@@ -47,17 +49,17 @@ function App() {
 
       <main className="w-full max-w-5xl px-6 md:px-12 pt-24 pb-12 space-y-32 relative z-10">
         <Hero />
-        <div id="about"><Context /></div>
+        <Context />
         <Now />
-        <div id="work"><Projects /></div>
+        <Projects />
         <div id="projects" className="sr-only" aria-hidden="true" />
-        <div id="experience"><Experience /></div>
+        <Experience />
         <ProblemSolving />
-        <div id="lab"><Lab /></div>
+        <Lab />
         <Workshop />
         <Skills />
         <Credentials />
-        <div id="connect"><Contact /></div>
+        <Contact />
         <div id="contact" className="sr-only" aria-hidden="true" />
         <Footer />
       </main>

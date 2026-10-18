@@ -4,7 +4,7 @@ export const site = {
   title: 'Tushar Kapoor — AI/ML Engineering Student',
   description:
     'Tushar Kapoor builds AI/ML systems — agentic assistants, IoT pipelines, cloud apps — and leads technical teams. Based in New Delhi.',
-  canonical: 'ADD_CANONICAL_URL',
+  canonical: 'https://tusharkapoor-oop.github.io/Kapoor-portfolio/',
   nav: [
     { label: 'Work', href: '#work' },
     { label: 'Experience', href: '#experience' },

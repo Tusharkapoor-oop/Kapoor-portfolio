@@ -143,6 +143,12 @@ const Contact = () => {
               </button>
             </div>
           )}
+
+          {/* Screen-reader feedback for the copy actions above */}
+          <span className="sr-only" aria-live="polite">
+            {copiedEmail ? 'Email address copied to clipboard.' : ''}
+            {copiedPhone ? 'Phone number copied to clipboard.' : ''}
+          </span>
         </div>
 
         {/* Social Profiles Grid */}

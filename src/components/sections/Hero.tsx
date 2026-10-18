@@ -4,25 +4,14 @@ import { profile } from '../../data/profile';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
 import { ArrowDown, Mail, Code2, MapPin, Clock, Sparkles } from 'lucide-react';
 
-const Hero = () => {
-  const [time, setTime] = useState<string>('');
-  // 3D tilt: cursor drives a tiny rotateX/rotateY on the hero copy
-  const mx = useMotionValue(0);
-  const my = useMotionValue(0);
-  const rotateX = useSpring(useTransform(my, [-0.5, 0.5], [6, -6]), {
-    stiffness: 120,
-    damping: 18,
-  });
-  const rotateY = useSpring(useTransform(mx, [-0.5, 0.5], [-8, 8]), {
-    stiffness: 120,
-    damping: 18,
-  });
+// Isolated clock so the 1s tick re-renders only this component, not the whole hero
+const LocalClock = () => {
+  const [time, setTime] = useState('');
 
   useEffect(() => {
     const updateTime = () => {
-      const now = new Date();
       setTime(
-        now.toLocaleTimeString('en-US', {
+        new Date().toLocaleTimeString('en-US', {
           timeZone: 'Asia/Kolkata',
           hour: '2-digit',
           minute: '2-digit',
@@ -35,6 +24,22 @@ const Hero = () => {
     const interval = setInterval(updateTime, 1000);
     return () => clearInterval(interval);
   }, []);
+
+  return <span>{time ? `${time} IST` : 'IST'}</span>;
+};
+
+const Hero = () => {
+  // 3D tilt: cursor drives a tiny rotateX/rotateY on the hero copy
+  const mx = useMotionValue(0);
+  const my = useMotionValue(0);
+  const rotateX = useSpring(useTransform(my, [-0.5, 0.5], [6, -6]), {
+    stiffness: 120,
+    damping: 18,
+  });
+  const rotateY = useSpring(useTransform(mx, [-0.5, 0.5], [-8, 8]), {
+    stiffness: 120,
+    damping: 18,
+  });
 
   return (
     <section
@@ -69,7 +74,7 @@ const Hero = () => {
             <span>New Delhi, India</span>
             <span className="text-muted/40">·</span>
             <Clock size={11} className="text-muted/60" />
-            <span>{time ? `${time} IST` : 'IST'}</span>
+            <LocalClock />
           </div>
         </div>
 

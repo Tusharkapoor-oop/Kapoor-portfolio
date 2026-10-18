@@ -64,7 +64,7 @@ export const projects: Project[] = [
     description:
       'Cleaned 3 business datasets, Flask app surfacing 12 insights + inventory recommendation.',
     architecture: ['RAW DATA', 'CLEANING', 'ANALYSIS', '12 INSIGHTS', 'INVENTORY RECOMMENDATION'],
-    links: {},
+    links: { github: 'https://github.com/Tusharkapoor-oop/VOIS_AICTE_Oct2025_TUSHAR-KAPOOR' },
   },
 ];
 

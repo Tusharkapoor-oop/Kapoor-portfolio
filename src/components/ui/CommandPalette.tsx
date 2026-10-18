@@ -100,7 +100,7 @@ const CommandPalette = () => {
       category: 'External',
       icon: ExternalLink,
       action: () => {
-        window.open(profile.social.github, '_blank');
+        window.open(profile.social.github, '_blank', 'noopener,noreferrer');
         setIsOpen(false);
       },
     },
@@ -109,7 +109,7 @@ const CommandPalette = () => {
       category: 'External',
       icon: ExternalLink,
       action: () => {
-        window.open(profile.social.linkedin, '_blank');
+        window.open(profile.social.linkedin, '_blank', 'noopener,noreferrer');
         setIsOpen(false);
       },
     },
@@ -118,7 +118,7 @@ const CommandPalette = () => {
       category: 'External',
       icon: ExternalLink,
       action: () => {
-        window.open(profile.social.leetcode, '_blank');
+        window.open(profile.social.leetcode, '_blank', 'noopener,noreferrer');
         setIsOpen(false);
       },
     },
@@ -174,6 +174,9 @@ const CommandPalette = () => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: -10 }}
             transition={{ type: 'spring', stiffness: 350, damping: 28 }}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Command palette"
             className="w-full max-w-xl bg-card border border-cardBorder rounded-xl shadow-2xl z-[101] overflow-hidden"
             onKeyDown={handleKeyDownList}
           >

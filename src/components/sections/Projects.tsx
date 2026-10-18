@@ -1,7 +1,7 @@
 import { useState, Fragment } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { projects, projectFilters } from '../../data/projects';
-import { Activity, ChevronDown, ChevronUp, Database, Users, Calendar, Sparkles, Terminal } from 'lucide-react';
+import { Activity, ChevronDown, ChevronUp, Database, Users, Calendar, Sparkles, Terminal, ExternalLink } from 'lucide-react';
 
 // Bold color system — number + type label cycle jewel tones per project
 const PROJECT_HUES = ['text-gold', 'text-teal', 'text-rose', 'text-violet'] as const;
@@ -210,6 +210,45 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
+
+              {/* Project links — shown only when URLs exist in the data */}
+              {(project.links.github || project.links.demo || project.links.caseStudy) && (
+                <div className="flex flex-wrap items-center gap-3 pt-4">
+                  {project.links.github && (
+                    <a
+                      href={project.links.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg border border-cardBorder bg-background text-xs font-mono text-foreground hover:text-accent hover:border-accent/50 transition-all"
+                    >
+                      <span>Code</span>
+                      <ExternalLink size={12} />
+                    </a>
+                  )}
+                  {project.links.demo && (
+                    <a
+                      href={project.links.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg border border-cardBorder bg-background text-xs font-mono text-foreground hover:text-accent hover:border-accent/50 transition-all"
+                    >
+                      <span>Live Demo</span>
+                      <ExternalLink size={12} />
+                    </a>
+                  )}
+                  {project.links.caseStudy && (
+                    <a
+                      href={project.links.caseStudy}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg border border-cardBorder bg-background text-xs font-mono text-foreground hover:text-accent hover:border-accent/50 transition-all"
+                    >
+                      <span>Case Study</span>
+                      <ExternalLink size={12} />
+                    </a>
+                  )}
+                </div>
+              )}
 
               {/* Expanded Narrative Story without pronoun I */}
               <AnimatePresence>

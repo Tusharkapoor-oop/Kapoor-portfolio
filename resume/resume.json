@@ -1,0 +1,141 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tushar Kapoor",
+    "label": "AI/ML Engineering Student",
+    "email": "tusharkapoor052@gmail.com",
+    "phone": "+91-838-385-9457",
+    "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+    "summary": "B.Tech CSE (AI & ML) student with hands-on experience building AI/ML applications across cloud, IoT, LLM-based assistants, and data analysis. Works in Python, TensorFlow, PyTorch, scikit-learn, Flask, and SQL. Completed two internships (AI & Cloud engineering; AI research and operations automation) and led technical teams on academic and international projects.",
+    "location": {
+      "city": "New Delhi",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Tusharkapoor-oop",
+        "url": "https://github.com/Tusharkapoor-oop"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "tushar-kapoor-143484333",
+        "url": "https://www.linkedin.com/in/tushar-kapoor-143484333/"
+      },
+      {
+        "network": "LeetCode",
+        "username": "tusharkapoor66",
+        "url": "https://leetcode.com/u/tusharkapoor66/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GO-BRICS Business Lab",
+      "position": "Applied AI Research & Operations Automation Intern",
+      "startDate": "2026-05",
+      "endDate": "2026-06",
+      "highlights": [
+        "Conducted international product and market research for business decision-making, using AI-assisted tools to accelerate analysis and surface actionable insights.",
+        "Identified process-improvement opportunities and supported workflow optimisation on operations-automation projects.",
+        "Worked with cross-functional, multicultural teams in a global environment and delivered assigned tasks on schedule.",
+        "Received a Letter of Recommendation for performance."
+      ]
+    },
+    {
+      "name": "Edunet Foundation (IBM · Shell · VOIS · VI)",
+      "position": "AI & Cloud Engineer Intern",
+      "location": "Remote",
+      "startDate": "2025-07",
+      "endDate": "2025-11",
+      "url": "https://github.com/Tusharkapoor-oop/VOIS_AICTE_Oct2025_TUSHAR-KAPOOR",
+      "highlights": [
+        "Led a 4-member agile team as technical lead; built an AI chatbot on IBM Cloud and AWS with a Flask REST API backend.",
+        "Built predictive ML models and automation pipelines in Python, TensorFlow, and scikit-learn across two client project tracks.",
+        "Presented findings in 8 weekly sessions, turning model outputs into recommendations for the final project roadmap."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "K.R. Mangalam University, Gurugram",
+      "area": "Computer Science Engineering (AI & ML)",
+      "studyType": "B.Tech",
+      "startDate": "2024-08",
+      "endDate": "2028-05",
+      "score": "CGPA 8.6/10 (Sem 4 SGPA 9.5)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "C++", "Java", "R", "SQL", "DSA (LeetCode)"]
+    },
+    {
+      "name": "AI / ML",
+      "keywords": ["TensorFlow/Keras", "PyTorch", "scikit-learn", "Machine Learning", "Deep Learning", "NLP"]
+    },
+    {
+      "name": "Data & Backend",
+      "keywords": ["Pandas", "NumPy", "Matplotlib", "Seaborn", "EDA", "Jupyter", "Flask", "REST APIs", "Streamlit"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["AWS (EC2, S3, Lambda, IoT Core)", "IBM Cloud", "Docker", "Git/GitHub", "Linux"]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["MySQL", "Oracle SQL", "Microsoft SQL Server"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Nutrition Assistant",
+      "description": "Agentic nutrition assistant on IBM watsonx.ai (Llama LLM) that gives personalised dietary recommendations from location, weather, and user preferences.",
+      "keywords": ["Python", "TensorFlow", "Streamlit", "scikit-learn", "MySQL", "IBM watsonx.ai"],
+      "highlights": ["USDA dataset with 10,000+ records"],
+      "url": "https://lnkd.in/p/dkhr9ZP7"
+    },
+    {
+      "name": "EcoSphere — Environmental Intelligence Platform",
+      "description": "TensorFlow anomaly-detection pipeline on live IoT sensor streams via AWS IoT Core, with a real-time Streamlit dashboard. Presented at the K.R. Mangalam University AI Project Showcase, Mar 2025.",
+      "keywords": ["Python", "TensorFlow", "AWS IoT Core", "Streamlit", "MySQL"],
+      "highlights": ["Team Lead, 5 members"],
+      "startDate": "2025-01",
+      "endDate": "2025-03"
+    },
+    {
+      "name": "Energy-O-Thon — International AI Hackathon",
+      "description": "Flask + TensorFlow energy-optimisation tool with a Streamlit dashboard showing consumption patterns and reduction tips, built with an international team across time zones.",
+      "keywords": ["Python", "TensorFlow", "Flask", "Streamlit", "REST APIs"],
+      "highlights": ["International Team Lead"],
+      "startDate": "2025-11",
+      "endDate": "2025-11"
+    },
+    {
+      "name": "Business Data Analysis — Real-World Datasets",
+      "description": "Cleaned and analysed 3 business datasets (UCI ML Repository, 50,000+ records) in Python and R; built a Flask app presenting 12 insights and an inventory recommendation.",
+      "keywords": ["Python", "R", "Pandas", "NumPy", "Flask", "MySQL"]
+    }
+  ],
+  "certificates": [
+    { "name": "Microsoft Certified: Azure AI Fundamentals", "issuer": "Microsoft", "date": "2025-08" },
+    { "name": "Journey to Cloud", "issuer": "IBM" },
+    { "name": "SkillsBuild", "issuer": "IBM" },
+    { "name": "Vector Search Foundations", "issuer": "Oracle" },
+    { "name": "Oracle SQL", "issuer": "Oracle" },
+    { "name": "AI & Cloud Internship Certificate", "issuer": "Edunet Foundation" }
+  ],
+  "awards": [
+    {
+      "title": "Letter of Recommendation",
+      "awarder": "GO-BRICS Business Lab",
+      "date": "2026-06",
+      "url": "https://www.linkedin.com/posts/tushar-kapoor-143484333_lor-activity-7489977984464990208-nne9"
+    },
+    {
+      "title": "Dean's Honour Award",
+      "awarder": "K.R. Mangalam University"
+    }
+  ]
+}

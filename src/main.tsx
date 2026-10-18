@@ -6,10 +6,13 @@ import 'lenis/dist/lenis.css'
 import './index.css'
 import App from './App.tsx'
 
+// Respect the user's OS motion preference: skip smooth scrolling when reduced motion is on
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <MotionConfig reducedMotion="user">
-      <ReactLenis root options={{ lerp: 0.08, smoothWheel: true, anchors: true, syncTouch: true }}>
+      <ReactLenis root options={{ lerp: 0.08, smoothWheel: !prefersReducedMotion, anchors: true }}>
         <App />
       </ReactLenis>
     </MotionConfig>

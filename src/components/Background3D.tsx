@@ -1,6 +1,6 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Float, MeshDistortMaterial, Sparkles, Image as Image3D } from '@react-three/drei';
+import { Float, MeshDistortMaterial, Sparkles, Image as Image3D, useProgress } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Warm jewel palette — matches the site, never neon-default
@@ -9,11 +9,26 @@ const EMBER = '#E85D2A';
 const TEAL = '#2DD4BF';
 const ROSE = '#FB7185';
 
+// Bridges three.js asset progress to the DOM-level <Loader/> via CustomEvents,
+// so the eagerly loaded Loader never imports drei/three itself (bundle-size win).
+const LoaderBridge = () => {
+  const { progress, active } = useProgress();
+
+  useEffect(() => {
+    window.dispatchEvent(new CustomEvent('bg3d-progress', { detail: progress }));
+    if (!active && progress >= 100) {
+      window.dispatchEvent(new CustomEvent('bg3d-ready'));
+    }
+  }, [progress, active]);
+
+  return null;
+};
+
 const FloatingArt = () => {
   return (
     <Float speed={1.5} rotationIntensity={0.15} floatIntensity={0.4}>
       <Image3D
-        url={`${import.meta.env.BASE_URL}scholar_art_3d_wide.jpg`}
+        url={`${import.meta.env.BASE_URL}scholar_art_3d_wide.webp`}
         position={[0, 0, -8]}
         scale={[24, 13.5]}
         rotation={[0, 0, 0.02]}
@@ -78,9 +93,23 @@ const FloatingShapes = () => {
 };
 
 const Background3D = ({ showShapes = true }: { showShapes?: boolean }) => {
+  // Initialize directly from the media query (lazy init = no setState-in-effect cascade)
+  const [reducedMotion, setReducedMotion] = useState(
+    () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  );
+
+  // Respect prefers-reduced-motion: freeze the scene instead of a continuous rAF loop.
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const onChange = (e: MediaQueryListEvent) => setReducedMotion(e.matches);
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, []);
+
   return (
     <div className="pointer-events-none fixed inset-0 z-0" aria-hidden="true">
       <Canvas
+        frameloop={reducedMotion ? 'demand' : 'always'}
         camera={{ position: [0, 0, 8], fov: 45 }}
         gl={{ antialias: false, alpha: true, powerPreference: 'high-performance' }}
         dpr={[1, 1.5]}
@@ -90,6 +119,7 @@ const Background3D = ({ showShapes = true }: { showShapes?: boolean }) => {
         <directionalLight position={[-10, -10, -5]} intensity={0.8} color={EMBER} />
         <pointLight position={[0, 0, 0]} intensity={1.2} color={GOLD} />
 
+        <LoaderBridge />
         <CameraRig />
         <FloatingArt />
         {showShapes && <FloatingShapes />}
