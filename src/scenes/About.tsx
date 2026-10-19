@@ -8,6 +8,7 @@ export function About() {
   const innerRef = useRef<HTMLDivElement>(null);
   const shadeRef = useRef<HTMLDivElement>(null);
   const wordsRef = useRef<HTMLDivElement>(null);
+  const wordsCache = useRef<HTMLElement[] | null>(null);
   const odo0 = useRef<OdometerHandle>(null);
   const odo1 = useRef<OdometerHandle>(null);
   const odo2 = useRef<OdometerHandle>(null);
@@ -21,7 +22,9 @@ export function About() {
       shade.style.transform = `translate3d(${((1 - e) * -36).toFixed(1)}px, 0, 0)`;
     }
 
-    const words = wordsRef.current?.querySelectorAll<HTMLElement>('.mf-w');
+    // The manifesto word list is static: query it once, not every tick.
+    const words = wordsCache.current ?? (wordsRef.current ? Array.from(wordsRef.current.querySelectorAll<HTMLElement>('.mf-w')) : null);
+    if (words) wordsCache.current = words;
     if (words && words.length) {
       const n = words.length;
       words.forEach((w, i) => {

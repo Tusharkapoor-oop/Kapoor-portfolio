@@ -1,0 +1,16 @@
+{
+  "url": "http://localhost:4186/",
+  "tag": "after2",
+  "runs": {
+    "desktop": {
+      "console": [],
+      "requestFailed": [],
+      "badStatuses": []
+    },
+    "mobile": {
+      "console": [],
+      "requestFailed": [],
+      "badStatuses": []
+    }
+  }
+}

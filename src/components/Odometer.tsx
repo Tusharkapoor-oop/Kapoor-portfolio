@@ -45,7 +45,11 @@ export const Odometer = forwardRef<OdometerHandle, OdometerProps>(function Odome
           const base = Math.floor(scaled) % 10;
           const frac = scaled - Math.floor(scaled);
           const pos = base + (i === 0 && !snapLow ? frac : smoothstep(0.9, 1, frac));
-          strip.style.transform = `translateY(${(-pos).toFixed(4)}em)`;
+          const t = `translateY(${(-pos).toFixed(4)}em)`;
+          const memo = strip as HTMLElement & { __t?: string };
+          if (memo.__t === t) continue;
+          memo.__t = t;
+          strip.style.transform = t;
         }
       },
     }),

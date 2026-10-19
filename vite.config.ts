@@ -21,10 +21,13 @@ const esc = (s: string): string =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 /**
- * Static content fallback written into #root at build time: real headings, copy
- * and links exist in the raw HTML for crawlers that never execute JavaScript
- * (and users on very slow connections). React's createRoot clears #root on
- * mount, so this is never visible once the app boots.
+ * Static content fallback written into #root at build time, wrapped in
+ * <noscript>: with scripting disabled the markup is parsed and rendered, so
+ * crawlers that never execute JavaScript (and raw-HTML consumers) see real
+ * headings, copy and links. With scripting enabled <noscript> is a single
+ * inert text node — zero layout/style cost before React mounts, so first paint
+ * and TBT match the plain app. React's createRoot clears #root on mount either
+ * way, and users with JS never see the fallback.
  */
 function staticFallback(): string {
   const label = (id: keyof typeof SECTION_LABELS): string => {
@@ -182,9 +185,11 @@ function inlineCssPreloadFonts(): Plugin {
         html = html.replace('</head>', () => `${tags}</head>`);
       }
 
-      // 3) Fill #root with real static content for non-JS crawlers. React
-      //    (createRoot) replaces it on mount — users never see it after boot.
-      html = html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${staticFallback()}</div>`);
+      // 3) Fill #root with real static content for non-JS crawlers, wrapped in
+      //    <noscript> so scripting browsers keep the plain empty-root paint
+      //    behaviour (no pre-mount layout, no mount-burst TBT). React
+      //    (createRoot) clears the node on mount either way.
+      html = html.replace(/<div id="root">\s*<\/div>/, `<div id="root"><noscript>${staticFallback()}</noscript></div>`);
 
       // 4) Keep the inline JSON-LD block CSP-compliant: append the exact
       //    SHA-256 of the script text to the policy injected by buildCsp().

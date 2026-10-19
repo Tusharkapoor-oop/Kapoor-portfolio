@@ -51,6 +51,10 @@ class Director {
   private els = new Map<SceneId, HTMLElement>();
   private cache = new Map<SceneId, { top: number; height: number }>();
   private ro: ResizeObserver | null = null;
+  /** Viewport/document metrics cached at measure time — the per-frame update
+   *  must not read layout properties (idle ticks stay allocation-free). */
+  private vh = typeof window !== 'undefined' ? window.innerHeight || 1 : 1;
+  private docH = 1;
   private frame: DirectorFrame = {
     y: 0,
     progress: 0,
@@ -72,8 +76,12 @@ class Director {
     this.lenis.stop();
 
     this.scan();
-    this.ro = new ResizeObserver(() => this.measure());
-    this.els.forEach((el) => this.ro?.observe(el));
+    // A single ResizeObserver on <main> covers everything: scene chunks mount
+    // late (deferred), fonts settle, viewport changes — every document-size
+    // change flows through here and re-measures the cached geometry.
+    this.ro = new ResizeObserver(this.measure);
+    const mainEl = document.querySelector('main');
+    if (mainEl) this.ro.observe(mainEl);
     window.addEventListener('resize', this.measure);
 
     this.ticker = (time: number) => {
@@ -108,19 +116,21 @@ class Director {
     this.measure();
   }
 
-  /** Cache each section's top and height. */
+  /** Cache each section's top and height (+ viewport/document metrics). */
   private measure = (): void => {
     const y = window.scrollY;
     this.els.forEach((el, id) => {
       const r = el.getBoundingClientRect();
       this.cache.set(id, { top: r.top + y, height: r.height });
     });
+    this.vh = window.innerHeight || 1;
+    this.docH = Math.max(1, document.documentElement.scrollHeight - this.vh);
   };
 
   private update(time: number): void {
-    const vh = window.innerHeight || 1;
+    const vh = this.vh;
     const y = window.scrollY;
-    const docH = Math.max(1, document.documentElement.scrollHeight - vh);
+    const docH = this.docH;
     let active: SceneId = SCENES[0].id;
 
     const scenes = {} as Record<SceneId, SceneState>;

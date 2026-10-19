@@ -29,6 +29,23 @@ export function Contact() {
     /** x-position of the blade edge at viewport height y */
     const edge = (yv: number): number => e + skew - (2 * skew) / vh * yv;
 
+    /** Geometry reads are batched BEFORE any style write of this tick — the
+     *  original interleaved writes and getBoundingClientRect calls, forcing a
+     *  synchronous layout per rect (up to 5 per frame). Reads first, then
+     *  writes keep it at at most one forced layout per frame, with identical
+     *  values. */
+    const rTitle = titleRef.current ? titleRef.current.getBoundingClientRect() : null;
+    const rEmail = emailRef.current ? emailRef.current.getBoundingClientRect() : null;
+    const rLinks = linksRef.current ? linksRef.current.getBoundingClientRect() : null;
+    const rFootLeft = footLeftRef.current ? footLeftRef.current.getBoundingClientRect() : null;
+    const rFootRight = footRightRef.current ? footRightRef.current.getBoundingClientRect() : null;
+
+    /** 0 → 1 as the edge passes from (right − lead) past the element. */
+    const reveal = (r: DOMRect | null, lead: number, ramp: number): number => {
+      if (!r) return 0;
+      return clamp01((edge(r.top + 6) - (r.right - lead)) / ramp);
+    };
+
     if (curtainRef.current) {
       curtainRef.current.style.clipPath = `polygon(0 0, ${(e + skew).toFixed(1)}px 0, ${(e - skew).toFixed(1)}px 100%, 0 100%)`;
     }
@@ -51,34 +68,27 @@ export function Contact() {
     if (glowRef.current) glowRef.current.style.opacity = (bl * 0.5).toFixed(3);
     if (bladeRef.current) bladeRef.current.style.opacity = bl.toFixed(3);
 
-    /** 0 → 1 as the edge passes from (right − lead) past the element. */
-    const reveal = (el: Element | null, lead: number, ramp: number): number => {
-      if (!el) return 0;
-      const r = el.getBoundingClientRect();
-      return clamp01((edge(r.top + 6) - (r.right - lead)) / ramp);
-    };
-
     const head = headRef.current;
     if (head) {
-      const o = reveal(titleRef.current, 40, 150);
+      const o = reveal(rTitle, 40, 150);
       head.style.opacity = o.toFixed(3);
       head.style.transform = `translate3d(0, ${((1 - o) * 30).toFixed(1)}px, 0)`;
     }
     if (emailRef.current) {
-      const o = reveal(emailRef.current, 40, 150);
+      const o = reveal(rEmail, 40, 150);
       emailRef.current.style.opacity = o.toFixed(3);
       emailRef.current.style.transform = `translate3d(0, ${((1 - o) * 30).toFixed(1)}px, 0)`;
     }
     if (linksRef.current) {
-      linksRef.current.style.opacity = reveal(linksRef.current, 170, 190).toFixed(3);
+      linksRef.current.style.opacity = reveal(rLinks, 170, 190).toFixed(3);
     }
     if (footLeftRef.current) {
       // Ramp tight enough that the mobile resting distance still clamps to 1 —
       // a 94%-white © line over red only reaches 4.16:1, below the 4.5 minimum.
-      footLeftRef.current.style.opacity = reveal(footLeftRef.current, 40, 120).toFixed(3);
+      footLeftRef.current.style.opacity = reveal(rFootLeft, 40, 120).toFixed(3);
     }
     if (footRightRef.current) {
-      footRightRef.current.style.opacity = reveal(footRightRef.current, 170, 150).toFixed(3);
+      footRightRef.current.style.opacity = reveal(rFootRight, 170, 150).toFixed(3);
     }
   });
 

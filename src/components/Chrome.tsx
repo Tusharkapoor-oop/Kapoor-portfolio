@@ -35,7 +35,7 @@ export function Preloader() {
     const tl = gsap.timeline({ paused: true });
     tl.to(state, {
       v: 100,
-      duration: 1.6,
+      duration: 1.15,
       ease: 'power1.inOut',
       onUpdate: () => {
         const v = fontsReady ? state.v : Math.min(state.v, 96);
@@ -46,10 +46,10 @@ export function Preloader() {
         }
       },
     });
-    tl.to([above, below], { y: -44, opacity: 0, duration: 0.5, ease: 'power2.in', stagger: 0.06 }, '+=0.15');
-    tl.to(top, { yPercent: -101, duration: 1.2, ease: 'expo.inOut' }, '-=0.05');
-    tl.to(bottom, { yPercent: 101, duration: 1.2, ease: 'expo.inOut' }, '<');
-    tl.to(counter, { opacity: 0, scale: 0.94, duration: 0.6, ease: 'power2.in' }, '<');
+    tl.to([above, below], { y: -44, opacity: 0, duration: 0.4, ease: 'power2.in', stagger: 0.05 }, '+=0.05');
+    tl.to(top, { yPercent: -101, duration: 1.0, ease: 'expo.inOut' }, '-=0.05');
+    tl.to(bottom, { yPercent: 101, duration: 1.0, ease: 'expo.inOut' }, '<');
+    tl.to(counter, { opacity: 0, scale: 0.94, duration: 0.5, ease: 'power2.in' }, '<');
     // The intro fires only once the curtain has fully cleared (the page is kept
     // hidden by html.locked until then), so no text is ever presented under a
     // partially open curtain — readable at every instant, not just at rest.

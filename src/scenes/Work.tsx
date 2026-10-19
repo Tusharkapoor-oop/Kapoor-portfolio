@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { applyReveals, clamp01, easeInOutSine, easeOutCubic, smoothstep, useScene } from '../engine/hooks';
+import { applyReveals, clamp01, easeInOutSine, easeOutCubic, put, smoothstep, useScene } from '../engine/hooks';
 import { IDENTITY, PROJECTS, SECTION_LABELS, sceneHeight } from '../data';
 
 export function Work() {
@@ -18,9 +18,7 @@ export function Work() {
     const p = s.p;
     const vh = window.innerHeight;
 
-    if (floorRef.current) {
-      floorRef.current.style.backgroundPositionY = `${Math.round(p * 180)}px`;
-    }
+    put(floorRef.current, 'backgroundPositionY', `${Math.round(p * 180)}px`);
 
     if (deckRef.current) {
       const e = easeOutCubic(clamp01(s.enter * 1.2));
@@ -55,10 +53,11 @@ export function Work() {
         z = 300 * d;
         rx = 12 * d;
       }
-      el.style.transform = `translate3d(0, ${y.toFixed(1)}px, ${z.toFixed(0)}px) rotateX(${rx.toFixed(2)}deg)`;
-      el.style.opacity = o.toFixed(3);
-      el.style.visibility = o <= 0.002 ? 'hidden' : 'visible';
-      el.style.pointerEvents = i === activeIdx ? 'auto' : 'none';
+      const tr = `translate3d(0, ${y.toFixed(1)}px, ${z.toFixed(0)}px) rotateX(${rx.toFixed(2)}deg)`;
+      put(el, 'transform', tr);
+      put(el, 'opacity', o <= 0.002 ? '0' : o.toFixed(3));
+      put(el, 'visibility', o <= 0.002 ? 'hidden' : 'visible');
+      put(el, 'pointerEvents', i === activeIdx ? 'auto' : 'none');
     }
 
     if (counterRef.current) {

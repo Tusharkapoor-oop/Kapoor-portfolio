@@ -17,6 +17,12 @@
       "ok": false
     },
     {
+      "url": "https://lnkd.in/p/dkhr9ZP7",
+      "status": 200,
+      "ok": true,
+      "final": "https://www.linkedin.com/posts/tushar-kapoor-143484333_ibm-watsonx-llm-ugcPost-7357820595440394241-A_xw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFPlw8MBsxE9dTFjOCv3be5_ZCk6_HZ8RBE"
+    },
+    {
       "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
       "status": 200,
       "ok": true
@@ -25,6 +31,11 @@
       "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/og-image.jpg",
       "status": 404,
       "ok": false
+    },
+    {
+      "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/favicon.svg",
+      "status": 200,
+      "ok": true
     }
   ],
   "local": [

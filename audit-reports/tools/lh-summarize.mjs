@@ -12,9 +12,12 @@ if (el?.details?.items) {
     if (item.items) console.log('LCP detail:', JSON.stringify(item.items[0]).slice(0, 300));
   }
 }
-for (const ref of c['best-practices'].auditRefs) {
-  const av = a[ref.id];
-  if (av && av.score !== null && av.score < 1) console.log('bp fail:', ref.id, '|', (av.displayValue ?? '').slice(0, 60));
+const pbp = c['best-practices'];
+if (pbp) {
+  for (const ref of pbp.auditRefs) {
+    const av = a[ref.id];
+    if (av && av.score !== null && av.score < 1) console.log('bp fail:', ref.id, '|', (av.displayValue ?? '').slice(0, 60));
+  }
 }
 const op = Object.values(a).filter((x) => x.details && x.details.type === 'opportunity' && (x.details.overallSavingsMs || 0) > 80).sort((p, q) => q.details.overallSavingsMs - p.details.overallSavingsMs);
 for (const o of op.slice(0, 8)) console.log('opp:', o.id, Math.round(o.details.overallSavingsMs) + 'ms');
