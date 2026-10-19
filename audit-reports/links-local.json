@@ -1,0 +1,32 @@
+{
+  "page": "http://localhost:4173/",
+  "mailtos": [
+    "mailto:tusharkapoor052@gmail.com"
+  ],
+  "links": [
+    {
+      "href": "http://localhost:4173/#work",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://localhost:4173/"
+    },
+    {
+      "href": "http://localhost:4173/Tushar_Kapoor_Resume.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "http://localhost:4173/Tushar_Kapoor_Resume.pdf"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop"
+    },
+    {
+      "href": "https://www.linkedin.com/in/tushar-kapoor-143484333/",
+      "status": 405,
+      "ok": false,
+      "finalUrl": "https://www.linkedin.com/in/tushar-kapoor-143484333/"
+    }
+  ]
+}

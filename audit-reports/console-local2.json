@@ -1,0 +1,22 @@
+{
+  "url": "http://localhost:4174/",
+  "logs": [
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "errors": [],
+  "failed": [
+    "http://localhost:4174/inter-tight-latin-wght-normal-DX-nOvPD.woff2 :: net::ERR_ABORTED",
+    "http://localhost:4174/anton-latin-400-normal-Byf51wtH.woff2 :: net::ERR_ABORTED",
+    "http://localhost:4174/jetbrains-mono-latin-400-normal-V6pRDFza.woff2 :: net::ERR_ABORTED",
+    "http://localhost:4174/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2 :: net::ERR_ABORTED",
+    "http://localhost:4174/anton-latin-400-normal-AUNGEG_V.woff :: net::ERR_ABORTED",
+    "http://localhost:4174/jetbrains-mono-latin-400-normal-6-qcROiO.woff :: net::ERR_ABORTED",
+    "http://localhost:4174/jetbrains-mono-latin-500-normal-CJOVTJB7.woff :: net::ERR_ABORTED"
+  ]
+}

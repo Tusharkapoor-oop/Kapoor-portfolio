@@ -50,7 +50,7 @@ export function Journey() {
           </h2>
           <ul className="jtl">
             <svg className="jtl-svg" viewBox="0 0 4 100" preserveAspectRatio="none" aria-hidden="true">
-              <line x1="2" y1="0" x2="2" y2="100" pathLength={1} ref={pathRef} className="jtl-line" />
+              <line x1="2" y1="0" x2="2" y2="100" pathLength={1} ref={pathRef} className="jtl-line" vectorEffect="non-scaling-stroke" />
             </svg>
             {JOURNEY.items.map((it, i) => (
               <li

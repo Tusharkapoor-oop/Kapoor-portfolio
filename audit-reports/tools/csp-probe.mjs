@@ -1,0 +1,20 @@
+// csp-probe.mjs — load built dist in Chromium, capture console errors + CSP information.
+import { chromium } from 'playwright';
+const browser = await chromium.launch({ headless: true });
+const page = await (await browser.newContext()).newPage();
+const errors = [];
+const cspErrors = [];
+page.on('console', (m) => { if (m.type() === 'error' || m.type() === 'warning') errors.push({ type: m.type(), text: m.text().slice(0, 260) }); });
+page.on('console', (m) => { if (/Content Security Policy|violates/i.test(m.text())) cspErrors.push(m.text().slice(0, 300)); });
+page.on('requestfailed', (r) => errors.push({ req: r.url().slice(-60), fail: r.failure()?.errorText }));
+await page.goto('http://localhost:4186/', { waitUntil: 'networkidle', timeout: 30000 }).catch((e) => console.log('nav err', String(e).slice(0, 120)));
+await page.waitForTimeout(3500);
+const cspMetas = await page.evaluate(() => [...document.querySelectorAll('meta[http-equiv="Content-Security-Policy" i]')].map((m) => m.content));
+console.log('CSP metas:', JSON.stringify(cspMetas, null, 1).slice(0, 600));
+console.log('console errors/warnings:', errors.length);
+for (const e of errors.slice(0, 10)) console.log(' -', JSON.stringify(e).slice(0, 240));
+console.log('csp-tagged:', cspErrors.length);
+for (const c of cspErrors.slice(0, 5)) console.log(' CSP>', c);
+const fontState = await page.evaluate(() => ({ anton: document.fonts.check('1em Anton'), inter: document.fonts.check('1em "Inter Tight"'), mono: document.fonts.check('1em "JetBrains Mono"') }));
+console.log('fonts loaded:', JSON.stringify(fontState));
+await browser.close();

@@ -1,0 +1,41 @@
+{
+ "key": "websitevalidator",
+ "name": "WebsiteValidator",
+ "toolPage": "https://websitevalidator.com/website-checker",
+ "target": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+ "submitted": true,
+ "notes": [],
+ "diagnostics": {
+  "inputs": [
+   {
+    "type": "text",
+    "name": "url",
+    "id": "",
+    "placeholder": "example.com"
+   },
+   {
+    "type": "text",
+    "name": "url",
+    "id": "",
+    "placeholder": "example.com"
+   }
+  ],
+  "buttons": [
+   "Validators",
+   "Checkers",
+   "AI & security",
+   "Sign in",
+   "Quick",
+   "Full scan",
+   "example.com",
+   "www.wikipedia.org",
+   "vercel.com",
+   "Quick",
+   "Full scan"
+  ]
+ },
+ "finalUrl": "https://websitevalidator.com/scan/tusharkapoor-oop-github-io-mfh9639d",
+ "title": "WebsiteValidator — SEO, AI Visibility & Accessibility Audits",
+ "bodyText": "Skip to content\nWebsiteValidator\nValidators\nCheckers\nAI & security\nFull scan\nRules\nBlog\nAbout\nContact\nSign in\nNew scan\nT\nhttps://tusharkapoor-oop.github.io/Kapoor-portfolio/\n\nOct 18, 2026, 11:03 PM → Oct 18, 2026, 11:03 PM · 11.7s · 894 validators · 1354 pipeline events\n\nDownload report\n92.5\nOUT OF 100\nBIGGEST LOSSES\nAnswer Engine\n−2.2\nStructured Data\n−1.8\nSecurity\n−0.9\nCSS\n−0.6\nTrust & Scam\n−0.6\nAccessibility\n−0.4\nSEO\n−0.3\nAI Agent Readiness\n−0.3\nAI Visibility\n−0.2\nPerformance\n−0.2\nHTML\n−0.1\n\nPoints shown are each category’s contribution to the overall score and sum to 7.6. Every category that ran is weighted equally (9% each) regardless of how many validators it contains.\n\n14 flagged elements outlined\n\nPage as rendered · flagged elements outlined\n\nExcellent\nAlready in great shape\n\nYou have already done the hard part: HTML, performance, AI visibility, AGENTIC, SEO, accessibility, TRUST, CSS, and security are already strong. Only 7.6 points separate this from 100/100, and answer-engine readiness is costing the most at −2.2 points. These are refinements, not repairs.\n\nALREADY STRONG\n\nHTML\nPerformance\nAI Visibility\nAI Agent Readiness\nSEO\nAccessibility\nTrust & Scam\nCSS\nSecurity\n\nFOCUS HERE\n\nAnswer Engine\nStructured Data\nSecurity\n\nSHORTEST PATH TO 100/100\n\n1\nOverall question-answer coverage\n+1.2\n2\nHeading levels descend without skipping\n+1.0\n3\nWebSite schema present\n+1.0\n4\nOrganization schema present\nauto\n+0.7\n5\nFields declare autocomplete tokens\n+0.3\n6\nXML sitemap found and non-empty\n+0.2\n7\nContent-Security-Policy header present\n+0.2\n8\nClickjacking protection present\n+0.2\n9\nStylesheet respects reduced-motion preferences\n+0.2\n10\nA physical address is published\n+0.2\n\nPoints are what each fix returns on the overall score, accounting for its category’s weight. Findings absorbed by a composite (ROLLUP) validator are excluded — fixing one returns nothing on its own.\n\nCategories\nSEO\n96.5\n\n104 validators · −0.3 overall\n\nStructured Data\n80.5\n\n120 validators · −1.8 overall\n\nAnswer Engine\n75.5\n\n100 validators · −2.2 overall\n\nAI Visibility\n97.8\n\n100 validators · −0.2 overall\n\nAccessibility\n95.8\n\n129 validators · −0.4 overall\n\nSecurity\n90.1\n\n105 validators · −0.9 overall\n\nCSS\n93.3\n\n29 validators · −0.6 overall\n\nPerformance\n98.1\n\n100 validators · −0.2 overall\n\nHTML\n99.3\n\n52 validators · −0.1 overall\n\nTrust & Scam\n93.5\n\n27 validators · −0.6 overall\n\nAI Agent Readiness\n96.6\n\n28 validators · −0.3 overall\n\nYour roadmap\n92.5\n→\n97.7\n~4.8h total\n1\nOverall question-answer coverage\nMedium\n~40m\nThe page is harder for answer engines to quote than it needs to be.\nAnswer Engine\n+1.2\n93.7\n2\nHeading levels descend without skipping\nMedium\n~40m\nThe page is harder for answer engines to quote than it needs to be.\nAnswer Engine\n+1.0\n94.7\n3\nWebSite schema present\nMedium\n~30m\nA structured-data detail is missing, limiting which rich result formats this page qualifies for.\nStructured Data\n+1.0\n95.7\n4\nOrganization schema present\nMedium\n~30m\nfix ready\nA structured-data detail is missing, limiting which rich result formats this page qualifies for.\nStructured Data\n+0.7\n96.4\n5\nFields declare autocomplete tokens\nMedium\n~30m\nAn agent can work the page, but has to guess at part of it - which is where automated journeys silently pick the wrong option.\nAI Agent Readiness\n+0.3\n96.7\n6\nXML sitemap found and non-empty\nEasy\n~20m\nA minor search-visibility signal is missing. Individually small, but these compound across a site.\nSEO\n+0.2\n96.9\n7\nContent-Security-Policy header present\nEasy\n~20m\nThe site is exposed to a known attack class that this protection is specifically designed to prevent.\nSecurity\n+0.2\n97.1\n8\nClickjacking protection present\nEasy\n~20m\nA recommended security hardening measure is not in place. Low risk on its own, but cheap to add.\nSecurity\n+0.2\n97.3\n9\nStylesheet respects reduced-motion preferences\nEasy\n~25m\nA styling detail is non-standard or wasteful. Low risk, cheap to tidy.\nCSS\n+0.2\n97.5\n10\nA physical address is published\nEasy\n~30m\nA credibility signal that visitors and search quality raters look for is missing.\nTrust & Scam\n+0.2\n97.7\n\nThe right-hand number is your score after this fix and every fix above it. Points account for each category’s weight; findings absorbed by a composite validator are excluded because fixing one alone returns nothing.\n\ntusharkapoor-oop.github.io scored 92.5/100\n\nDisplay a live badge on your site. It shows the current score and links to your public report.\n\nLive score\nAnyone can verify it\nRefreshes on its own\nGet your badge\n\nBadges need a verified domain, so this one needs an account. Scanning does not.\n\nTrend\n92.5\n0.0\nvs 92.5 6m ago\n\n2 scans of this URL\n\nPipeline\nStarted engine ×10\n32ms\nScan started\n280ms\nCollected evidence ×10\n11.1s\nReleased engine ×10\n13ms\nRan validators ×894\n243ms\nScored\n0ms\nBuilt recommendations ×416\n1ms\nScan complete\n0ms\nReport generated\n0ms\nCoverage\nRendered DOM\n· Real browser\nCore Web Vitals\n· Measured live\n74 a11y rules\n· Live WCAG engines\nAI prose\n· off — deterministic only\n\n3 providers could not start — this report is partial\n\nlink-check: webidl.util.markAsUncloneable is not a function\nlighthouse: lighthouseAudit failed during the scan: connect ECONNREFUSED 127.0.0.1:45375\nequal-access: equalAccessAudit failed during the scan: Could not find chrome-headless-shell (ver. 150.0.7871.24). This can occur if either 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome-headless-shell`) or 2. your cache path is incorrectly configured (which is: /home/wv/.cache/puppeteer). For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.\nFindings\nNeeds attention (416)\nAll (894)\nSEO\n62\nWarning\nMedium\nXML sitemap found and non-empty\nNo usable XML sitemap was found at /sitemap.xml (0 URLs discovered).\n-3.0\nWarning\nLow\nHreflang alternates declared\nNo hreflang alternates declared (0 found).\n-2.0\nWarning\nMedium\nPage links to other pages on the site\nOnly 2 internal link(s) found on this page.\n-1.8\nWarning\nLow\nArticle author declared\nNo article:author meta tag found.\n-1.5\nWarning\nLow\nArticle modified time declared\nNo article:modified_time meta tag found.\n-1.5\nWarning\nLow\nArticle published time declared\nNo article:published_time meta tag found.\n-1.5\nWarning\nLow\nOpen Graph site name declared\nNo og:site_name meta tag found.\n-1.5\nWarning\nLow\nPrivacy policy linked\n0 found on this page.\n-1.5\nWarning\nLow\nTwitter card type declared\nNo twitter:card meta tag was found.\n-1.5\nWarning\nLow\nApple touch icon declared\nNo apple-touch-icon declared.\n-1.0\nWarning\nLow\nArticle section declared\nNo article:section meta tag found.\n-1.0\nWarning\nLow\nAuthor link declared\nNo rel=author link found.\n-1.0\nWarning\nLow\nBreadcrumb navigation present\nNo breadcrumb navigation found.\n-1.0\nWarning\nLow\nHreflang x-default declared\nNo hreflang x-default declared.\n-1.0\nWarning\nLow\nPage contains images\n0 found on this page.\n-1.0\nWarning\nLow\nPage author meta declared\nNo author meta tag found.\n-1.0\nWarning\nLow\nReferrer policy",
+ "screenshot": "C:\\Users\\ACER\\Downloads\\Kapoor-Portfolio-project\\audit-reports\\external/websitevalidator.png"
+}

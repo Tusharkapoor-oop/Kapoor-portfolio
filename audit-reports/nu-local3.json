@@ -1,0 +1,2 @@
+﻿{"version":"26.10.18","messages":[{"type":"error","lastLine":43,"lastColumn":37246,"message":"CSS: “mask”: “radial-gradient(closest-side, #0000 calc(100% - 16px), #000 calc(100% - 14px))” is not a “mask” value.","extract":"lc(100% - 14px))}.gauge-needle","hiliteStart":15,"hiliteLength":1},{"type":"error","lastLine":43,"lastColumn":38906,"firstColumn":38889,"message":"CSS: “vector-effect”: Property “vector-effect” doesn't exist.","extract":"or-effect:non-scaling-stroke}.jtl-","hiliteStart":10,"hiliteLength":18}]}
+

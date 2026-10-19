@@ -1,0 +1,2566 @@
+{
+  "url": "http://localhost:4185/",
+  "tag": "v3",
+  "axeVersion": "4.14.0",
+  "states": {
+    "desktop-hero": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(2)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">learn </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(3)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">by </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".kw:nth-child(4)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">building. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(5)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">An </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(6)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">LLM </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(7)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">agent </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(8)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">layered </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(9)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">on </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(10)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">ten </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(11)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">thousand </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(12)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">nutrition </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(13)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">records. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(14)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">Sensor </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(15)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">streams </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(16)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">from </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(18)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">university </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(19)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">rooftop </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(20)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">turned </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(21)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">into </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".kw:nth-child(22)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">anomaly </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".kw:nth-child(23)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">alerts. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(24)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">An </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(25)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">energy </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(26)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">optimiser </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(27)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">shipped </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(28)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">with </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(30)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">team </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(31)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">across </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(32)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">four </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(33)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">time </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(34)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">zones. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(36)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">read </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(37)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">the </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(38)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">docs, </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".kw:nth-child(39)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">break </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(40)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">things </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(41)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">on </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(42)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">purpose, </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(43)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">and </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".kw:nth-child(44)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">rebuild </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(45)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">them </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(46)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">cleaner </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(48)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">every </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(49)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">project </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(50)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">starts </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(51)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">louder </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(52)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">in </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(53)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">my </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(54)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">head </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(55)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">than </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(56)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">on </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(57)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">the </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": "span:nth-child(58)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">screen. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 31.2pt (41.6px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"hero\" class=\"on\">hello</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #ff1f1f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 37,
+          "targets": [
+            ".hero-name-l:nth-child(1)",
+            ".hero-name-l:nth-child(2)",
+            ".hero-name-l:nth-child(3)",
+            ".hero-name-l:nth-child(4)",
+            ".hero-name-l:nth-child(5)",
+            ".hero-name-l:nth-child(6)",
+            ".mute:nth-child(1)",
+            ".ink",
+            "h1 > .mask-line:nth-child(1) > span",
+            "h1 > .mask-line:nth-child(2) > .red",
+            ".hero-desc",
+            ".btn--red > .btn-roll > span:nth-child(1)",
+            ".btn--outline > .btn-roll > span:nth-child(1)",
+            ".manifesto > span:nth-child(1)",
+            "span:nth-child(17)",
+            "span:nth-child(29)",
+            "span:nth-child(35)",
+            ".tilt.stat-card:nth-child(1) > .stat-card-k",
+            ".tilt.stat-card:nth-child(1) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(1) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(1) > .stat-card-v > .stat-suffix",
+            ".tilt.stat-card:nth-child(2) > .stat-card-k",
+            ".tilt.stat-card:nth-child(2) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(2) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(2) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(3) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(3) > .stat-card-k",
+            ".tilt.stat-card:nth-child(3) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(3) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(3) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(3) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".hud-logo",
+            "button[data-nav=\"about\"]",
+            "button[data-nav=\"work\"]",
+            "button[data-nav=\"journey\"]",
+            "button[data-nav=\"skills\"]",
+            "button[data-nav=\"awards\"]",
+            "button[data-nav=\"contact\"]",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "desktop-about-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"about\" class=\"on\">about</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #ff1f1f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 81,
+          "targets": [
+            ".about-col > .label",
+            ".about-col > .label > .label-no",
+            ".manifesto > span:nth-child(1)",
+            ".kw:nth-child(2)",
+            ".manifesto > span:nth-child(3)",
+            ".kw:nth-child(4)",
+            ".manifesto > span:nth-child(5)",
+            ".manifesto > span:nth-child(6)",
+            ".manifesto > span:nth-child(7)",
+            ".manifesto > span:nth-child(8)",
+            ".manifesto > span:nth-child(9)",
+            ".manifesto > span:nth-child(10)",
+            ".manifesto > span:nth-child(11)",
+            ".manifesto > span:nth-child(12)",
+            ".manifesto > span:nth-child(13)",
+            ".manifesto > span:nth-child(14)",
+            ".manifesto > span:nth-child(15)",
+            ".manifesto > span:nth-child(16)",
+            "span:nth-child(17)",
+            "span:nth-child(18)",
+            "span:nth-child(19)",
+            "span:nth-child(20)",
+            "span:nth-child(21)",
+            ".kw:nth-child(22)",
+            ".kw:nth-child(23)",
+            "span:nth-child(24)",
+            ".manifesto > span:nth-child(25)",
+            "span:nth-child(26)",
+            "span:nth-child(27)",
+            "span:nth-child(28)",
+            "span:nth-child(29)",
+            "span:nth-child(30)",
+            "span:nth-child(31)",
+            "span:nth-child(32)",
+            "span:nth-child(33)",
+            "span:nth-child(34)",
+            "span:nth-child(35)",
+            "span:nth-child(36)",
+            "span:nth-child(37)",
+            "span:nth-child(38)"
+          ]
+        }
+      ]
+    },
+    "desktop-work-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".deck-visual--gauge > .viz-tag",
+              "html": "<span class=\"viz-tag\">load shifted to solar</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.73 (foreground color: #ffcece, background color: #ff1f1f, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"work\" class=\"on\">work</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #ff1f1f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 27,
+          "targets": [
+            ".work-head > .label",
+            ".work-head > .label > .label-no",
+            ".work-count",
+            "article:nth-child(3) > .deck-card-main > .deck-card-top > .deck-num",
+            "article:nth-child(3) > .deck-card-main > .deck-card-top > .deck-category",
+            "article:nth-child(3) > .deck-card-main > .deck-name",
+            "article:nth-child(3) > .deck-card-main > .deck-desc",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(1)",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(2)",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(3)",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(4)",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(1) > i",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(1) > b",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(2) > i",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(2) > b",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(3) > i",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(3) > b",
+            "article:nth-child(3) > .deck-card-main > .deck-link[target=\"_blank\"][rel=\"noreferrer\"]",
+            ".viz-gauge-num",
+            ".hud-logo",
+            "button[data-nav=\"hero\"]",
+            "button[data-nav=\"about\"]",
+            "button[data-nav=\"journey\"]",
+            "button[data-nav=\"skills\"]",
+            "button[data-nav=\"awards\"]",
+            "button[data-nav=\"contact\"]",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "desktop-journey-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"journey\" class=\"on\">journey</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #ff1f1f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 32,
+          "targets": [
+            ".year-odo > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(3)",
+            ".year-odo > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".year-odo > .odo-col:nth-child(3) > .odo-strip[data-odo-col=\"\"] > i:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip[data-odo-col=\"\"] > i:nth-child(7)",
+            ".journey-head > .label",
+            ".journey-head > .label > .label-no",
+            ".journey-head > h2 > .mask-line:nth-child(1) > span",
+            ".journey-head > h2 > .mask-line:nth-child(2) > .red",
+            ".journey-head > .note.serif",
+            ".tl-item:nth-child(1) > .tl-card > .tl-top > .tl-year",
+            ".tl-item:nth-child(1) > .tl-card > .tl-top > .tl-hash",
+            ".tl-item:nth-child(1) > .tl-card > .tl-title",
+            ".tl-item:nth-child(1) > .tl-card > .tl-org",
+            ".tl-item:nth-child(1) > .tl-card > .tl-note.serif",
+            ".tl-item:nth-child(2) > .tl-card > .tl-top > .tl-year",
+            ".tl-item:nth-child(2) > .tl-card > .tl-top > .tl-hash",
+            ".tl-item:nth-child(2) > .tl-card > .tl-title",
+            ".tl-item:nth-child(2) > .tl-card > .tl-org",
+            ".tl-item:nth-child(2) > .tl-card > .tl-note.serif",
+            ".tl-item:nth-child(3) > .tl-card > .tl-top > .tl-year",
+            ".tl-item:nth-child(3) > .tl-card > .tl-top > .tl-hash",
+            ".tl-item:nth-child(3) > .tl-card > .tl-title",
+            ".tl-item:nth-child(3) > .tl-card > .tl-org",
+            ".tl-item:nth-child(3) > .tl-card > .tl-note.serif",
+            ".hud-logo",
+            "button[data-nav=\"hero\"]",
+            "button[data-nav=\"about\"]",
+            "button[data-nav=\"work\"]",
+            "button[data-nav=\"skills\"]",
+            "button[data-nav=\"awards\"]",
+            "button[data-nav=\"contact\"]",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "desktop-skills-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"skills\" class=\"on\">toolkit</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #ff1f1f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 41,
+          "targets": [
+            ".orb-chip--back.orb-chip:nth-child(1)",
+            ".orb-chip--back.orb-chip:nth-child(2)",
+            ".orb-chip--back.orb-chip:nth-child(4)",
+            ".orb-chip--back.orb-chip:nth-child(5)",
+            ".orb-chip--back.orb-chip:nth-child(7)",
+            ".orb-chip--back.orb-chip:nth-child(9)",
+            ".orb-chip--back.orb-chip:nth-child(10)",
+            ".orb-chip--back.orb-chip:nth-child(12)",
+            ".orb-chip--back.orb-chip:nth-child(15)",
+            ".orb-chip--front.orb-chip:nth-child(3)",
+            ".orb-chip--front.orb-chip:nth-child(6)",
+            ".orb-chip--front.orb-chip:nth-child(8)",
+            ".orb-chip--front.orb-chip:nth-child(11)",
+            ".orb-chip--front.orb-chip:nth-child(13)",
+            ".orb-chip--front.orb-chip:nth-child(14)",
+            ".orb-chip--front.orb-chip:nth-child(16)",
+            ".skills-head > .label",
+            ".skills-head > .label > .label-no",
+            ".scene-title--skills > .mask-line:nth-child(1) > span",
+            ".scene-title--skills > .mask-line:nth-child(2) > .red",
+            ".skills-head > .note.serif",
+            ".yaml-file",
+            ".yaml-line:nth-child(2) > i",
+            ".yaml-line:nth-child(2) > b",
+            ".yaml-line:nth-child(3) > i",
+            ".yaml-line:nth-child(3) > b",
+            ".yaml-line:nth-child(4) > i",
+            ".yaml-line:nth-child(4) > b",
+            ".yaml-line:nth-child(5) > i",
+            ".yaml-line:nth-child(5) > b",
+            ".yaml-line:nth-child(6) > i",
+            ".yaml-line:nth-child(6) > b",
+            ".yaml-line:nth-child(7) > i",
+            ".yaml-line:nth-child(7) > b",
+            ".hud-logo",
+            "button[data-nav=\"hero\"]",
+            "button[data-nav=\"about\"]",
+            "button[data-nav=\"work\"]",
+            "button[data-nav=\"journey\"]",
+            "button[data-nav=\"awards\"]"
+          ]
+        }
+      ]
+    },
+    "desktop-awards-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".eval-card--red.eval-card:nth-child(1) > .eval-face--label.eval-face",
+              "html": "<div class=\"eval-face eval-face--label\">LeetCode</div>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.47 (foreground color: #ffc0c0, background color: #ff1f1f, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".eval-card--red.eval-card:nth-child(3) > .eval-face--label.eval-face",
+              "html": "<div class=\"eval-face eval-face--label\">CGPA</div>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.47 (foreground color: #ffc0c0, background color: #ff1f1f, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"awards\" class=\"on\">awards</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ffffff, background color: #ff1f1f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 38,
+          "targets": [
+            ".awards-head > .label",
+            ".awards-head > .label > .label-no",
+            ".scene-title--awards > .mask-line:nth-child(1) > span",
+            ".scene-title--awards > .mask-line:nth-child(2) > .red",
+            ".awards-head > .note.serif",
+            ".cert-card:nth-child(1) > .cert-front > .cert-year",
+            ".cert-card:nth-child(1) > .cert-front > h3",
+            ".cert-card:nth-child(1) > .cert-front > p",
+            ".cert-card:nth-child(1) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(1) > .cert-back > span",
+            ".cert-card:nth-child(2) > .cert-front > .cert-year",
+            ".cert-card:nth-child(2) > .cert-front > h3",
+            ".cert-card:nth-child(2) > .cert-front > p",
+            ".cert-card:nth-child(2) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(2) > .cert-back > span",
+            ".cert-front--red > .cert-year",
+            ".cert-front--red > h3",
+            ".cert-front--red > p",
+            ".cert-front--red > .cert-seal",
+            ".cert-card:nth-child(3) > .cert-back > span",
+            ".cert-card:nth-child(4) > .cert-front > .cert-year",
+            ".cert-card:nth-child(4) > .cert-front > h3",
+            ".cert-card:nth-child(4) > .cert-front > p",
+            ".cert-card:nth-child(4) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(4) > .cert-back > span",
+            ".cert-card:nth-child(5) > .cert-front > .cert-year",
+            ".cert-card:nth-child(5) > .cert-front > h3",
+            ".cert-card:nth-child(5) > .cert-front > p",
+            ".cert-card:nth-child(5) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(5) > .cert-back > span",
+            ".hud-logo",
+            "button[data-nav=\"hero\"]",
+            "button[data-nav=\"about\"]",
+            "button[data-nav=\"work\"]",
+            "button[data-nav=\"journey\"]",
+            "button[data-nav=\"skills\"]",
+            "button[data-nav=\"contact\"]",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "desktop-contact-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".on",
+              "html": "<button data-nav=\"contact\" class=\"on\">contact</button>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 18,
+          "targets": [
+            ".contact-big--outline",
+            ".contact-email-name",
+            ".contact-email-domain",
+            ".contact-link[data-cursor=\"open\"][target=\"_blank\"]:nth-child(1) > span:nth-child(1)",
+            ".contact-link[data-cursor=\"open\"][target=\"_blank\"]:nth-child(2) > span:nth-child(1)",
+            "a[href$=\"resume.pdf\"] > span:nth-child(1)",
+            ".contact-top",
+            ".contact-foot > span:nth-child(1)",
+            ".contact-foot > .serif",
+            ".foot-quiet",
+            ".hud-logo",
+            "button[data-nav=\"hero\"]",
+            "button[data-nav=\"about\"]",
+            "button[data-nav=\"work\"]",
+            "button[data-nav=\"journey\"]",
+            "button[data-nav=\"skills\"]",
+            "button[data-nav=\"awards\"]",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "mobile-hero": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(2)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">learn </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(3)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">by </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(4)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">building. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(5)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">An </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(6)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">LLM </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(7)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">agent </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(8)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">layered </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(9)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">on </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(10)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">ten </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(11)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">thousand </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(12)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">nutrition </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(13)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">records. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(14)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">Sensor </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(15)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">streams </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(16)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">from </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(18)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">university </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(19)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">rooftop </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(20)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">turned </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(21)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">into </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(22)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">anomaly </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(23)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">alerts. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(24)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">An </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".manifesto > span:nth-child(25)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">energy </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(26)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">optimiser </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(27)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">shipped </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(28)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">with </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(30)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">team </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(31)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">across </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(32)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">four </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(33)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">time </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(34)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">zones. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(36)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">read </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(37)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">the </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(38)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">docs, </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(39)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">break </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(40)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">things </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(41)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">on </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(42)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">purpose, </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(43)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">and </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".kw:nth-child(44)",
+              "html": "<span class=\"kw\" style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">rebuild </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(45)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">them </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(46)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">cleaner </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(48)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">every </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(49)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">project </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(50)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">starts </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(51)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">louder </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(52)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">in </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(53)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">my </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(54)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">head </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(55)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">than </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(56)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">on </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(57)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">the </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "span:nth-child(58)",
+              "html": "<span style=\"opacity: 0.1; filter: blur(4px); transform: translateY(0.25em);\">screen. </span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.24 (foreground color: #e6e6e6, background color: #ffffff, font size: 17.6pt (23.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 31,
+          "targets": [
+            ".hero-name-l:nth-child(1)",
+            ".hero-name-l:nth-child(2)",
+            ".hero-name-l:nth-child(3)",
+            ".hero-name-l:nth-child(4)",
+            ".hero-name-l:nth-child(5)",
+            ".hero-name-l:nth-child(6)",
+            ".mute:nth-child(1)",
+            ".ink",
+            "h1 > .mask-line:nth-child(1) > span",
+            "h1 > .mask-line:nth-child(2) > .red",
+            ".hero-desc",
+            ".btn--red > .btn-roll > span:nth-child(1)",
+            ".btn--outline > .btn-roll > span:nth-child(1)",
+            ".manifesto > span:nth-child(1)",
+            "span:nth-child(17)",
+            "span:nth-child(29)",
+            "span:nth-child(35)",
+            ".tilt.stat-card:nth-child(1) > .stat-card-k",
+            ".tilt.stat-card:nth-child(1) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(1) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(1) > .stat-card-v > .stat-suffix",
+            ".tilt.stat-card:nth-child(2) > .stat-card-k",
+            ".tilt.stat-card:nth-child(2) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(2) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(2) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(3) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(3) > .stat-card-k",
+            ".tilt.stat-card:nth-child(3) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(3) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".tilt.stat-card:nth-child(3) > .stat-card-v > .stat-odo.odo[aria-hidden=\"true\"] > .odo-col:nth-child(3) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".hud-logo",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "mobile-about-end": {
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 75,
+          "targets": [
+            ".about-col > .label",
+            ".about-col > .label > .label-no",
+            ".manifesto > span:nth-child(1)",
+            ".kw:nth-child(2)",
+            ".manifesto > span:nth-child(3)",
+            ".kw:nth-child(4)",
+            ".manifesto > span:nth-child(5)",
+            ".manifesto > span:nth-child(6)",
+            ".manifesto > span:nth-child(7)",
+            ".manifesto > span:nth-child(8)",
+            ".manifesto > span:nth-child(9)",
+            ".manifesto > span:nth-child(10)",
+            ".manifesto > span:nth-child(11)",
+            ".manifesto > span:nth-child(12)",
+            ".manifesto > span:nth-child(13)",
+            ".manifesto > span:nth-child(14)",
+            ".manifesto > span:nth-child(15)",
+            ".manifesto > span:nth-child(16)",
+            "span:nth-child(17)",
+            "span:nth-child(18)",
+            "span:nth-child(19)",
+            "span:nth-child(20)",
+            "span:nth-child(21)",
+            ".kw:nth-child(22)",
+            ".kw:nth-child(23)",
+            "span:nth-child(24)",
+            ".manifesto > span:nth-child(25)",
+            "span:nth-child(26)",
+            "span:nth-child(27)",
+            "span:nth-child(28)",
+            "span:nth-child(29)",
+            "span:nth-child(30)",
+            "span:nth-child(31)",
+            "span:nth-child(32)",
+            "span:nth-child(33)",
+            "span:nth-child(34)",
+            "span:nth-child(35)",
+            "span:nth-child(36)",
+            "span:nth-child(37)",
+            "span:nth-child(38)"
+          ]
+        }
+      ]
+    },
+    "mobile-work-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 20,
+          "targets": [
+            ".work-head > .label",
+            ".work-head > .label > .label-no",
+            ".work-count",
+            "article:nth-child(3) > .deck-card-main > .deck-card-top > .deck-num",
+            "article:nth-child(3) > .deck-card-main > .deck-card-top > .deck-category",
+            "article:nth-child(3) > .deck-card-main > .deck-name",
+            "article:nth-child(3) > .deck-card-main > .deck-desc",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(1)",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(2)",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(3)",
+            "article:nth-child(3) > .deck-card-main > .deck-chips > .chip:nth-child(4)",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(1) > i",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(1) > b",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(2) > i",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(2) > b",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(3) > i",
+            "article:nth-child(3) > .deck-card-main > .deck-meta > .deck-meta-row:nth-child(3) > b",
+            "article:nth-child(3) > .deck-card-main > .deck-link[target=\"_blank\"][rel=\"noreferrer\"]",
+            ".hud-logo",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "mobile-journey-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 23,
+          "targets": [
+            ".year-odo > .odo-col:nth-child(1) > .odo-strip[data-odo-col=\"\"] > i:nth-child(3)",
+            ".year-odo > .odo-col:nth-child(2) > .odo-strip[data-odo-col=\"\"] > i:nth-child(1)",
+            ".year-odo > .odo-col:nth-child(3) > .odo-strip[data-odo-col=\"\"] > i:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip[data-odo-col=\"\"] > i:nth-child(5)",
+            ".journey-head > .label",
+            ".journey-head > .label > .label-no",
+            ".journey-head > h2 > .mask-line:nth-child(1) > span",
+            ".journey-head > h2 > .mask-line:nth-child(2) > .red",
+            ".journey-head > .note.serif",
+            ".tl-item:nth-child(1) > .tl-card > .tl-top > .tl-year",
+            ".tl-item:nth-child(1) > .tl-card > .tl-top > .tl-hash",
+            ".tl-item:nth-child(1) > .tl-card > .tl-title",
+            ".tl-item:nth-child(1) > .tl-card > .tl-org",
+            ".tl-item:nth-child(2) > .tl-card > .tl-top > .tl-year",
+            ".tl-item:nth-child(2) > .tl-card > .tl-top > .tl-hash",
+            ".tl-item:nth-child(2) > .tl-card > .tl-title",
+            ".tl-item:nth-child(2) > .tl-card > .tl-org",
+            ".tl-item:nth-child(3) > .tl-card > .tl-top > .tl-year",
+            ".tl-item:nth-child(3) > .tl-card > .tl-top > .tl-hash",
+            ".tl-item:nth-child(3) > .tl-card > .tl-title",
+            ".tl-item:nth-child(3) > .tl-card > .tl-org",
+            ".hud-logo",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "mobile-skills-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 38,
+          "targets": [
+            ".orb-chip--back.orb-chip:nth-child(1)",
+            ".orb-chip--back.orb-chip:nth-child(2)",
+            ".orb-chip--back.orb-chip:nth-child(4)",
+            ".orb-chip--back.orb-chip:nth-child(7)",
+            ".orb-chip--back.orb-chip:nth-child(9)",
+            ".orb-chip--back.orb-chip:nth-child(10)",
+            ".orb-chip--back.orb-chip:nth-child(12)",
+            ".orb-chip--back.orb-chip:nth-child(15)",
+            ".orb-chip--front.orb-chip:nth-child(3)",
+            ".orb-chip--front.orb-chip:nth-child(5)",
+            ".orb-chip--front.orb-chip:nth-child(6)",
+            ".orb-chip--front.orb-chip:nth-child(8)",
+            ".orb-chip--front.orb-chip:nth-child(11)",
+            ".orb-chip--front.orb-chip:nth-child(13)",
+            ".orb-chip--front.orb-chip:nth-child(14)",
+            ".orb-chip--front.orb-chip:nth-child(16)",
+            ".skills-head > .label",
+            ".skills-head > .label > .label-no",
+            ".scene-title--skills > .mask-line:nth-child(1) > span",
+            ".scene-title--skills > .mask-line:nth-child(2) > .red",
+            ".skills-head > .note.serif",
+            ".yaml-file",
+            ".yaml-line:nth-child(2) > i",
+            ".yaml-line:nth-child(2) > b",
+            ".yaml-line:nth-child(3) > i",
+            ".yaml-line:nth-child(3) > b",
+            ".yaml-line:nth-child(4) > i",
+            ".yaml-line:nth-child(4) > b",
+            ".yaml-line:nth-child(5) > i",
+            ".yaml-line:nth-child(5) > b",
+            ".yaml-line:nth-child(6) > i",
+            ".yaml-line:nth-child(6) > b",
+            ".yaml-line:nth-child(7) > i",
+            ".yaml-line:nth-child(7) > b",
+            ".marquee-inner > span:nth-child(1)",
+            ".marquee-inner > span:nth-child(2)",
+            ".hud-logo",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "mobile-awards-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".eval-card--red.eval-card:nth-child(1) > .eval-face--label.eval-face",
+              "html": "<div class=\"eval-face eval-face--label\">LeetCode</div>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.47 (foreground color: #ffc0c0, background color: #ff1f1f, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".eval-card--red.eval-card:nth-child(3) > .eval-face--num.eval-face > i",
+              "html": "<i>/10</i>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.04 (foreground color: #ffdddd, background color: #ff1f1f, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".eval-card--red.eval-card:nth-child(3) > .eval-face--label.eval-face",
+              "html": "<div class=\"eval-face eval-face--label\">CGPA</div>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.47 (foreground color: #ffc0c0, background color: #ff1f1f, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 32,
+          "targets": [
+            ".awards-head > .label",
+            ".awards-head > .label > .label-no",
+            ".scene-title--awards > .mask-line:nth-child(1) > span",
+            ".scene-title--awards > .mask-line:nth-child(2) > .red",
+            ".awards-head > .note.serif",
+            ".cert-card:nth-child(1) > .cert-front > .cert-year",
+            ".cert-card:nth-child(1) > .cert-front > h3",
+            ".cert-card:nth-child(1) > .cert-front > p",
+            ".cert-card:nth-child(1) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(1) > .cert-back > span",
+            ".cert-card:nth-child(2) > .cert-front > .cert-year",
+            ".cert-card:nth-child(2) > .cert-front > h3",
+            ".cert-card:nth-child(2) > .cert-front > p",
+            ".cert-card:nth-child(2) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(2) > .cert-back > span",
+            ".cert-front--red > .cert-year",
+            ".cert-front--red > h3",
+            ".cert-front--red > p",
+            ".cert-front--red > .cert-seal",
+            ".cert-card:nth-child(3) > .cert-back > span",
+            ".cert-card:nth-child(4) > .cert-front > .cert-year",
+            ".cert-card:nth-child(4) > .cert-front > h3",
+            ".cert-card:nth-child(4) > .cert-front > p",
+            ".cert-card:nth-child(4) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(4) > .cert-back > span",
+            ".cert-card:nth-child(5) > .cert-front > .cert-year",
+            ".cert-card:nth-child(5) > .cert-front > h3",
+            ".cert-card:nth-child(5) > .cert-front > p",
+            ".cert-card:nth-child(5) > .cert-front > .cert-seal",
+            ".cert-card:nth-child(5) > .cert-back > span",
+            ".hud-logo",
+            ".hud-pct"
+          ]
+        }
+      ]
+    },
+    "mobile-contact-end": {
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "target": ".about-col > .label > .label-no",
+              "html": "<span class=\"label-no\">(02)</span>",
+              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.84 (foreground color: #ff1f1f, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "nodes": [
+            {
+              "target": "article[data-cursor=\"view\"]:nth-child(1) > .deck-card-main > .deck-name",
+              "html": "<h3 class=\"deck-name\">NUTRITION ASSISTANT</h3>",
+              "failure": "Fix any of the following:   Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "tags": [
+            "cat.semantics",
+            "wcag21a",
+            "wcag253",
+            "EN-301-549",
+            "EN-9.2.5.3",
+            "RGAAv4",
+            "RGAA-6.1.5"
+          ],
+          "nodes": [
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Text inside the element is not included in the accessible name"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "nodes": [
+            {
+              "target": "#portal-5-layer-back",
+              "html": "<div id=\"portal-5-layer-back\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": "#layer-front",
+              "html": "<div id=\"layer-front\" class=\"layer-front\">",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            },
+            {
+              "target": ".hud-logo",
+              "html": "<a class=\"hud-logo magnetic\" href=\"#hero\" aria-label=\"back to top\">TUSHAR<span class=\"hud-r\">®</span></a>",
+              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1,
+          "targets": [
+            ".manifesto"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 10,
+          "targets": [
+            ".contact-email-name",
+            ".contact-email-domain",
+            ".contact-link[data-cursor=\"open\"][target=\"_blank\"]:nth-child(1) > span:nth-child(1)",
+            ".contact-link[data-cursor=\"open\"][target=\"_blank\"]:nth-child(2) > span:nth-child(1)",
+            "a[href$=\"resume.pdf\"] > span:nth-child(1)",
+            ".contact-top",
+            ".contact-foot > span:nth-child(1)",
+            ".contact-foot > .serif",
+            ".hud-logo",
+            ".hud-pct"
+          ]
+        }
+      ]
+    }
+  }
+}

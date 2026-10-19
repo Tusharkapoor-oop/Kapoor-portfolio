@@ -1,0 +1,20 @@
+# Tushar Kapoor — Applied AI Engineer
+
+> Portfolio of Tushar Kapoor, an applied AI engineer in New Delhi building systems that reason: deep-learning pipelines, IoT telemetry platforms, and first-principles algorithmic work.
+
+The site is a single-page portfolio at https://tusharkapoor-oop.github.io/Kapoor-portfolio/ with these sections:
+
+- [Hello — overview](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#hero): positioning, focus areas, current status.
+- [About — manifesto and stats](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#about): working principles and headline numbers.
+- [Work — selected projects](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#work): applied AI and systems projects with architecture notes.
+- [Journey — experience timeline](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#journey): roles, education, and milestones.
+- [Toolkit — skills](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#skills): languages, frameworks, and platforms used in production.
+- [Awards — recognition](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#awards): certifications and achievements.
+- [Contact](https://tusharkapoor-oop.github.io/Kapoor-portfolio/#contact): email and social links.
+
+## Elsewhere
+
+- [GitHub](https://github.com/Tusharkapoor-oop)
+- [LinkedIn](https://www.linkedin.com/in/tushar-kapoor-143484333/)
+- [LeetCode](https://leetcode.com/u/tusharkapoor66/)
+- [Résumé (PDF)](https://tusharkapoor-oop.github.io/Kapoor-portfolio/Tushar_Kapoor_Resume.pdf)

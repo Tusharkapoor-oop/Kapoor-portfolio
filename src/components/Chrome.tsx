@@ -10,6 +10,7 @@ export function Preloader() {
   const topRef = useRef<HTMLDivElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const counterRef = useRef<HTMLDivElement>(null);
+  const centerRef = useRef<HTMLDivElement>(null);
   const aboveRef = useRef<HTMLDivElement>(null);
   const belowRef = useRef<HTMLDivElement>(null);
 
@@ -20,11 +21,13 @@ export function Preloader() {
     const top = topRef.current;
     const bottom = bottomRef.current;
     if (!counter || !above || !below || !top || !bottom) return;
+    const digits = Array.from(counter.querySelectorAll<HTMLElement>('i'));
 
     document.documentElement.classList.add('locked');
     let fontsReady = false;
     void document.fonts.ready.then(() => {
       fontsReady = true;
+      centerRef.current?.classList.add('lit');
     });
     const ready = Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 2200))]);
 
@@ -32,18 +35,24 @@ export function Preloader() {
     const tl = gsap.timeline({ paused: true });
     tl.to(state, {
       v: 100,
-      duration: 2,
+      duration: 1.6,
       ease: 'power1.inOut',
       onUpdate: () => {
         const v = fontsReady ? state.v : Math.min(state.v, 96);
         const label = String(Math.max(0, Math.floor(v))).padStart(3, '0');
-        if (counter.textContent !== label) counter.textContent = label;
+        for (let k = 0; k < 3; k++) {
+          const d = digits[k];
+          if (d && d.textContent !== label.charAt(k)) d.textContent = label.charAt(k);
+        }
       },
     });
     tl.to([above, below], { y: -44, opacity: 0, duration: 0.5, ease: 'power2.in', stagger: 0.06 }, '+=0.15');
     tl.to(top, { yPercent: -101, duration: 1.2, ease: 'expo.inOut' }, '-=0.05');
     tl.to(bottom, { yPercent: 101, duration: 1.2, ease: 'expo.inOut' }, '<');
     tl.to(counter, { opacity: 0, scale: 0.94, duration: 0.6, ease: 'power2.in' }, '<');
+    // The intro fires only once the curtain has fully cleared (the page is kept
+    // hidden by html.locked until then), so no text is ever presented under a
+    // partially open curtain — readable at every instant, not just at rest.
     tl.call(() => {
       document.documentElement.classList.remove('locked');
       director.start();
@@ -64,12 +73,14 @@ export function Preloader() {
     <div className="preloader" aria-hidden="true">
       <div ref={topRef} className="pre-half pre-top" />
       <div ref={bottomRef} className="pre-half pre-bottom" />
-      <div className="pre-center">
+      <div ref={centerRef} className="pre-center">
         <div ref={aboveRef} className="pre-line mono">
           TUSHAR KAPOOR — APPLIED AI
         </div>
         <div ref={counterRef} className="pre-count">
-          000
+          <i>0</i>
+          <i>0</i>
+          <i>0</i>
         </div>
         <div ref={belowRef} className="pre-line mono">
           SYSTEMS THAT REASON · PORTFOLIO 2026
@@ -100,12 +111,15 @@ export function Hud() {
       { key: 'invert-prog', el: progRef.current },
     ];
     const rects = new Map<string, { top: number; right: number; height: number; width: number }>();
+    let pctBox: { top: number; height: number } | null = null;
     const measure = () => {
       for (const en of entries) {
         if (!en.el) continue;
         const r = en.el.getBoundingClientRect();
         rects.set(en.key, { top: r.top, right: r.right, height: r.height, width: r.width });
       }
+      const p = pctRef.current?.getBoundingClientRect();
+      pctBox = p && p.width > 0 ? { top: p.top, height: p.height } : null;
     };
     measure();
     const onResize = () => measure();
@@ -132,10 +146,22 @@ export function Hud() {
       const e = -skew + (vw + 2 * skew) * cs.p;
       for (const en of entries) {
         const r = rects.get(en.key);
-        const on =
+        let on =
           !!r &&
           r.width > 0 &&
           e + skew - (2 * skew) / vh * (r.top + r.height / 2) >= r.right - 24;
+        if (en.key === 'invert-prog' && pctBox) {
+          // The skills marquee tape is a rotated, full-width red band pinned to
+          // the scene bottom; while it sits under the progress readout, flip
+          // the rail to paper as well (same language as the contact sweep).
+          const sk = f.scenes.skills;
+          const compact = vw < 820;
+          const topOff = compact ? 0.89 : 0.855; // 1 − tape bottom − its height
+          const lift = Math.sin((2 * Math.PI) / 180) * (vw / 2 - (compact ? vw * 0.06 : 28));
+          const tapeTop = (1 - sk.enter) * vh - sk.exit * vh + vh * topOff - lift;
+          const tapeBottom = tapeTop + vh * (compact ? 0.08 : 0.1);
+          if (tapeTop < pctBox.top + pctBox.height && tapeBottom > pctBox.top) on = true;
+        }
         if (root.classList.contains(en.key) !== on) root.classList.toggle(en.key, on);
       }
     });
@@ -154,10 +180,10 @@ export function Hud() {
           className="hud-logo"
           onClick={() => director.scrollTop()}
           data-cursor="Go"
-          aria-label="Back to top"
+          aria-label="TUSHAR — back to top"
         >
           TUSHAR
-          <span className="hud-reg">®</span>
+          <span className="hud-reg" aria-hidden="true">®</span>
         </button>
         <nav ref={navRef} className="hud-nav" aria-label="Sections">
           {SCENES.map((s) => (

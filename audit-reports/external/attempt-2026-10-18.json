@@ -1,0 +1,84 @@
+{
+  "when": "2026-10-18T17:27:20.982Z",
+  "portfolioUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "results": [
+    {
+      "service": "Aeacus",
+      "serviceUrl": "https://aeacus.app/",
+      "reachable": false,
+      "httpStatus": 200,
+      "formFound": true,
+      "gates": [],
+      "notes": [],
+      "submission": {
+        "attempted": true,
+        "clickedSubmit": true,
+        "afterSubmitUrl": "https://aeacus.app/",
+        "afterSubmitTitle": "Aeacus: AI Website Auditor for UX, SEO & Performance",
+        "mentionsPortfolio": true,
+        "showsReportOrResult": false
+      },
+      "pageTitle": "Aeacus: AI Website Auditor for UX, SEO & Performance",
+      "urlInputCount": 1,
+      "screenshot": "audit-reports/external/screens/aeacus.png"
+    },
+    {
+      "service": "AI Website Critic",
+      "serviceUrl": "https://www.aiwebsitecritic.com/",
+      "reachable": false,
+      "httpStatus": 200,
+      "formFound": true,
+      "gates": [],
+      "notes": [],
+      "submission": {
+        "attempted": true,
+        "clickedSubmit": true,
+        "afterSubmitUrl": "https://www.aiwebsitecritic.com/",
+        "afterSubmitTitle": "AI Website Critic | The 60-Second Lead Generator for Web & SEO Agencies",
+        "mentionsPortfolio": true,
+        "showsReportOrResult": false
+      },
+      "pageTitle": "AI Website Critic | The 60-Second Lead Generator for Web & SEO Agencies",
+      "urlInputCount": 1,
+      "screenshot": "audit-reports/external/screens/ai-website-critic.png"
+    },
+    {
+      "service": "WebsiteValidator",
+      "serviceUrl": "https://websitevalidator.com/",
+      "reachable": false,
+      "httpStatus": 200,
+      "formFound": true,
+      "gates": [],
+      "notes": [],
+      "submission": {
+        "attempted": true,
+        "clickedSubmit": true,
+        "afterSubmitUrl": "https://websitevalidator.com/",
+        "afterSubmitTitle": "Free Website Audit Tool — SEO, AI Visibility, Accessibility & Security",
+        "mentionsPortfolio": false,
+        "showsReportOrResult": false
+      },
+      "pageTitle": "Free Website Audit Tool — SEO, AI Visibility, Accessibility & Security",
+      "urlInputCount": 2,
+      "screenshot": "audit-reports/external/screens/websitevalidator.png"
+    },
+    {
+      "service": "Website Auditor",
+      "serviceUrl": "https://websiteaudit.com/",
+      "reachable": false,
+      "httpStatus": 403,
+      "formFound": false,
+      "gates": [
+        "captcha"
+      ],
+      "notes": [],
+      "submission": {
+        "attempted": false,
+        "reason": "no URL input visible on landing page"
+      },
+      "pageTitle": "Not available in your region | WebsiteAudit.com",
+      "urlInputCount": 0,
+      "screenshot": "audit-reports/external/screens/website-auditor.png"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "external": [
+    {
+      "url": "https://github.com/Tusharkapoor-oop",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.linkedin.com/in/tushar-kapoor-143484333/",
+      "status": 999,
+      "ok": false,
+      "final": "https://www.linkedin.com/in/tushar-kapoor-143484333"
+    },
+    {
+      "url": "https://leetcode.com/u/tusharkapoor66/",
+      "status": 403,
+      "ok": false
+    },
+    {
+      "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/og-image.jpg",
+      "status": 404,
+      "ok": false
+    }
+  ],
+  "local": [
+    {
+      "path": "favicon.svg",
+      "public": true,
+      "dist": true
+    }
+  ]
+}

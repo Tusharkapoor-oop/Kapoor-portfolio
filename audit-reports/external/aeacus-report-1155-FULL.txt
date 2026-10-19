@@ -1,0 +1,433 @@
+Aeacus
+New Audit
+History
+Patterns
+Compare
+Back
+Tushar Kapoor Portfolio
+https://tusharkapoor-oop.github.io/Kapoor-portfolio/
+•
+18 October 2026 at 23:02 GMT+5:30
+•
+PERSONAL PORTFOLIO LANDING PAGE
+New Audit
+Re-audit
+PDF
+Page Screenshot
+Open full size
+34
+OVERALL VERDICT
+"Well-packaged metadata is hiding a page that is effectively empty to both users and search engines."
+
+The page has several good technical basics in place: HTTPS, canonical, viewport, Open Graph tags, and Person schema. But the core product problem is severe: the fetched page exposes virtually no visible content, no headings, no links, no calls to action, and no navigational structure. That makes it weak as a portfolio, poor at converting visitors, and at risk of underperforming in search because Google has almost nothing substantive to index beyond the title and meta description.
+
+34
+SCORE
+SEO Audit
+11 / 16 ON-PAGE CHECKS PASSING
+
+The page meets several basic technical SEO requirements: it returns HTTP 200, is indexable, uses HTTPS, and includes a valid title, meta description, canonical, viewport, and Person schema. But the biggest issue is content: rendered word count is just 6, visible text is effectively empty, there is no H1, and there are zero internal or external links. In Google's people-first framework, the page currently does not deliver useful, indexable content matching the promise of "AI/ML Engineering Student," so metadata is doing almost all the work. There is no evidence of spam-policy violations, but there are important crawl and discoverability gaps such as missing robots.txt and sitemap.xml.
+
+ON-PAGE SIGNALS
+Title tag
+41 chars (optimal)
+Meta description
+144 chars (optimal)
+Single H1
+0 H1, 0 H2, 0 H3
+Canonical URL
+present
+Indexable
+default (no robots meta)
+Open Graph
+title:y desc:y image:y
+Twitter card
+missing
+Structured data
+1 JSON-LD: Person
+Image alt coverage
+no images
+Viewport meta
+present, zoom allowed
+HTML lang
+en
+HTTPS
+yes
+Crawlable without JS
+100% of text in raw HTML (6/6 words)
+Social share image
+1024x576
+robots.txt
+not found
+sitemap.xml
+not found
+SEO ISSUES
+og:image needs attention
+INFO
+
+og:image is 1024x576px — below the recommended 1200x630 for large summary cards.
+
+Fix: Serve a reachable og:image at 1200x630 (600x315 minimum for non-large cards) and keep it under ~1MB for fast social unfurls.
+No robots.txt found
+INFO
+
+A robots.txt was not found at the site root. Crawlers cannot discover crawl rules or a sitemap reference.
+
+Fix: Add a /robots.txt that allows crawling of public pages and includes a `Sitemap:` line pointing to your sitemap.xml.
+No valid sitemap.xml found
+INFO
+
+A valid XML sitemap was not found at /sitemap.xml. Sitemaps help search engines discover and prioritize your pages.
+
+Fix: Generate a sitemap.xml (a `<urlset>` of your public URLs) and reference it from robots.txt.
+Address mismatch (NAP inconsistency)
+WARNING
+
+The postal address in structured data does not appear in the visible page text. Consistent name/address/phone is a key local-SEO signal.
+
+Fix: Ensure the structured-data PostalAddress matches the address displayed on the page and across directory listings.
+Physical address without LocalBusiness schema
+INFO
+
+The page shows a physical address but has no LocalBusiness (or subtype) JSON-LD, so search engines cannot reliably associate the location with the business.
+
+Fix: Add LocalBusiness JSON-LD with name, address, telephone, geo, and openingHours to strengthen local-SEO eligibility.
+Add meaningful indexable body content
+CRITICAL
+
+Google can index the page, but there is almost nothing to index: rendered word count is 6 and the visible text is effectively blank. This fails the Search Essentials requirement that a page contain actual indexable content.
+
+Fix: Publish visible page copy that matches the topic promised by the title and meta description: add an H1, a short intro, project summaries, skills, and contact details directly in HTML on the page.
+Add a clear H1 that matches page intent
+WARNING
+
+The page has 0 H1s, 0 H2s, and 0 H3s. Without a visible page heading, both users and search engines lack a strong on-page cue for what the page actually is.
+
+Fix: Add a visible H1 near the top such as "Tushar Kapoor — AI/ML Engineering Student" or "Tushar Kapoor Portfolio," then support it with section headings like Projects, Skills, and Contact.
+Add internal links to portfolio destinations
+WARNING
+
+The page has 0 internal links and 0 external links. That leaves the homepage as a dead end and gives Google no paths to crawl related project or resume content.
+
+Fix: Add internal links to sections or subpages such as /projects, /resume, and /contact, using descriptive anchor text like "View IoT sensor pipeline project" instead of generic labels.
+Align snippet source with the meta description
+WARNING
+
+The meta description is strong, but Google often builds snippets from visible page text. Because the body has essentially no opening copy, search results may fall back to poor or rewritten snippets.
+
+Fix: Write the first 1-2 visible sentences on the page to mirror the real value proposition, for example: "I build AI/ML and IoT projects focused on real-world sensing, deep learning, and algorithmic problem solving."
+Publish robots.txt and sitemap.xml
+INFO
+
+robots.txt returns 404 and sitemap.xml returns 404. These are not required for ranking, but they help search engines discover and monitor a growing site efficiently.
+
+Fix: Add a root robots.txt that allows crawling and references sitemap.xml, then publish a sitemap containing the homepage and any project/detail pages.
+Add Twitter card metadata
+INFO
+
+Open Graph tags are present, but Twitter card tags are missing. This does not affect Google rankings directly, but it weakens share previews that can drive secondary discovery and links.
+
+Fix: Add twitter:card, twitter:title, twitter:description, and twitter:image tags matching the existing Open Graph values.
+Upgrade the Open Graph image size
+INFO
+
+The OG image is valid and fetched successfully, but it is 1024x576, below the recommended 1200x630 for large summary cards. This can reduce visual quality in shared previews.
+
+Fix: Export a 1200x630 version of the portfolio preview image and update og:image to that asset.
+SEO OPPORTUNITIES
+Build project pages around real AI/ML topics
+HIGH EFFORT
+
+Create dedicated pages for each substantive project tied to the themes already named in metadata: applied AI, deep learning, IoT sensor pipelines, and algorithmic problem solving. Each page should explain the problem, approach, stack, and outcome so the site can rank for topic-specific long-tail searches rather than only your name.
+
+Impact: This would expand the site from a branded placeholder into a discoverable topical portfolio.
+Turn the homepage into a search-friendly portfolio hub
+MEDIUM EFFORT
+
+Use the homepage to summarize who you are, what domains you work in, and where each project lives. This gives Google a stronger overview page and helps users navigate quickly to the most relevant evidence of your skills.
+
+Impact: A stronger hub page will improve relevance for branded queries and increase crawl flow to deeper pages.
+Add visible proof signals for expertise
+MEDIUM EFFORT
+
+Include concrete artifacts such as project outcomes, technologies used, coursework, publications, certifications, GitHub links, or internship work where applicable. For a portfolio, specificity matters more than generic claims like "algorithmic problem solving."
+
+Impact: More specific proof points will strengthen content quality and improve click-through from people evaluating your credibility.
+Expand Person schema with sameAs and profile links
+LOW EFFORT
+
+You already have Person JSON-LD, so enrich it with links to GitHub, LinkedIn, email, and any public profiles that represent the same person. This helps search engines connect your identity across the web and understand the site as an authoritative personal profile.
+
+Impact: Stronger entity clarity can improve how your branded presence is interpreted in search.
+Local SEO
+DETECTED ON PAGE
+LocalBusiness structured data
+no LocalBusiness schema found
+Address in structured data
+New Delhi, IN
+Phone in structured data
+no telephone in JSON-LD
+Address matches visible page
+structured address not found in visible text
+Phone matches visible page
+not checked (no schema phone)
+MANUAL CHECKLIST
+
+Not automatically verified — review these off-page local ranking factors yourself.
+
+1
+Claim and complete your Google Business Profile (categories, hours, photos).
+2
+Keep name, address, and phone (NAP) identical across your site, GBP, and directories.
+3
+Add LocalBusiness JSON-LD with geo coordinates and openingHours.
+4
+Embed a map and list service-area / location pages if you serve multiple areas.
+5
+Collect and respond to reviews on Google and relevant industry directories.
+AI Audit
+AI in use
+MEDIUM CONFIDENCE
+
+The site presents AI as part of the subject matter and personal brand rather than as an observable product feature. The strongest evidence is in the page copy and metadata referencing "AI/ML," "Applied AI," and "deep learning," but there is no evidence of live AI functionality, models, or vendors powering the site experience itself.
+
+AI MATURITY
+Experimental
+NONE
+EXPERIMENTAL
+INTEGRATED
+ADVANCED
+AI LANGUAGE ON PAGE
+"deep learning"
+USAGE BY AREA
+0 / 9 AREAS USING AI
+Content
+No evidence that page copy, portfolio descriptions, or media are generated or assisted by AI; the visible page content is essentially absent.
+Search
+No site search, semantic search, or retrieval interface is visible.
+Support / Chat
+No chatbot, contact assistant, or AI help surface is present.
+Personalization
+No user-specific content, role-based tailoring, or adaptive UI is visible.
+Recommendations
+There are no suggested projects, related artifacts, or AI-driven recommendations on the page.
+Vision
+The page references AI/ML interests, but there is no evidence of a live computer vision feature in the site itself.
+Voice / Speech
+No voice input, speech output, or audio interaction is visible.
+Analytics
+No evidence of AI-based analytics, insights, or instrumentation is visible from the page signals.
+Agents
+No autonomous assistant, agent workflow, or task-running system is present on the page.
+LLM-CITED SIGNALS
+•
+Title: "Tushar Kapoor — AI/ML Engineering Student"
+•
+Meta description: "Engineering systems that reason through real-world complexity. Applied AI, deep learning, IoT sensor pipelines, and algorithmic problem solving."
+•
+AI SIGNALS copy mention: "deep learning"
+AI OPPORTUNITIES
+Add an AI project explainer for each portfolio item
+CRITICAL
+RAG
+MEDIUM EFFORT
+
+For each ML or IoT project, add a small "Explain this project" module that turns your architecture, tradeoffs, and outcomes into recruiter-friendly summaries. It should live inside each project card or detail page and use your own project notes, stack, metrics, and diagrams as inputs.
+
+Impact: This would make technical work more legible to non-specialist recruiters while showcasing your AI fluency.
+Create a recruiter Q&A assistant from your resume
+HIGH
+RAG
+MEDIUM EFFORT
+
+Build a lightweight assistant trained on your resume, project descriptions, coursework, and skills so visitors can ask questions like "Which project used sensor pipelines?" or "What deep learning frameworks have you used?" Place it on the homepage or contact section as a guided interaction rather than a generic chatbot.
+
+Impact: It would increase engagement and help hiring teams find relevant evidence faster.
+Auto-generate tailored portfolio views by job role
+MEDIUM
+LLM
+HIGH EFFORT
+
+Let visitors choose "ML Engineer," "Data Scientist," or "Embedded/IoT" and use an LLM to reorder your projects, rewrite summaries, and foreground the most relevant skills for that role. This is especially relevant because your positioning spans applied AI, deep learning, and IoT.
+
+Impact: Role-specific personalization would improve relevance and make the portfolio feel more intentional.
+Turn project artifacts into searchable semantic knowledge
+MEDIUM
+EMBEDDINGS
+MEDIUM EFFORT
+
+Index your project reports, notebooks, abstracts, and README files so users can semantically search across them for topics like "sensor fusion," "CNN," or "optimization." This would work well once you add real project pages and downloadable documents.
+
+Impact: Visitors could discover depth that static navigation usually hides.
+Generate concise project snapshots from code repos
+MEDIUM
+LLM
+LOW EFFORT
+
+If you link GitHub repositories, use AI to produce a consistent snapshot for each repo: problem, stack, model approach, dataset, and results. Surface that summary on the portfolio card so the homepage stays scannable without forcing visitors into raw source code.
+
+Impact: This would reduce friction and present your technical work in a more hiring-friendly format.
+Score Trend
+
+5 audits of this URL · +5 since previous
+
+Oct 18
+Oct 18
+Oct 18
+Oct 18
+Oct 18
+0
+25
+50
+75
+100
+Category Breakdown
+UX
+24/100
+
+The page offers almost no usable interface or information architecture beyond metadata.
+
+CONTENT
+18/100
+
+The page claims expertise in AI/ML but exposes virtually no actual portfolio content, proof, or detail.
+
+PERFORMANCE
+58/100
+
+The page is lightweight, but a 2630ms fetch for a 2717-byte page is unimpressive and suggests delivery inefficiency.
+
+ACCESSIBILITY
+42/100
+
+Basic language and viewport settings are present, but the absence of headings, landmarks, links, and meaningful page content hurts accessibility.
+
+SEO
+40/100
+
+Metadata is stronger than average, but indexable on-page content is critically thin and internal linking is nonexistent.
+
+CONVERSION
+20/100
+
+There is no visible CTA, resume access, project link, or contact path to convert a visitor into an employer lead.
+
+Strengths & Weaknesses
+STRENGTHS
++
+The title tag is clear and appropriately sized at 41 characters: "Tushar Kapoor — AI/ML Engineering Student."
++
+The meta description is present, specific, and an optimal length at 144 characters.
++
+A self-referencing canonical is implemented correctly.
++
+Open Graph coverage is strong with title, description, image, type, and URL all present.
++
+The page includes JSON-LD with a Person schema type.
++
+Core technical hygiene is solid: HTTPS, lang="en", charset, viewport, and favicon are all present.
+AREAS FOR IMPROVEMENT
+-
+The page has no visible text content in the fetch, with a rendered word count of just 6, so it does not deliver on the promise of an AI/ML portfolio.
+-
+There is no H1 and no other headings, leaving the page without a content hierarchy.
+-
+There are zero links, zero buttons, and zero forms, so visitors have no path to projects, resume, contact, or next steps.
+-
+No images are rendered on the page despite an OG image existing, which makes the experience feel barren and untrustworthy for a portfolio.
+-
+There is no robots.txt and no sitemap.xml, which weakens crawl discovery and maintainability.
+-
+The social preview setup is incomplete: no Twitter card is present, and the OG image is below the recommended 1200x630 size for large cards.
+Action Plan
+By role
+
+Quick view of who owns what — same recommendations, grouped by the team most likely to ship them.
+
+Designer
+3 ITEMS · TOP: HIGH
+
+Layout, hierarchy, accessibility, navigation.
+
+·
+Add navigation to Projects, Skills, and Contact
+·
+Add a single descriptive H1
+·
+Show visual proof of work
+Developer
+1 ITEM · TOP: MEDIUM
+
+Performance, page weight, technical SEO plumbing.
+
+·
+Reduce latency on static delivery
+Marketer / Content
+5 ITEMS · TOP: CRITICAL
+
+Copy, messaging, SEO content, calls to action.
+
+·
+Publish a real above-the-fold portfolio section
+·
+Add a primary CTA to contact or view resume
+·
+Create indexable project case studies
++ 2 more below
+Critical Priority
+2 issues
+CONTENT
+Publish a real above-the-fold portfolio section
+
+Replace the effectively empty page body with a visible hero section containing an H1, a 2-3 sentence introduction, and a short proof statement such as projects completed, domains worked in, or tools used. Right now the title and meta promise "AI/ML Engineering Student" work, but the page itself shows almost nothing.
+
+Impact: Visitors and search engines will finally have substantive content to understand, trust, and index.
+CONVERSION
+Add a primary CTA to contact or view resume
+
+Add one prominent button in the hero such as "View Resume" or "Contact Tushar" and make it visible without scrolling. With zero buttons and zero links, the page currently fails the basic task of helping recruiters take the next step.
+
+Impact: This will create a clear conversion path for hiring managers and collaborators.
+High Priority
+3 issues
+UX
+Add navigation to Projects, Skills, and Contact
+
+Introduce a simple top nav with anchors or separate pages for Projects, Skills, About, and Contact. The current page has zero links, which makes it feel unfinished and prevents both users and crawlers from exploring your work.
+
+Impact: Users will be able to orient themselves quickly and reach the most relevant sections faster.
+SEO
+Create indexable project case studies
+
+Add at least 3 project entries with descriptive titles, a short problem statement, your contribution, stack, and results. For a portfolio about "Applied AI, deep learning, IoT sensor pipelines," Google needs actual page text that demonstrates those topics rather than just a meta description.
+
+Impact: This will dramatically improve relevance for branded and topic-based searches while increasing credibility.
+ACCESSIBILITY
+Add a single descriptive H1
+
+Add one visible H1 such as "Tushar Kapoor — AI/ML Engineer in Training" at the top of the page. The current page has no H1, no H2s, and no H3s, which weakens document structure for screen readers and general comprehension.
+
+Impact: A proper heading structure will improve scannability and accessibility immediately.
+Medium Priority
+3 recommendations
+Nice to have
+1 recommendations
+Aeacus
+
+AI-powered audits for websites and app store listings. Free, instant, and re-runnable.
+
+Audit
+New audit
+Recent audits
+Patterns across audits
+Learn
+How scoring works
+What gets scored
+FAQ
+Use cases
+Founders
+Marketers
+Agencies
+App developers
+Built on Replit. No signup required.
+0

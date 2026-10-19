@@ -1,0 +1,1972 @@
+{
+  "url": "http://localhost:4173/",
+  "width": 390,
+  "height": 844,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">Deterministic</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">software</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">only</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">solves</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">the</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">problems</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">already</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">predicted.</span>",
+          "target": [
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">Wellness,</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">power</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">grids,</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">sensor</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">streams</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">real</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">systems</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">are</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">probabilistic</span>",
+          "target": [
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">and</span>",
+          "target": [
+            ".mf-w:nth-child(11)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">volatile.</span>",
+          "target": [
+            ".mf-w:nth-child(12)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">The</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">craft</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">is</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">building</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">architectures</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">that</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">observe,</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">adapt</span>",
+          "target": [
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">and</span>",
+          "target": [
+            ".red.mf-w:nth-child(9)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">act.</span>",
+          "target": [
+            ".red.mf-w:nth-child(10)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">Proof</span>",
+          "target": [
+            ".red.mf-w:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">over</span>",
+          "target": [
+            ".red.mf-w:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">adjectives.</span>",
+          "target": [
+            ".red.mf-w:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">Systems</span>",
+          "target": [
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">over</span>",
+          "target": [
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">screenshots.</span>",
+          "target": [
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">Learn</span>",
+          "target": [
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">by</span>",
+          "target": [
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#e7e7e7",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.23,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">building.</span>",
+          "target": [
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.23 (foreground color: #e7e7e7, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">Lead</span>",
+          "target": [
+            ".red.mf-w:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">by</span>",
+          "target": [
+            ".red.mf-w:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffe9e9",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1.16,
+                "fontSize": "18.7pt (24.96px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"mf-w red\" style=\"opacity: 0.1; transform: translate3d(0px, 0.25em, 0px); filter: blur(4px);\">shipping.</span>",
+          "target": [
+            ".red.mf-w:nth-child(6)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.16 (foreground color: #ffe9e9, background color: #ffffff, font size: 18.7pt (24.96px), font weight: normal). Expected contrast ratio of 3:1"
+        }
+      ]
+    },
+    {
+      "id": "label-content-name-mismatch",
+      "impact": "serious",
+      "tags": [
+        "cat.semantics",
+        "wcag21a",
+        "wcag253",
+        "EN-301-549",
+        "EN-9.2.5.3",
+        "RGAAv4",
+        "RGAA-6.1.5"
+      ],
+      "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+      "help": "Elements must have their visible text as part of their accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "label-content-name-mismatch",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Text inside the element is not included in the accessible name"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<button class=\"hud-logo\" data-cursor=\"Go\" aria-label=\"Back to top\">TUSHAR<span class=\"hud-reg\">®</span></button>",
+          "target": [
+            ".hud-logo"
+          ],
+          "failureSummary": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1,
+                "fontSize": "99.4pt (132.6px)",
+                "fontWeight": "normal",
+                "messageKey": "equalRatio",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has a 1:1 contrast ratio with the background"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"odo-digit\">2</span>",
+          "target": [
+            "span[aria-label=\"2028\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1,
+                "fontSize": "99.4pt (132.6px)",
+                "fontWeight": "normal",
+                "messageKey": "equalRatio",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has a 1:1 contrast ratio with the background"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"odo-digit\">0</span>",
+          "target": [
+            "span[aria-label=\"2028\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1,
+                "fontSize": "99.4pt (132.6px)",
+                "fontWeight": "normal",
+                "messageKey": "equalRatio",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has a 1:1 contrast ratio with the background"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"odo-digit\">2</span>",
+          "target": [
+            "span[aria-label=\"2028\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#ffffff",
+                "bgColor": "#ffffff",
+                "contrastRatio": 1,
+                "fontSize": "99.4pt (132.6px)",
+                "fontWeight": "normal",
+                "messageKey": "equalRatio",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<body class=\"has-cursor\">",
+                  "target": [
+                    "body"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has a 1:1 contrast ratio with the background"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"odo-digit\">4</span>",
+          "target": [
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has a 1:1 contrast ratio with the background"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i>✦</i>",
+          "target": [
+            ".tape-item:nth-child(1) > i"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i>✦</i>",
+          "target": [
+            ".tape-item:nth-child(2) > i"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<i>✦</i>",
+          "target": [
+            ".tape-item:nth-child(3) > i"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    },
+    {
+      "id": "heading-order",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the order of headings is semantically correct",
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": {
+                "headingOrder": [
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > h1:nth-child(2)"
+                    ],
+                    "level": 1
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(2) > div > div:nth-child(2) > h2:nth-child(1)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > h2:nth-child(1)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > div > article:nth-child(1) > div:nth-child(1) > h3:nth-child(2)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(4) > div > div:nth-child(2) > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(4) > div > div:nth-child(2) > ul:nth-child(3) > li:nth-child(2) > h3:nth-child(3)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(4) > div > div:nth-child(2) > ul:nth-child(3) > li:nth-child(3) > h3:nth-child(3)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(4) > div > div:nth-child(2) > ul:nth-child(3) > li:nth-child(4) > h3:nth-child(3)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(5) > div > div:nth-child(1) > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(6) > div > div > h2:nth-child(1)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > div > main:nth-child(5) > section:nth-child(7) > div > div:nth-child(5) > h2"
+                    ],
+                    "level": 2
+                  }
+                ]
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h1 class=\"hero-title\">",
+          "target": [
+            "h1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h2 class=\"slabel rv\" data-rv=\"0\" style=\"opacity: 0; transform: translate3d(0px, 30px, 0px);\"><b>(01)</b> — About me</h2>",
+          "target": [
+            ".about-col > .slabel[data-rv=\"0\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h2 class=\"slabel rv\" data-rv=\"0\" style=\"opacity: 0; transform: translate3d(0px, 30px, 0px);\"><b>(02)</b> — Work</h2>",
+          "target": [
+            ".work-head > .slabel[data-rv=\"0\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h3 class=\"work-name\">NUTRITION ASSISTANT</h3>",
+          "target": [
+            "article:nth-child(1) > .work-info > .work-name"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h2 class=\"journey-title rv\" data-rv=\"1\" style=\"opacity: 0; transform: translate3d(0px, 30px, 0px);\"><span class=\"jt-line\">LEARNING</span><span class=\"jt-line red\">OUT LOUD.</span></h2>",
+          "target": [
+            ".journey-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h3 class=\"jtl-title\">APPLIED AI RESEARCH</h3>",
+          "target": [
+            ".jtl-item:nth-child(2) > .jtl-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h3 class=\"jtl-title\">AI &amp; CLOUD ENGINEER</h3>",
+          "target": [
+            ".jtl-item:nth-child(3) > .jtl-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h3 class=\"jtl-title\">B.TECH CSE (AI &amp; ML)</h3>",
+          "target": [
+            ".jtl-item:nth-child(4) > .jtl-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h2 class=\"skills-title rv\" data-rv=\"1\" style=\"opacity: 0; transform: translate3d(0px, 30px, 0px);\"><span class=\"jt-line\">EVERYTHING</span><span class=\"jt-line red\">IN ORBIT.</span></h2>",
+          "target": [
+            ".skills-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h2 class=\"slabel rv\" data-rv=\"0\" style=\"opacity: 0; transform: translate3d(0px, 30px, 0px);\"><b>(05)</b> — Awards</h2>",
+          "target": [
+            ".awards-col > .slabel[data-rv=\"0\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Unable to determine previous heading"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h2 class=\"contact-title\"><span>LET’S</span><span>TALK</span></h2>",
+          "target": [
+            ".contact-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Unable to determine previous heading"
+        }
+      ]
+    }
+  ]
+}

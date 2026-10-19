@@ -73,10 +73,12 @@ export function Contact() {
       linksRef.current.style.opacity = reveal(linksRef.current, 170, 190).toFixed(3);
     }
     if (footLeftRef.current) {
-      footLeftRef.current.style.opacity = reveal(footLeftRef.current, 40, 150).toFixed(3);
+      // Ramp tight enough that the mobile resting distance still clamps to 1 —
+      // a 94%-white © line over red only reaches 4.16:1, below the 4.5 minimum.
+      footLeftRef.current.style.opacity = reveal(footLeftRef.current, 40, 120).toFixed(3);
     }
     if (footRightRef.current) {
-      footRightRef.current.style.opacity = reveal(footRightRef.current, 170, 190).toFixed(3);
+      footRightRef.current.style.opacity = reveal(footRightRef.current, 170, 150).toFixed(3);
     }
   });
 

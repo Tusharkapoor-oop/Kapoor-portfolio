@@ -1,0 +1,1312 @@
+{
+  "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "width": 1440,
+  "height": 900,
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#616880",
+                "bgColor": "#050510",
+                "contrastRatio": 3.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
+          "target": [
+            ".md\\:items-end > div:nth-child(1) > .text-muted\\/70"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "8.3pt (11px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
+          "target": [
+            ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#616880",
+                "bgColor": "#050510",
+                "contrastRatio": 3.66,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
+          "target": [
+            ".tracking-widest.uppercase.text-muted\\/70"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>hover a tool to see project lineage</span>",
+          "target": [
+            ".gap-1\\.5.text-muted\\/60.items-center > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
+          "target": [
+            ".mb-10.text-muted\\/60"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>© 2026</span>",
+          "target": [
+            "footer > .gap-2.items-center.flex > span:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>New Delhi, India</span>",
+          "target": [
+            "footer > .gap-2.items-center.flex > span:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
+          "target": [
+            "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
+          "target": [
+            "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
+          "target": [
+            "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
+          "target": [
+            "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
+          "target": [
+            "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#393d50",
+                "bgColor": "#050510",
+                "contrastRatio": 1.88,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
+          "target": [
+            ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "heading-order",
+      "impact": "moderate",
+      "tags": [
+        "cat.semantics",
+        "best-practice"
+      ],
+      "description": "Ensure the order of headings is semantically correct",
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order invalid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "moderate",
+          "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
+          "target": [
+            ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4"
+          ],
+          "failureSummary": "Fix any of the following:\n  Heading order invalid"
+        }
+      ]
+    }
+  ],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>TK</span>",
+          "target": [
+            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#work\" class=\"text-sm font-mono text-muted hover:text-foreground transition-colors duration-200\">Work</a>",
+          "target": [
+            ".duration-200[href$=\"#work\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#experience\" class=\"text-sm font-mono text-muted hover:text-foreground transition-colors duration-200\">Experience</a>",
+          "target": [
+            ".duration-200[href$=\"#experience\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#about\" class=\"text-sm font-mono text-muted hover:text-foreground transition-colors duration-200\">About</a>",
+          "target": [
+            ".duration-200[href$=\"#about\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#lab\" class=\"text-sm font-mono text-muted hover:text-foreground transition-colors duration-200\">Lab</a>",
+          "target": [
+            ".duration-200[href$=\"#lab\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a href=\"#connect\" class=\"text-sm font-mono text-muted hover:text-foreground transition-colors duration-200\">Connect</a>",
+          "target": [
+            ".duration-200[href$=\"#connect\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/Kapoor-portfolio/Tushar_Kapoor_Resume.pdf\" target=\"_blank\" rel=\"noreferrer\" class=\"text-xs font-mono px-3 py-1.5 rounded-lg bg-card border border-cardBorder hover:border-accent/50 text-foreground hover:text-white transition-all flex items-center gap-1.5 group\">",
+                  "target": [
+                    ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>Resume</span>",
+          "target": [
+            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<button title=\"Open Command Palette (⌘K / Ctrl+K)\" class=\"text-xs font-mono px-2.5 py-1.5 bg-card/80 hover:bg-card border border-cardBorder hover:border-muted/40 rounded text-muted hover:text-foreground transition-all duration-200 flex items-center gap-1.5 group cursor-pointer\">",
+                  "target": [
+                    ".hover\\:border-muted\\/40"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"tracking-widest\">K</span>",
+          "target": [
+            ".hover\\:border-muted\\/40 > .tracking-widest"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-card border border-cardBorder\"><span class=\"w-2 h-2 rounded-full bg-live animate-pulse\"></span><span class=\"text-foreground font-medium\">Available for Summer 2026 Internships</span></div>",
+                  "target": [
+                    ".py-1\\.5.inline-flex.rounded-full:nth-child(1)"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"text-foreground font-medium\">Available for Summer 2026 Internships</span>",
+          "target": [
+            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card/60 border border-cardBorder/70 text-muted/80\">",
+                  "target": [
+                    ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>New Delhi, India</span>",
+          "target": [
+            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card/60 border border-cardBorder/70 text-muted/80\">",
+                  "target": [
+                    ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"text-muted/40\">·</span>",
+          "target": [
+            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-card/60 border border-cardBorder/70 text-muted/80\">",
+                  "target": [
+                    ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>10:24:21 PM IST</span>",
+          "target": [
+            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>Tushar Kapoor // Applied AI &amp; Systems Engineering</span>",
+          "target": [
+            ".tracking-wide > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "54.0pt (72px)",
+                "fontWeight": "bold",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h1 class=\"text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-foreground leading-[1.05]\">Engineering systems that <span class=\"text-gradient-fire\">reason</span> through real-world complexity.</h1>",
+          "target": [
+            "h1"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "54.0pt (72px)",
+                "fontWeight": "bold",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<span class=\"text-gradient-fire\">reason</span>",
+                  "target": [
+                    ".text-gradient-fire"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"text-gradient-fire\">reason</span>",
+          "target": [
+            ".text-gradient-fire"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "15.0pt (20px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p class=\"text-base sm:text-lg md:text-xl text-muted leading-relaxed font-normal pt-2\">",
+          "target": [
+            ".md\\:text-xl"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://github.com/Tusharkapoor-oop\" target=\"_blank\" rel=\"noreferrer\" class=\"inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-card border border-cardBorder hover:border-foreground/30 text-xs font-mono text-foreground hover:text-white transition-all group\">",
+                  "target": [
+                    ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1)"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>github/Tusharkapoor-oop</span>",
+          "target": [
+            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://www.linkedin.com/in/tushar-kapoor-143484333/\" target=\"_blank\" rel=\"noreferrer\" class=\"inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-card border border-cardBorder hover:border-foreground/30 text-xs font-mono text-foreground hover:text-white transition-all group\">",
+                  "target": [
+                    ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2)"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>linkedin/in/tushar-kapoor</span>",
+          "target": [
+            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"https://leetcode.com/u/tusharkapoor66/\" target=\"_blank\" rel=\"noreferrer\" class=\"inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-card border border-cardBorder hover:border-foreground/30 text-xs font-mono text-foreground hover:text-white transition-all group\">",
+                  "target": [
+                    ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3)"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>leetcode/tusharkapoor66</span>",
+          "target": [
+            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"#work\" class=\"inline-flex items-center gap-2 px-6 py-3 rounded-xl font-mono text-xs font-bold text-background transition-all hover:brightness-110 shadow-lg shadow-accent/25\" style=\"background: linear-gradient(100deg, rgb(232, 163, 61), rgb(232, 93, 42) 55%, rgb(251, 113, 133) 130%);\">",
+                  "target": [
+                    ".text-background"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>Explore Built Systems</span>",
+          "target": [
+            ".text-background > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "contrastRatio": 0,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "bgGradient",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"#connect\" class=\"inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-card border border-cardBorder hover:border-foreground/30 text-foreground font-mono text-xs font-medium transition-all\">",
+                  "target": [
+                    ".px-6.py-3[href$=\"#connect\"]"
+                  ]
+                },
+                {
+                  "html": "<div class=\"absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/95\"></div>",
+                  "target": [
+                    ".bg-gradient-to-b"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a background gradient"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>Start A Conversation</span>",
+          "target": [
+            ".px-6.py-3[href$=\"#connect\"] > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#545a70",
+                "bgColor": "#050510",
+                "contrastRatio": 2.96,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": "shortTextContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div id=\"top\" class=\"min-h-screen bg-background text-foreground flex flex-col items-center relative\">",
+                  "target": [
+                    "#top"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element content is too short to determine if it is actual text content"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>·</span>",
+          "target": [
+            "footer > .gap-2.items-center.flex > span:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "nonBmp"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element content contains only non-text characters"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span>↑</span>",
+          "target": [
+            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ]
+}

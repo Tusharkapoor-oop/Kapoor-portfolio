@@ -130,11 +130,11 @@ export function Work() {
                   <a
                     className="work-link"
                     data-cursor="Open"
-                    href={pr.repo ?? IDENTITY.github}
+                    href={pr.link ?? pr.repo ?? IDENTITY.github}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    VIEW ON GITHUB ↗
+                    {pr.linkLabel ?? 'VIEW ON GITHUB ↗'}
                   </a>
                 </div>
                 <div className="work-visual" aria-hidden="true">

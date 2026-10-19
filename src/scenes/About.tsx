@@ -29,7 +29,7 @@ export function About() {
         const el = w as HTMLElement & { __q?: string };
         if (el.__q === String(q)) return;
         el.__q = String(q);
-        w.style.opacity = (0.1 + 0.9 * q).toFixed(3);
+        w.style.opacity = q.toFixed(3);
         w.style.transform = `translate3d(0, ${((1 - q) * 0.25).toFixed(3)}em, 0)`;
         w.style.filter = q >= 0.98 ? '' : `blur(${((1 - q) * 4).toFixed(2)}px)`;
       });

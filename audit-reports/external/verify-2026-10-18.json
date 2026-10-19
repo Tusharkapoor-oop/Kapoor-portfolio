@@ -1,0 +1,20 @@
+[
+  {
+    "service": "Aeacus",
+    "postSubmitNav": null,
+    "observedAfterWait": {
+      "hit": true,
+      "headline": "Aeacus\nNew Audit\nHistory\nPatterns\nCompare\nTop scoring sites\nTop 20\n1.\nJudge.me Product Reviews App\n89\n2.\nshadcn/ui\n83\n3.\nGrammarly\n83\n4.\nEmpero\n82\n5.\nКалькуляторофф\n79\n6.\nSD Advisory\n79\n7.\nAspire Tech\n79\n8.\nFlow Room Music\n79\n9.\nBioVinte2\n79\n10.\nCognito\n79\n11.\nMyEventQR\n78\n12.\nUNIS\n78\n13.\nAspire SAT\n78\n14.\nReClick\n78\n15.\nHoxhunt\n78\n16.\nSceneGenerator\n78\n17.\nAutoAuraq\n78\n18.\nchang64\n78\n19.\nSouth Austin Dental\n78\n20.\nSYD Engineers\n77\nAeacus\nAudit any app, website, or listing for AI optimization, SEO, UX, and conversion.\n\nAI-powered audits that score your page across all six categories — with a prioritized list of concrete fixes, in under a minute. Free, no signup.\n\nWebsites\nApple App Store\nGoo"
+    }
+  },
+  {
+    "service": "AI Website Critic",
+    "postSubmitNav": null,
+    "observedAfterWait": {
+      "hit": false,
+      "waitedMs": 75000,
+      "finalUrl": "https://www.aiwebsitecritic.com/",
+      "finalTitle": "AI Website Critic | The 60-Second Lead Generator for Web & SEO Agencies"
+    }
+  }
+]

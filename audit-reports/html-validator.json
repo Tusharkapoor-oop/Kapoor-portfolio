@@ -1,0 +1,218 @@
+{
+  "local": {
+    "version": "26.10.18",
+    "messages": [
+      {
+        "type": "info",
+        "lastLine": 29,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "jpg\">\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 43,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "ript>\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 53,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "ript>\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 66,
+        "lastColumn": 71,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Resource violates Content Security Policy (meta tag): external script “./assets/index-nGr_9gGd.js” blocked by “script-src” directive.",
+        "extract": "ript>\n    <script type=\"module\" crossorigin src=\"./assets/index-nGr_9gGd.js\"></scri",
+        "hiliteStart": 10,
+        "hiliteLength": 67
+      }
+    ],
+    "language": "en"
+  },
+  "live": {
+    "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+    "version": "26.10.18",
+    "messages": [
+      {
+        "type": "info",
+        "lastLine": 4,
+        "lastColumn": 28,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "head>\n    <meta charset=\"UTF-8\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 24
+      },
+      {
+        "type": "info",
+        "lastLine": 5,
+        "lastColumn": 81,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "8\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/Kapoor-portfolio/favicon.svg\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 77
+      },
+      {
+        "type": "info",
+        "lastLine": 6,
+        "lastColumn": 76,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "g\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 72
+      },
+      {
+        "type": "info",
+        "lastLine": 7,
+        "lastColumn": 49,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "0\" />\n    <meta name=\"theme-color\" content=\"#000000\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 45
+      },
+      {
+        "type": "info",
+        "lastLine": 8,
+        "lastColumn": 88,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "0\" />\n    <link rel=\"canonical\" href=\"https://tusharkapoor-oop.github.io/Kapoor-portfolio/\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 84
+      },
+      {
+        "type": "info",
+        "lastLine": 10,
+        "lastColumn": 186,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "itle>\n    <meta name=\"description\" content=\"Engineering systems that reason through real-world complexity. Applied AI, deep learning, IoT sensor pipelines, and algorithmic problem solving.\" />\n    \n",
+        "hiliteStart": 10,
+        "hiliteLength": 182
+      },
+      {
+        "type": "info",
+        "lastLine": 13,
+        "lastColumn": 49,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "k -->\n    <meta property=\"og:type\" content=\"website\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 45
+      },
+      {
+        "type": "info",
+        "lastLine": 14,
+        "lastColumn": 93,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "e\" />\n    <meta property=\"og:url\" content=\"https://tusharkapoor-oop.github.io/Kapoor-portfolio/\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 89
+      },
+      {
+        "type": "info",
+        "lastLine": 15,
+        "lastColumn": 84,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "/\" />\n    <meta property=\"og:title\" content=\"Tushar Kapoor — AI/ML Engineering Student\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 80
+      },
+      {
+        "type": "info",
+        "lastLine": 16,
+        "lastColumn": 157,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "t\" />\n    <meta property=\"og:description\" content=\"Applied AI, deep learning, IoT pipelines, and first-principles algorithmic problem solving by Tushar Kapoor.\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 153
+      },
+      {
+        "type": "info",
+        "lastLine": 17,
+        "lastColumn": 118,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": ".\" />\n    <meta property=\"og:image\" content=\"https://tusharkapoor-oop.github.io/Kapoor-portfolio/scholar_art_3d_wide.jpg\" />\n    \n",
+        "hiliteStart": 10,
+        "hiliteLength": 114
+      },
+      {
+        "type": "info",
+        "lastLine": 20,
+        "lastColumn": 66,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "r -->\n    <meta property=\"twitter:card\" content=\"summary_large_image\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 62
+      },
+      {
+        "type": "info",
+        "lastLine": 21,
+        "lastColumn": 98,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "e\" />\n    <meta property=\"twitter:url\" content=\"https://tusharkapoor-oop.github.io/Kapoor-portfolio/\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 94
+      },
+      {
+        "type": "info",
+        "lastLine": 22,
+        "lastColumn": 89,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "/\" />\n    <meta property=\"twitter:title\" content=\"Tushar Kapoor — AI/ML Engineering Student\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
+      {
+        "type": "info",
+        "lastLine": 23,
+        "lastColumn": 162,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": "t\" />\n    <meta property=\"twitter:description\" content=\"Applied AI, deep learning, IoT pipelines, and first-principles algorithmic problem solving by Tushar Kapoor.\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 158
+      },
+      {
+        "type": "info",
+        "lastLine": 24,
+        "lastColumn": 123,
+        "firstColumn": 5,
+        "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+        "extract": ".\" />\n    <meta property=\"twitter:image\" content=\"https://tusharkapoor-oop.github.io/Kapoor-portfolio/scholar_art_3d_wide.jpg\" />\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 119
+      }
+    ]
+  }
+}

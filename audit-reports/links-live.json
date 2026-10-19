@@ -1,0 +1,118 @@
+{
+  "page": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "mailtos": [
+    "mailto:tusharkapoor052@gmail.com?subject=Summer%202026%20Internship%20Opportunity%20%E2%80%94%20Tushar%20Kapoor&body=Hi%20Tushar%2C%0A%0AI%20reviewed%20your%20portfolio%20and%20would%20like%20to%20connect%20regarding%20an%20AI%2FML%20engineering%20opportunity...",
+    "mailto:tusharkapoor052@gmail.com?subject=Collaboration%20%2F%20Hackathon%20Inquiry&body=Hey%20Tushar%2C%0A%0AI%20saw%20your%20work%20on%20EcoSphere%20and%20Energy-O-Thon%2C%20and%20wanted%20to%20talk%20about%20collaborating%20on...",
+    "mailto:tusharkapoor052@gmail.com?subject=Saying%20hi%20from%20your%20portfolio&body=Hi%20Tushar%2C%0A%0AJust%20came%20across%20your%20portfolio.%20Would%20love%20to%20chat%20about..."
+  ],
+  "links": [
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/#top",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+    },
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/#work",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+    },
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/#experience",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+    },
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/#about",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+    },
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/#lab",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+    },
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/#connect",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+    },
+    {
+      "href": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/Tushar_Kapoor_Resume.pdf",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/Tushar_Kapoor_Resume.pdf"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop"
+    },
+    {
+      "href": "https://www.linkedin.com/in/tushar-kapoor-143484333/",
+      "status": 405,
+      "ok": false,
+      "finalUrl": "https://www.linkedin.com/in/tushar-kapoor-143484333/"
+    },
+    {
+      "href": "https://leetcode.com/u/tusharkapoor66/",
+      "status": 403,
+      "ok": false,
+      "finalUrl": "https://leetcode.com/u/tusharkapoor66/"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/DSA_PYTHON",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/DSA_PYTHON"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/OS_LAB_Linux_Ubantu",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/OS_LAB_Linux_Ubantu"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/tushar_cse-AI-and-ML-A_AI-STUDY-PLANNER",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/tushar_cse-AI-and-ML-A_AI-STUDY-PLANNER"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/Advance_hand_gesture",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/Advance_hand_gesture"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/Sustainable-Agriculture-Project",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/Sustainable-Agriculture-Project"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/IBM-Cloud-project",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/IBM-Cloud-project"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/go-bric",
+      "status": 200,
+      "ok": true,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/go-bric"
+    },
+    {
+      "href": "https://github.com/Tusharkapoor-oop/PAN-HEALTH",
+      "status": 404,
+      "ok": false,
+      "finalUrl": "https://github.com/Tusharkapoor-oop/PAN-HEALTH"
+    }
+  ]
+}

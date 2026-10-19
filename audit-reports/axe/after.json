@@ -1,0 +1,422 @@
+{
+  "url": "http://localhost:4173/",
+  "tag": "after",
+  "axeVersion": "4.14.0",
+  "states": {
+    "desktop-hero": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 10,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(5)",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i",
+            ".tape-item:nth-child(4) > i",
+            ".tape-item:nth-child(5) > i",
+            ".tape-item:nth-child(6) > i"
+          ]
+        }
+      ]
+    },
+    "desktop-about-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 73,
+          "targets": [
+            ".hud-logo",
+            ".hud-pill:nth-child(1)",
+            ".hud-pill:nth-child(3)",
+            ".hud-pill:nth-child(4)",
+            ".hud-pill:nth-child(5)",
+            ".hud-pill:nth-child(6)",
+            ".hud-pill:nth-child(7)",
+            ".hud-pct",
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)"
+          ]
+        }
+      ]
+    },
+    "desktop-work-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 10,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(5)",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i",
+            ".tape-item:nth-child(4) > i",
+            ".tape-item:nth-child(5) > i",
+            ".tape-item:nth-child(6) > i"
+          ]
+        }
+      ]
+    },
+    "desktop-journey-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 10,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i",
+            ".tape-item:nth-child(4) > i",
+            ".tape-item:nth-child(5) > i",
+            ".tape-item:nth-child(6) > i"
+          ]
+        }
+      ]
+    },
+    "desktop-skills-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 16,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".orbit-chip:nth-child(1) > .orbit-chip-in.mono",
+            ".orbit-chip:nth-child(2) > .orbit-chip-in.mono",
+            ".orbit-chip:nth-child(4) > .orbit-chip-in.mono",
+            ".zback.orbit-chip:nth-child(6) > .orbit-chip-in.mono",
+            ".orbit-chip:nth-child(7) > .orbit-chip-in.mono",
+            ".tape-item:nth-child(11) > i",
+            ".tape-item:nth-child(12) > i",
+            ".tape-item:nth-child(13) > i",
+            ".tape-item:nth-child(14) > i",
+            ".tape-item:nth-child(15) > i",
+            ".tape-item:nth-child(16) > i",
+            ".tape-item:nth-child(17) > i"
+          ]
+        }
+      ]
+    },
+    "desktop-awards-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 37,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".tape-item:nth-child(11) > i",
+            ".tape-item:nth-child(12) > i",
+            ".tape-item:nth-child(13) > i",
+            ".tape-item:nth-child(14) > i",
+            ".tape-item:nth-child(15) > i",
+            ".tape-item:nth-child(16) > i",
+            ".tape-item:nth-child(17) > i",
+            ".award-card.red:nth-child(1) > .award-num > i",
+            ".cert:nth-child(1) > .cert-front.cert-face.red > .cert-title",
+            ".cert:nth-child(1) > .cert-front.cert-face.red > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(1) > .cert-front.cert-face.red > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(1) > .cert-front.cert-face.red > .cert-seal",
+            ".cert:nth-child(1) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-title",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-seal",
+            ".cert:nth-child(2) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-title",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-seal",
+            ".cert:nth-child(3) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(4) > .cert-front.cert-face.red > .cert-title",
+            ".cert:nth-child(4) > .cert-front.cert-face.red > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(4) > .cert-front.cert-face.red > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(4) > .cert-front.cert-face.red > .cert-seal",
+            ".cert:nth-child(4) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-title",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-seal",
+            ".cert:nth-child(5) > .cert-back.cert-face > .cert-back-mark.mono"
+          ]
+        }
+      ]
+    },
+    "desktop-contact-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 16,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".tape-item:nth-child(11) > i",
+            ".tape-item:nth-child(12) > i",
+            ".tape-item:nth-child(13) > i",
+            ".tape-item:nth-child(14) > i",
+            ".tape-item:nth-child(15) > i",
+            ".tape-item:nth-child(16) > i",
+            ".tape-item:nth-child(17) > i",
+            ".award-card.red:nth-child(1) > .award-num > i",
+            ".contact-title > span:nth-child(1)",
+            ".contact-title > span:nth-child(2)",
+            ".ce-user",
+            ".ce-domain"
+          ]
+        }
+      ]
+    },
+    "mobile-hero": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(5)",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i"
+          ]
+        }
+      ]
+    },
+    "mobile-about-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 64,
+          "targets": [
+            ".hud-logo",
+            ".hud-pct",
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)"
+          ]
+        }
+      ]
+    },
+    "mobile-work-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 9,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(5)",
+            ".journey-col > .slabel.rv[data-rv=\"0\"]",
+            ".journey-col > .slabel.rv[data-rv=\"0\"] > b",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i"
+          ]
+        }
+      ]
+    },
+    "mobile-journey-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".journey-col > .slabel.rv[data-rv=\"0\"]",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i"
+          ]
+        }
+      ]
+    },
+    "mobile-skills-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 19,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".orbit-chip:nth-child(1) > .orbit-chip-in.mono",
+            ".zback.orbit-chip:nth-child(3) > .orbit-chip-in.mono",
+            ".zback.orbit-chip:nth-child(6) > .orbit-chip-in.mono",
+            ".zback.orbit-chip:nth-child(8) > .orbit-chip-in.mono",
+            ".zback.orbit-chip:nth-child(11) > .orbit-chip-in.mono",
+            ".zback.orbit-chip:nth-child(16) > .orbit-chip-in.mono",
+            ".tape-item:nth-child(10) > i",
+            ".tape-item:nth-child(11) > i",
+            ".tape-item:nth-child(12) > i",
+            ".awards-col > .slabel[data-rv=\"0\"]",
+            ".awards-col > .slabel[data-rv=\"0\"] > b",
+            ".award-card.red:nth-child(1) > .award-num",
+            ".award-card.red:nth-child(1) > .award-num > i",
+            ".award-card.red:nth-child(1) > .award-label.mono",
+            ".award-card.red:nth-child(1) > .award-note.mono"
+          ]
+        }
+      ]
+    },
+    "mobile-awards-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 27,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".tape-item:nth-child(10) > i",
+            ".tape-item:nth-child(11) > i",
+            ".tape-item:nth-child(12) > i",
+            ".award-card.red:nth-child(1) > .award-num > i",
+            ".cert:nth-child(1) > .cert-front.cert-face.red > .cert-title",
+            ".cert:nth-child(1) > .cert-front.cert-face.red > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(1) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-title",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(2) > .cert-front.cert-face > .cert-seal",
+            ".cert:nth-child(2) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-title",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(3) > .cert-front.cert-face > .cert-seal",
+            ".cert:nth-child(3) > .cert-back.cert-face > .cert-back-mark.mono",
+            ".cert:nth-child(4) > .cert-front.cert-face.red > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-title",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-bottom > .cert-sub.mono",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-bottom > .cert-year.mono",
+            ".cert:nth-child(5) > .cert-front.cert-face > .cert-seal",
+            ".cert:nth-child(5) > .cert-back.cert-face > .cert-back-mark.mono"
+          ]
+        }
+      ]
+    },
+    "mobile-contact-end": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 12,
+          "targets": [
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(3)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(3)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(7)",
+            ".tape-item:nth-child(10) > i",
+            ".tape-item:nth-child(11) > i",
+            ".tape-item:nth-child(12) > i",
+            ".award-card.red:nth-child(1) > .award-num > i",
+            ".contact-title > span:nth-child(1)",
+            ".contact-title > span:nth-child(2)",
+            ".ce-user",
+            ".ce-domain"
+          ]
+        }
+      ]
+    }
+  }
+}

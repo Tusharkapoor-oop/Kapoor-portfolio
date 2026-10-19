@@ -26,7 +26,7 @@ export function Hero() {
       0,
     );
     tl.fromTo(lines, { yPercent: 112 }, { yPercent: 0, duration: 1.2, ease: 'expo.out', stagger: 0.09 }, 0.15);
-    tl.fromTo(fades, { y: 26, opacity: 0 }, { y: 0, opacity: 1, duration: 0.9, ease: 'power3.out', stagger: 0.09 }, 0.55);
+    tl.fromTo(fades, { y: 30 }, { y: 0, duration: 0.8, ease: 'power3.out', stagger: 0.1 }, 0.4);
 
     if (prefersReduced()) {
       tl.progress(1);

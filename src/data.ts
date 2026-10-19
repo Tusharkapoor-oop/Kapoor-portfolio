@@ -75,6 +75,8 @@ export interface Project {
   chips: string[];
   visual: 'chat' | 'gauge' | 'heatmap';
   repo?: string;
+  link?: string;
+  linkLabel?: string;
 }
 
 export const PROJECTS: Project[] = [
@@ -85,6 +87,8 @@ export const PROJECTS: Project[] = [
     desc: 'LLM agent turning location, weather and user context into personalised dietary guidance.',
     chips: ['Python', 'TensorFlow', 'watsonx.ai', 'MySQL'],
     visual: 'chat',
+    link: 'https://lnkd.in/p/dkhr9ZP7',
+    linkLabel: 'VIEW ON LINKEDIN ↗',
   },
   {
     num: '02',
@@ -106,7 +110,7 @@ export const PROJECTS: Project[] = [
 
 export const JOURNEY = {
   fromYear: 2024,
-  toYear: 2028,
+  toYear: 2026,
   items: [
     {
       year: '2026',
