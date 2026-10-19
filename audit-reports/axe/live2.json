@@ -1,1877 +1,696 @@
 {
-  "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "url": "http://tusharkapoor-oop.github.io/Kapoor-portfolio/",
   "tag": "live2",
   "axeVersion": "4.14.0",
   "states": {
     "desktop-hero": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        },
-        {
-          "id": "region",
-          "impact": "moderate",
-          "help": "All page content should be contained by landmarks",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
-          "tags": [
-            "cat.keyboard",
-            "best-practice",
-            "RGAAv4",
-            "RGAA-9.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".z-\\[100\\]",
-              "html": "<div class=\"fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background text-foreground\" style=\"opacity: 1;\">",
-              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 25,
+          "nodes": 31,
           "targets": [
-            ".text-2xl.tracking-wider.gap-1 > span:nth-child(1)",
-            ".-bottom-8",
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            "article:nth-child(1) > .work-info > .work-num",
+            "article:nth-child(1) > .work-info > .work-num > b",
+            "article:nth-child(1) > .work-info > .work-name",
+            "article:nth-child(1) > .work-info > .work-desc",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(1)",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(2)",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(3)",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(4)",
+            "a[href$=\"dkhr9ZP7\"]",
+            "article:nth-child(2) > .work-info > .work-num",
+            "article:nth-child(2) > .work-info > .work-num > b",
+            "article:nth-child(2) > .work-info > .work-name",
+            "article:nth-child(2) > .work-info > .work-desc",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(1)",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(2)",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(3)",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(4)",
+            "article:nth-child(2) > .work-info > .work-link[data-cursor=\"Open\"][target=\"_blank\"]",
+            ".gauge-read",
+            "article:nth-child(3) > .work-info > .work-desc",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(1)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(1)",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i",
+            ".tape-item:nth-child(4) > i",
+            ".tape-item:nth-child(5) > i",
+            ".tape-item:nth-child(6) > i",
+            ".award-card.red:nth-child(1) > .award-num > i"
           ]
         }
       ]
     },
     "desktop-about-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 23,
+          "nodes": 94,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".hud-logo",
+            ".hud-pill:nth-child(1)",
+            ".hud-pill:nth-child(3)",
+            ".hud-pill:nth-child(4)",
+            ".hud-pill:nth-child(5)",
+            ".hud-pill:nth-child(6)",
+            ".hud-pill:nth-child(7)",
+            ".hud-pct",
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)"
           ]
         }
       ]
     },
     "desktop-work-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 23,
+          "nodes": 66,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "desktop-journey-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 23,
+          "nodes": 66,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "desktop-skills-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 23,
+          "nodes": 73,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "desktop-awards-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 23,
+          "nodes": 92,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "desktop-contact-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-4.items-center.flex > .sm\\:inline.hidden.text-muted\\/40",
-              "html": "<span class=\"hidden sm:inline text-muted/40\">Press ⌘K for menu</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 1.88 (foreground color: #393d50, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 23,
+          "nodes": 96,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".duration-200[href$=\"#work\"]",
-            ".duration-200[href$=\"#experience\"]",
-            ".duration-200[href$=\"#about\"]",
-            ".duration-200[href$=\"#lab\"]",
-            ".duration-200[href$=\"#connect\"]",
-            ".hover\\:border-accent\\/50.hover\\:text-white.py-1\\.5 > span:nth-child(2)",
-            ".hover\\:border-muted\\/40 > .tracking-widest",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(1) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(2) > span:nth-child(2)",
-            ".hover\\:text-white.px-3\\.5.inline-flex:nth-child(3) > span:nth-child(2)",
-            ".text-background > span",
-            ".px-6.py-3[href$=\"#connect\"] > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "mobile-hero": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "region",
-          "impact": "moderate",
-          "help": "All page content should be contained by landmarks",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axeAPI",
-          "tags": [
-            "cat.keyboard",
-            "best-practice",
-            "RGAAv4",
-            "RGAA-9.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".z-\\[100\\]",
-              "html": "<div class=\"fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background text-foreground\" style=\"opacity: 1;\">",
-              "failure": "Fix any of the following:   Some page content is not contained by landmarks"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 14,
+          "nodes": 27,
           "targets": [
-            ".text-2xl.tracking-wider.gap-1 > span:nth-child(1)",
-            ".-bottom-8",
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
-          ]
-        },
-        {
-          "id": "heading-order",
-          "nodes": 36,
-          "targets": [
-            "h1",
-            ".space-y-12 > .gap-4.items-center.flex > h2",
-            ".space-y-4.p-6.rounded-2xl:nth-child(1) > .space-y-3 > .text-base",
-            ".space-y-4.p-6.rounded-2xl:nth-child(2) > .space-y-3 > .text-base",
-            ".space-y-4.p-6.rounded-2xl:nth-child(3) > .space-y-3 > .text-base",
-            ".items-baseline.gap-4.justify-between > .text-3xl.md\\:text-4xl.font-display",
-            ".pt-4.border-t.border-cardBorder:nth-child(1) > .tracking-\\[0\\.18em\\]",
-            ".pt-4.border-t.border-cardBorder:nth-child(2) > .tracking-\\[0\\.18em\\]",
-            ".pt-4.border-t.border-cardBorder:nth-child(3) > .tracking-\\[0\\.18em\\]",
-            ".mb-2.gap-4.items-center > h2",
-            ".sm\\:p-8.hover\\:border-accent\\/40.duration-300:nth-child(1) > .sm\\:items-start.sm\\:flex-row.mb-4 > div > .gap-3.items-center.flex:nth-child(1) > .text-2xl.font-bold",
-            ".sm\\:p-8.hover\\:border-accent\\/40.duration-300:nth-child(2) > .sm\\:items-start.sm\\:flex-row.mb-4 > div > .gap-3.items-center.flex:nth-child(1) > .text-2xl.font-bold",
-            ".sm\\:p-8.hover\\:border-accent\\/40.duration-300:nth-child(3) > .sm\\:items-start.sm\\:flex-row.mb-4 > div > .gap-3.items-center.flex:nth-child(1) > .text-2xl.font-bold",
-            ".sm\\:p-8.hover\\:border-accent\\/40.duration-300:nth-child(4) > .sm\\:items-start.sm\\:flex-row.mb-4 > div > .gap-3.items-center.flex:nth-child(1) > .text-2xl.font-bold",
-            "div:nth-child(6) > .py-16.scroll-mt-20 > .mb-10.gap-4.items-center > h2",
-            ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-            ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(2) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-            ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(3) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-            ".md\\:p-8.space-y-6.p-6:nth-child(2) > .md\\:items-center.pb-5.md\\:flex-row > div:nth-child(1) > .text-xl.font-bold",
-            ".md\\:p-8.space-y-6.p-6:nth-child(3) > .md\\:items-center.pb-5.md\\:flex-row > div:nth-child(1) > .text-xl.font-bold",
-            "#problem-solving > .mb-10.gap-4.items-center > h2",
-            ".py-12.scroll-mt-20 > div > .text-3xl.md\\:text-4xl.font-display",
-            ".sm\\:items-baseline > .gap-4.items-center.flex > h2",
-            ".sm\\:items-center > .gap-4.items-center.flex > h2",
-            ".space-y-3:nth-child(1) > .pb-2.border-b.border-cardBorder\\/60 > .text-gold.tracking-widest.uppercase",
-            ".space-y-3:nth-child(2) > .pb-2.border-b.border-cardBorder\\/60 > .text-teal.tracking-widest.uppercase",
-            ".space-y-3:nth-child(3) > .pb-2.border-b.border-cardBorder\\/60 > .text-rose.tracking-widest.uppercase",
-            ".space-y-3:nth-child(4) > .pb-2.border-b.border-cardBorder\\/60 > .text-violet.tracking-widest.uppercase",
-            ".space-y-3:nth-child(5) > .pb-2.border-b.border-cardBorder\\/60 > .text-gold.tracking-widest.uppercase",
-            ".space-y-3:nth-child(6) > .pb-2.border-b.border-cardBorder\\/60 > .text-teal.tracking-widest.uppercase",
-            ".space-y-3:nth-child(7) > .pb-2.border-b.border-cardBorder\\/60 > .text-rose.tracking-widest.uppercase",
-            ".space-y-3:nth-child(8) > .pb-2.border-b.border-cardBorder\\/60 > .text-violet.tracking-widest.uppercase",
-            "div:nth-child(1) > .tracking-\\[0\\.18em\\].text-faint:nth-child(1)",
-            ".mt-10",
-            "div:nth-child(2) > .tracking-\\[0\\.18em\\].text-faint",
-            ".leading-\\[1\\.15\\]"
+            "article:nth-child(1) > .work-info > .work-num",
+            "article:nth-child(1) > .work-info > .work-num > b",
+            "article:nth-child(1) > .work-info > .work-name",
+            "article:nth-child(1) > .work-info > .work-desc",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(1)",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(2)",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(3)",
+            "article:nth-child(1) > .work-info > .work-chips > .chip:nth-child(4)",
+            "a[href$=\"dkhr9ZP7\"]",
+            "article:nth-child(2) > .work-info > .work-num",
+            "article:nth-child(2) > .work-info > .work-num > b",
+            "article:nth-child(2) > .work-info > .work-name",
+            "article:nth-child(2) > .work-info > .work-desc",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(1)",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(2)",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(3)",
+            "article:nth-child(2) > .work-info > .work-chips > .chip:nth-child(4)",
+            "article:nth-child(2) > .work-info > .work-link[data-cursor=\"Open\"][target=\"_blank\"]",
+            "article:nth-child(3) > .work-info > .work-desc",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(1) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(2) > .odo-strip > .odo-digit:nth-child(1)",
+            "span[aria-label=\"2026\"] > .odo-col:nth-child(3) > .odo-strip > .odo-digit:nth-child(1)",
+            ".odo-col:nth-child(4) > .odo-strip > .odo-digit:nth-child(1)",
+            ".tape-item:nth-child(1) > i",
+            ".tape-item:nth-child(2) > i",
+            ".tape-item:nth-child(3) > i",
+            ".award-card.red:nth-child(1) > .award-num > i"
           ]
         }
       ]
     },
     "mobile-about-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 12,
+          "nodes": 84,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".hud-logo",
+            ".hud-pct",
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)"
           ]
         }
       ]
     },
     "mobile-work-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 12,
+          "nodes": 65,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "mobile-journey-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 12,
+          "nodes": 64,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "mobile-skills-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 12,
+          "nodes": 74,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "mobile-awards-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 12,
+          "nodes": 83,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]
     },
     "mobile-contact-end": {
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
-          "tags": [
-            "cat.color",
-            "wcag2aa",
-            "wcag143",
-            "TTv5",
-            "TT13.c",
-            "EN-301-549",
-            "EN-9.1.4.3",
-            "ACT",
-            "RGAAv4",
-            "RGAA-3.2.1"
-          ],
-          "nodes": [
-            {
-              "target": ".md\\:items-end > div:nth-child(1) > .text-muted\\/70",
-              "html": "<p class=\"font-mono text-xs text-muted/70\">Autonomous agents, real-time IoT anomaly pipelines, and cloud ML architectures</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".justify-between.items-center.flex > .text-\\[11px\\].text-muted\\/60.font-mono",
-              "html": "<span class=\"font-mono text-[11px] text-muted/60\">Agile sprints &amp; cross-timezone coordination</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".tracking-widest.uppercase.text-muted\\/70",
-              "html": "<div class=\"font-mono text-xs text-muted/70 tracking-widest uppercase\">// INTERNSHIP CHAPTERS</div>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 3.66 (foreground color: #616880, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".gap-1\\.5.text-muted\\/60.items-center > span",
-              "html": "<span>hover a tool to see project lineage</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": ".mb-10.text-muted\\/60",
-              "html": "<p class=\"font-mono text-xs text-muted/60 mb-10\">Organized by system lifecycle phase · zero arbitrary percentage bars</p>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(1)",
-              "html": "<span>© 2026</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "footer > .gap-2.items-center.flex > span:nth-child(4)",
-              "html": "<span>New Delhi, India</span>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#work\"]",
-              "html": "<a href=\"#work\" class=\"hover:text-foreground transition-colors\">Work</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#experience\"]",
-              "html": "<a href=\"#experience\" class=\"hover:text-foreground transition-colors\">Experience</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#about\"]",
-              "html": "<a href=\"#about\" class=\"hover:text-foreground transition-colors\">About</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#lab\"]",
-              "html": "<a href=\"#lab\" class=\"hover:text-foreground transition-colors\">Lab</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            },
-            {
-              "target": "nav[aria-label=\"Footer Navigation\"] > a[href$=\"#connect\"]",
-              "html": "<a href=\"#connect\" class=\"hover:text-foreground transition-colors\">Connect</a>",
-              "failure": "Fix any of the following:   Element has insufficient color contrast of 2.96 (foreground color: #545a70, background color: #050510, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ]
-        },
-        {
-          "id": "heading-order",
-          "impact": "moderate",
-          "help": "Heading levels should only increase by one",
-          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axeAPI",
-          "tags": [
-            "cat.semantics",
-            "best-practice"
-          ],
-          "nodes": [
-            {
-              "target": ".p-5.rounded-2xl.hover\\:border-foreground\\/30:nth-child(1) > .mb-3.gap-3.items-center > div:nth-child(2) > h4",
-              "html": "<h4 class=\"font-semibold text-sm text-foreground\">Technical Lead</h4>",
-              "failure": "Fix any of the following:   Heading order invalid"
-            }
-          ]
-        }
-      ],
+      "violations": [],
       "incomplete": [
         {
           "id": "color-contrast",
-          "nodes": 12,
+          "nodes": 86,
           "targets": [
-            ".hover\\:text-white.tracking-wider[href$=\"#top\"] > span:nth-child(1)",
-            ".py-1\\.5.inline-flex.rounded-full:nth-child(1) > .font-medium.text-foreground",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(2)",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > .text-muted\\/40",
-            ".border-cardBorder\\/70.bg-card\\/60.py-1\\.5 > span:nth-child(5)",
-            ".tracking-wide > span",
-            "h1",
-            ".text-gradient-fire",
-            ".md\\:text-xl",
-            ".text-background > span",
-            "footer > .gap-2.items-center.flex > span:nth-child(3)",
-            ".gap-1.hover\\:text-accent[href$=\"#top\"] > span:nth-child(2)"
+            ".about-col > .slabel[data-rv=\"0\"]",
+            ".about-col > .slabel[data-rv=\"0\"] > b",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(1) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(1) > .red.mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(7)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(8)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(9)",
+            ".mf-line:nth-child(2) > .mf-w:nth-child(10)",
+            ".mf-w:nth-child(11)",
+            ".mf-w:nth-child(12)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(3)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(3) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(7)",
+            ".mf-line:nth-child(3) > .red.mf-w:nth-child(8)",
+            ".red.mf-w:nth-child(9)",
+            ".red.mf-w:nth-child(10)",
+            ".red.mf-w:nth-child(1)",
+            ".red.mf-w:nth-child(2)",
+            ".red.mf-w:nth-child(3)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(4)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(5)",
+            ".mf-line:nth-child(4) > .mf-w:nth-child(6)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(1)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(2)",
+            ".mf-line:nth-child(5) > .mf-w:nth-child(3)"
           ]
         }
       ]

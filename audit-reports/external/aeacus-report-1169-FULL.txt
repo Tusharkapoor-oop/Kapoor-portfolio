@@ -1,0 +1,412 @@
+Aeacus
+New Audit
+History
+Patterns
+Compare
+Back
+Tushar Kapoor
+https://tusharkapoor-oop.github.io/Kapoor-portfolio/
+•
+19 October 2026 at 13:06 GMT+5:30
+•
+PERSONAL PORTFOLIO SITE
+New Audit
+Re-audit
+PDF
+Page Screenshot
+Open full size
+71
+OVERALL VERDICT
+"A credible, technically tidy AI portfolio with strong positioning, but it needs far more proof, crawl resilience, and conversion clarity to compete for attention."
+
+The page does a solid job of positioning Tushar Kapoor as an "Applied AI Engineer" and the metadata is unusually well handled for a personal portfolio. However, the experience appears heavily JavaScript-dependent, the visible above-the-fold copy is sparse, and the page currently asks visitors to trust claims like "proven in production-style builds" without enough concrete evidence, artifacts, or case-study depth. As a portfolio, it is promising; as a discoverable, convincing lead-generation asset, it is not yet persuasive enough.
+
+71
+SCORE
+SEO Audit
+13 / 16 ON-PAGE CHECKS PASSING
+
+This page clears Google's basic technical requirements for indexing: it returns HTTP 200, is indexable, uses HTTPS, and has meaningful rendered content (657 words). On-page fundamentals are better than average, with a 35-character title, a 156-character meta description, one clear H1, self-referencing canonical, Open Graph/Twitter tags, and 3 JSON-LD objects. The biggest SEO weaknesses are crawl resilience and discoverability: the page is heavily JS-dependent (raw text only 6 words), and both robots.txt and sitemap.xml are missing.
+
+ON-PAGE SIGNALS
+Title tag
+35 chars (optimal)
+Meta description
+156 chars (optimal)
+Single H1
+1 H1, 6 H2, 6 H3
+Canonical URL
+present
+Indexable
+default (no robots meta)
+Open Graph
+title:y desc:y image:y
+Twitter card
+summary_large_image
+Structured data
+3 JSON-LD: Person, WebSite, Organization
+Image alt coverage
+no images
+Viewport meta
+present, zoom allowed
+HTML lang
+en
+HTTPS
+yes
+Crawlable without JS
+1% of text in raw HTML (6/657 words)
+Social share image
+1200x630 (large card)
+robots.txt
+not found
+sitemap.xml
+not found
+SEO ISSUES
+Content is JavaScript-dependent
+WARNING
+
+The raw HTML exposes only 1% of the rendered text (6 of 657 words). Crawlers or link previewers that do not execute JavaScript see a near-empty page.
+
+Fix: Server-render or pre-render primary content (SSR/SSG) so the core copy is present in the initial HTML response, not injected only after hydration.
+No robots.txt found
+INFO
+
+A robots.txt was not found at the site root. Crawlers cannot discover crawl rules or a sitemap reference.
+
+Fix: Add a /robots.txt that allows crawling of public pages and includes a `Sitemap:` line pointing to your sitemap.xml.
+No valid sitemap.xml found
+INFO
+
+A valid XML sitemap was not found at /sitemap.xml. Sitemaps help search engines discover and prioritize your pages.
+
+Fix: Generate a sitemap.xml (a `<urlset>` of your public URLs) and reference it from robots.txt.
+Physical address without LocalBusiness schema
+INFO
+
+The page shows a physical address but has no LocalBusiness (or subtype) JSON-LD, so search engines cannot reliably associate the location with the business.
+
+Fix: Add LocalBusiness JSON-LD with name, address, telephone, geo, and openingHours to strengthen local-SEO eligibility.
+Render core content without JavaScript
+WARNING
+
+The page is strongly JS-dependent: rawWordCount is 6 while renderedWordCount is 657, with only 1% of rendered text present in the raw HTML. Google can render JavaScript, but Google Search Essentials still favor making important content directly accessible.
+
+Fix: Ship the hero copy, project headings, bio, and key descriptive text in the initial HTML via static generation or server rendering. Keep JavaScript for enhancement, not for delivering the page's primary meaning.
+Add a robots.txt file
+WARNING
+
+robots.txt is missing and returns 404. This does not block indexing by itself, but it removes a standard discovery and control point for search engines.
+
+Fix: Publish /robots.txt with a simple allow-all policy and a sitemap directive, for example: "User-agent: *" and "Sitemap: https://tusharkapoor-oop.github.io/Kapoor-portfolio/sitemap.xml".
+Create a sitemap.xml
+WARNING
+
+sitemap.xml is missing and returns 404. For a portfolio that may grow with project pages, this slows efficient URL discovery and recrawling.
+
+Fix: Add /sitemap.xml listing the homepage and any project, resume, blog, or contact URLs you want indexed. Regenerate it whenever new pages are added.
+Strengthen snippet-worthy opening copy
+WARNING
+
+Google often generates snippets from visible body text, not the meta description. The visible text excerpt is highly stylized—"TUSHAR KAPOOR — APPLIED AI 100 SYSTEMS THAT REASON · PORTFOLIO 2026"—which is less useful as a fallback snippet than a plain-language summary.
+
+Fix: Place a direct introductory paragraph near the top of the HTML, e.g. "Applied AI engineer building LLM assistants, IoT data pipelines, and cloud ML systems with production-style implementation examples."
+Expand schema to match portfolio content
+INFO
+
+The page has 3 JSON-LD types (Person, WebSite, Organization), which is good baseline markup, but these types do not describe individual projects, work samples, or navigation structure.
+
+Fix: Add structured data that fits the actual page sections, such as BreadcrumbList for site structure and CreativeWork or SoftwareSourceCode on dedicated project pages where appropriate.
+Add crawlable project detail pages
+INFO
+
+The page has only 2 internal links, which suggests a shallow internal link graph. A portfolio about AI engineering benefits from distinct, indexable pages for major builds rather than compressing everything into one screen.
+
+Fix: Create separate URLs for flagship projects and link to them with descriptive anchors like "LLM assistant architecture" or "IoT anomaly detection pipeline" from the homepage.
+SEO OPPORTUNITIES
+Publish dedicated case-study pages for each AI project
+HIGH EFFORT
+
+Break out major portfolio items into standalone pages targeting real search intents such as "LLM chatbot portfolio project," "IoT machine learning pipeline," or "applied AI engineer case study." Each page should include the problem, architecture, stack, evaluation method, and outcomes rather than teaser copy only.
+
+Impact: This creates far more entry points for long-tail discovery and gives Google clearer topical signals for the work you want to be found for.
+Target recruiter and client intent with plain-language sections
+MEDIUM EFFORT
+
+Add sections like "What I build," "Industries and use cases," and "Selected outcomes" using the terminology real searchers use, not just brand-styled hero copy. This aligns the page with navigational and evaluative queries from hiring teams looking for applied AI talent.
+
+Impact: Better language match should improve relevance for searches around applied AI engineering services and hiring.
+Turn the homepage into a hub for topical clusters
+MEDIUM EFFORT
+
+Use the homepage to link into a small content hub around your actual specialties: agentic assistants, vector retrieval, cloud ML deployment, and IoT pipelines. This is especially relevant because those topics are already named in the meta description and AI signals.
+
+Impact: A stronger topical cluster will help search engines understand the depth and breadth of your expertise.
+Add FAQ content only where users actually need it
+LOW EFFORT
+
+If the page already answers practical questions like available roles, deployment stack, or project scope, formalize those into a visible FAQ section and mark it up only if the content is genuinely on-page. This improves clarity for users first and can support richer snippets where eligible.
+
+Impact: You may capture more qualified clicks from users comparing candidates or technical capabilities.
+Local SEO
+DETECTED ON PAGE
+LocalBusiness structured data
+no LocalBusiness schema found
+Address in structured data
+New Delhi, IN
+Phone in structured data
+no telephone in JSON-LD
+Address matches visible page
+structured address appears on the page
+Phone matches visible page
+not checked (no schema phone)
+MANUAL CHECKLIST
+
+Not automatically verified — review these off-page local ranking factors yourself.
+
+1
+Claim and complete your Google Business Profile (categories, hours, photos).
+2
+Keep name, address, and phone (NAP) identical across your site, GBP, and directories.
+3
+Add LocalBusiness JSON-LD with geo coordinates and openingHours.
+4
+Embed a map and list service-area / location pages if you serve multiple areas.
+5
+Collect and respond to reviews on Google and relevant industry directories.
+AI Audit
+AI in use
+HIGH CONFIDENCE
+
+The site clearly presents AI as a core part of the creator's work, not a peripheral mention. Page copy and detected copy mentions reference AI systems including "chatbot," "machine learning," "deep learning," "LLM," and "vector ...", and the title positions the portfolio around applied AI engineering.
+
+AI MATURITY
+Integrated
+NONE
+EXPERIMENTAL
+INTEGRATED
+ADVANCED
+AI LANGUAGE ON PAGE
+"chatbot"
+"machine learning"
+"deep learning"
+"LLM"
+"vector ..."
+USAGE BY AREA
+1 / 9 AREAS USING AI
+Content
+No evidence that the site uses AI to generate or personalize on-page content for visitors; the AI references describe portfolio subject matter, not site behavior.
+Search
+No search interface or AI-assisted retrieval feature is evidenced in the provided signals.
+Support / Chat
+Although the copy mentions a "chatbot," there is no evidence of a live support assistant on this portfolio page itself.
+Personalization
+No evidence of personalized content, recommendations, or adaptive UI based on visitor intent.
+Recommendations
+No evidence of suggested projects, tailored reading paths, or AI-ranked portfolio items.
+Vision
+The page discusses AI capability broadly, but there is no direct evidence of a vision feature in the site experience.
+Voice / Speech
+No voice input, narration, or speech interface is indicated.
+Analytics
+No evidence on the page of AI-based analytics, lead scoring, or visitor insight systems.
+Agents
+The meta description explicitly mentions "agentic assistants," which is strong evidence that autonomous or semi-autonomous AI systems are a core showcased capability.
+LLM-CITED SIGNALS
+•
+Title: "Tushar Kapoor — Applied AI Engineer"
+•
+Meta description: "Applied AI engineer building systems that observe, adapt and act — agentic assistants, IoT pipelines and cloud-backed ML"
+•
+Visible text: "APPLIED AI" and "SYSTEMS THAT REASON"
+•
+Detected copy mention: "chatbot"
+•
+Detected copy mention: "LLM"
+•
+Detected copy mention: "vector ..."
+AI OPPORTUNITIES
+Add a project-matching AI concierge
+HIGH
+RAG
+MEDIUM EFFORT
+
+Add a lightweight assistant on the portfolio that asks whether the visitor is a recruiter, founder, or hiring manager, then routes them to the most relevant projects and skills. It should use the portfolio's own project summaries, stack details, and outcomes as its knowledge base so the experience stays grounded in real work.
+
+Impact: Visitors will reach the most relevant proof faster, improving engagement and inquiry quality.
+Generate tailored recruiter summaries
+HIGH
+LLM
+MEDIUM EFFORT
+
+Let visitors paste a job description and receive a one-page fit summary mapping the role to specific portfolio projects, tools, and strengths. This would live near the resume or contact section and use structured project data rather than generic text generation.
+
+Impact: This turns the portfolio into a practical hiring tool and increases the chance of interview outreach.
+Use embeddings to power semantic project discovery
+MEDIUM
+EMBEDDINGS
+MEDIUM EFFORT
+
+Create a "Find relevant work" module where users can type prompts like "RAG chatbot," "IoT anomaly detection," or "cloud ML deployment" and see the closest matching projects. This is especially relevant because the site already speaks in terms like "LLM" and "vector," implying a technically literate audience.
+
+Impact: Prospective employers can self-serve and quickly validate topical fit, increasing project exploration depth.
+Auto-summarize each project into business outcomes
+MEDIUM
+LLM
+LOW EFFORT
+
+For every technical project, generate a short business-facing summary alongside the engineering detail, translating architecture and models into outcomes like reliability, speed, or cost impact. This would help non-technical stakeholders understand value without diluting the technical depth.
+
+Impact: The portfolio will work better for both technical reviewers and decision-makers.
+Create an agent that assembles custom portfolios
+MEDIUM
+AGENTS
+HIGH EFFORT
+
+Build an agent that composes a visitor-specific portfolio view from your project library, selecting the most relevant examples for use cases like enterprise automation, LLM apps, or IoT systems. It could output a shareable short link or PDF tailored to that audience.
+
+Impact: A custom portfolio package would make outreach and follow-up materially more compelling.
+Score Trend
+
+6 audits of this URL · +37 since previous · +37 all-time
+
+Oct 18
+Oct 18
+Oct 18
+Oct 18
+Oct 18
+Oct 19
+0
+25
+50
+75
+100
+Category Breakdown
+UX
+72/100
+
+The page appears visually intentional and clearly branded, but the information scent is weak and the visitor likely has to work too hard to find proof and next steps.
+
+CONTENT
+68/100
+
+Positioning is strong, but the content feels more like a personal brand statement than a detailed, evidence-rich portfolio.
+
+PERFORMANCE
+58/100
+
+A 2.9s fetch and heavy JS dependence suggest acceptable but fragile performance, especially for first-load rendering and crawlability.
+
+ACCESSIBILITY
+74/100
+
+The page has good baseline signals like viewport, lang, and no zoom blocking, but a JS-first experience and likely stylized text treatment may create usability friction.
+
+SEO
+78/100
+
+Technical SEO fundamentals are strong, but missing robots.txt and sitemap plus JS-reliant rendering limit otherwise solid on-page work.
+
+CONVERSION
+61/100
+
+The page sells capability but not action; it needs clearer proof, trust cues, and a more decisive primary CTA to turn interest into inquiries.
+
+Strengths & Weaknesses
+STRENGTHS
++
+Clear positioning in the title, H1, and meta description: "Applied AI Engineer" is consistent across the page and easy to understand.
++
+Core SEO basics are in place: HTTP 200, indexable page, self-referencing canonical, viewport, HTTPS, favicon, Open Graph, and Twitter card.
++
+Structured data is present with 3 JSON-LD types (Person, WebSite, Organization), which is more than most portfolio pages implement.
++
+The meta description is strong and specific, mentioning "agentic assistants, IoT pipelines and cloud-backed ML" instead of generic buzzwords.
++
+Social preview setup is complete, including a valid 1200x630 og:image that supports large-card sharing.
+AREAS FOR IMPROVEMENT
+-
+The page is highly JS-dependent: raw crawlable text is only 6 words versus 657 rendered words, which weakens resilience for indexing and link previews on less capable crawlers.
+-
+The visible headline treatment reads more like a poster than an explanation: "TUSHAR KAPOOR — APPLIED AI 100 SYSTEMS THAT REASON · PORTFOLIO 2026" is striking but not immediately informative.
+-
+There are zero images in the HTML, which is a major missed opportunity for project proof, demos, screenshots, architecture diagrams, and credibility.
+-
+The page likely under-converts because there is no evidence here of a strong primary CTA like "Book a call," "View case studies," or "Download resume" being emphasized.
+-
+The copy makes advanced AI claims, but the provided visible text excerpt and signals do not show concrete outcomes, metrics, or implementation specifics to back them up.
+Action Plan
+By role
+
+Quick view of who owns what — same recommendations, grouped by the team most likely to ship them.
+
+Designer
+2 ITEMS · TOP: MEDIUM
+
+Layout, hierarchy, accessibility, navigation.
+
+·
+Rewrite the hero headline for clarity
+·
+Audit button labels and focus order
+Developer
+1 ITEM · TOP: MEDIUM
+
+Performance, page weight, technical SEO plumbing.
+
+·
+Reduce reliance on client-side rendering
+Marketer / Content
+6 ITEMS · TOP: HIGH
+
+Copy, messaging, SEO content, calls to action.
+
+·
+Add one quantified case study above the fold
+·
+Server-render key portfolio copy in HTML
+·
+Create a single primary CTA in the hero
++ 3 more below
+High Priority
+3 issues
+CONTENT
+Add one quantified case study above the fold
+
+Replace part of the abstract hero language with a single concrete project summary that names the problem, stack, and measurable result, such as latency reduced, accuracy improved, or pipeline scale handled. The current positioning says "observe, adapt and act" and "proven in production-style builds," but it does not immediately prove either claim.
+
+Impact: Visitors will trust the portfolio faster because they can evaluate real engineering outcomes instead of brand language alone.
+SEO
+Server-render key portfolio copy in HTML
+
+Move the hero summary, project titles, and core bio text from JavaScript-rendered output into the initial HTML. Right now the raw crawlable text is only 6 words while the rendered page reaches 657 words, which creates unnecessary indexing and preview risk.
+
+Impact: Search engines and social scrapers will more reliably understand and surface the page without depending on full JS execution.
+CONVERSION
+Create a single primary CTA in the hero
+
+Add one dominant action such as "View Projects," "Book a Call," or "Download Resume" and visually prioritize it over secondary buttons. With 9 buttons on the page and no forms, the current action hierarchy is likely diffuse.
+
+Impact: A clearer next step will increase contact intent and reduce drop-off from visitors who are interested but unsure what to do next.
+Medium Priority
+5 recommendations
+Nice to have
+1 recommendations
+Aeacus
+
+AI-powered audits for websites and app store listings. Free, instant, and re-runnable.
+
+Audit
+New audit
+Recent audits
+Patterns across audits
+Learn
+How scoring works
+What gets scored
+FAQ
+Use cases
+Founders
+Marketers
+Agencies
+App developers
+Built on Replit. No signup required.
+0

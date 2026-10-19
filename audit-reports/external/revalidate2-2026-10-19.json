@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-19T07:52:02.868Z",
+  "live": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "websitevalidator": {
+    "service": "WebsiteValidator",
+    "status": "timeout",
+    "clicked": "quick",
+    "finalUrl": "https://websitevalidator.com/website-checker",
+    "body": "Skip to content WebsiteValidator Validators Checkers AI & security Full scan Rules Blog About Contact Sign in Home/Website Checker CHECKERS Website Checker Every module, one scan, one prioritised fix list One scan, eleven modules, 986 rules. Every module scores out of 100 on its own and the overall score is their equal-weighted mean - so a site cannot hide a broken module behind a large one, and adding rules to a module does not change how much that module is worth. Quick Full scan 1 of 1 full scan left today · sign in for 3 a day. Quick scans are unlimited. Quick runs 93 high-signal checks in about 3 seconds, no browser. Full adds Core Web Vitals, the accessibility engines and a screenshot, and takes about a minute. Try: example.com www.wikipedia.org vercel.com Or check one module: SEO Pack104 Answer Engine100 AI Visibility100 Accessibility Pack100 Structured Data120 Security Header105 Performance100 HTML Validator26 CSS Validator24 Trust & Scam27 AI Agent Readiness28 Quick Scan93 Free, no signup No account, no card No AI in the score 986 deterministic rules Nothing published Your scans stay yours Answers in seconds Quick scan, no browser What comes back is not a list of everything wrong. It is a ranked path: the fix that recovers the most points first, with the projected score after each one, so you can stop when the remaining work stops being worth it. Each finding carries the evidence that triggered it, a citable reference, and either a paste-ready fix or the steps to mak"
+  },
+  "aiWebsiteCritic": {
+    "service": "AI Website Critic",
+    "status": "timeout",
+    "submitted": true,
+    "finalUrl": "https://www.aiwebsitecritic.com/",
+    "body": "AI Website Critic Features What we check Sample report Pricing Blog Run a free audit Built for web & SEO agencies The 60-Second Lead Generator for Web & SEO Agencies. Instantly generate deep, client-ready website audits that reveal hidden conversion leaks, calculate AEO/GEO readiness, and turn cold prospects into high-paying clients. Stop selling; start auditing. Run an Agency Audit (Free) View Sample Agency Report 1 free audit every 7 days · Free account, no card needed TRY IT HERE Paste a URL. Watch it score. Check again 8.8 OUT OF 10 Measured live · 6 categories from the page's HTML SEO 10.0 Mobile 10.0 Content 9.3 CTA Effectiveness 6.7 Trust Signals 6.5 UX / Usability 10.0 Performance, Accessibility, Design need the full audit — it runs Lighthouse, captures screenshots and scores all ten categories with AEO and GEO readiness. Run the full audit WHAT AGENCIES GET Everything you need to turn an audit into a signed client Generative Search Visibility Engine Automatically crawl, audit, and rewrite your client's on-page copy. Headings and answers are rewritten so every page is easier for LLM crawlers to ingest, understand, and cite. AI Search Readiness Audit Don't just optimize for Google blue links. Score your website's Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) out of 10, and see exactly what's keeping it out of ChatGPT, Perplexity, and Gemini. PREMIUM White-Label Client Pitch Decks Convert any automated audit into a clean, professional, unbran"
+  }
+}

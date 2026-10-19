@@ -1,0 +1,15 @@
+﻿snapshot A: 347D24D57719EA1D296BA68D8A5947A5E628DC63E904DD8EB3055EB381222FF5
+csp sha256 pin vs live ld+json: match = True
+  OK 200  ./favicon.svg
+  OK 200  ./assets/index-Rbjy2Fqt.js
+  OK 200  ./assets/anton-latin-400-normal-Byf51wtH.woff2
+  OK 200  ./assets/inter-tight-latin-wght-normal-DX-nOvPD.woff2
+  OK 200  ./assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2
+  OK 200  ./assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2
+  OK 200  Tushar_Kapoor_Resume.pdf
+  OK 200  https://tusharkapoor-oop.github.io/Kapoor-portfolio/og-image.jpg
+  OK 200  llms.txt
+  OK 200  robots.txt
+  OK 200  sitemap.xml
+  OK 200  Tushar_Kapoor_Resume.pdf
+ld+json blocks in live html: 3

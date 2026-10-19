@@ -1,0 +1,92 @@
+{
+  "local": {
+    "version": "26.10.18",
+    "messages": [
+      {
+        "type": "info",
+        "lastLine": 36,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "eer\">\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 50,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "ript>\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 60,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "ript>\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 73,
+        "lastColumn": 71,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Resource violates Content Security Policy (meta tag): external script “./assets/index-Rbjy2Fqt.js” blocked by “script-src” directive.",
+        "extract": "ript>\n    <script type=\"module\" crossorigin src=\"./assets/index-Rbjy2Fqt.js\"></scri",
+        "hiliteStart": 10,
+        "hiliteLength": 67
+      }
+    ],
+    "language": "en"
+  },
+  "live": {
+    "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+    "version": "26.10.18",
+    "messages": [
+      {
+        "type": "info",
+        "lastLine": 36,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "eer\">\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 50,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "ript>\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      },
+      {
+        "type": "info",
+        "lastLine": 60,
+        "lastColumn": 39,
+        "firstColumn": 5,
+        "subType": "warning",
+        "message": "Inline script violates Content Security Policy (meta tag): blocked by “script-src” directive (missing “‘unsafe-inline’” or nonce/hash).",
+        "extract": "ript>\n    <script type=\"application/ld+json\">\n    {",
+        "hiliteStart": 10,
+        "hiliteLength": 35
+      }
+    ],
+    "language": "en"
+  }
+}

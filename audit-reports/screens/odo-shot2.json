@@ -1,0 +1,99 @@
+{
+  "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "nav": [
+    {
+      "t": "TUSHAR®",
+      "h": null
+    },
+    {
+      "t": "Hello",
+      "h": null
+    },
+    {
+      "t": "About",
+      "h": null
+    },
+    {
+      "t": "Work",
+      "h": null
+    },
+    {
+      "t": "Journey",
+      "h": null
+    },
+    {
+      "t": "Toolkit",
+      "h": null
+    },
+    {
+      "t": "Awards",
+      "h": null
+    },
+    {
+      "t": "Contact",
+      "h": null
+    },
+    {
+      "t": "See my work ↘See my work ↘",
+      "h": "#work"
+    },
+    {
+      "t": "Download résuméDownload ré",
+      "h": "Tushar_Kapoor_Resume.pdf"
+    },
+    {
+      "t": "VIEW ON LINKEDIN ↗",
+      "h": "https://lnkd.in/p/dkhr9ZP7"
+    },
+    {
+      "t": "VIEW ON GITHUB ↗",
+      "h": "https://github.com/Tusharkapoor-oop"
+    },
+    {
+      "t": "VIEW ON GITHUB ↗",
+      "h": "https://github.com/Tusharkapoor-oop"
+    },
+    {
+      "t": "tusharkapoor052@gmail.com",
+      "h": "mailto:tusharkapoor052@gmail.com"
+    },
+    {
+      "t": "GITHUB↗",
+      "h": "https://github.com/Tusharkapoor-oop"
+    },
+    {
+      "t": "LINKEDIN↗",
+      "h": "https://www.linkedin.com/in/tushar-kapoor-143484333/"
+    },
+    {
+      "t": "RÉSUMÉ↗",
+      "h": "Tushar_Kapoor_Resume.pdf"
+    },
+    {
+      "t": "BACK TO TOP ↑",
+      "h": null
+    }
+  ],
+  "r1": {
+    "x": 13,
+    "y": 250,
+    "w": 887,
+    "h": 396,
+    "sy": 8720
+  },
+  "finalRect": {
+    "x": 13,
+    "y": 250,
+    "w": 887,
+    "h": 396,
+    "sy": 8720
+  },
+  "inView": true,
+  "settled": {
+    "x": 13,
+    "y": 8970,
+    "w": 887,
+    "h": 396,
+    "sy": 0
+  }
+}

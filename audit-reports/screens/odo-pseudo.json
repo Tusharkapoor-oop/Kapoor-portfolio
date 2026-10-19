@@ -1,0 +1,56 @@
+{
+  "found": true,
+  "digit": {
+    "content": "normal",
+    "color": "rgba(0, 0, 0, 0)",
+    "webkitTextFillColor": "rgba(0, 0, 0, 0)",
+    "webkitTextStrokeWidth": "2px",
+    "webkitTextStrokeColor": "rgb(232, 20, 22)",
+    "textShadow": "none",
+    "backgroundImage": "none",
+    "backgroundClip": "border-box",
+    "filter": "none",
+    "mixBlendMode": "normal",
+    "opacity": "1",
+    "display": "block"
+  },
+  "before": {
+    "content": "none",
+    "color": "rgba(0, 0, 0, 0)",
+    "webkitTextFillColor": "rgba(0, 0, 0, 0)",
+    "webkitTextStrokeWidth": "2px",
+    "webkitTextStrokeColor": "rgb(232, 20, 22)",
+    "textShadow": "none",
+    "backgroundImage": "none",
+    "backgroundClip": "border-box",
+    "filter": "none",
+    "mixBlendMode": "normal",
+    "opacity": "1",
+    "display": "inline"
+  },
+  "after": {
+    "content": "none",
+    "color": "rgba(0, 0, 0, 0)",
+    "webkitTextFillColor": "rgba(0, 0, 0, 0)",
+    "webkitTextStrokeWidth": "2px",
+    "webkitTextStrokeColor": "rgb(232, 20, 22)",
+    "textShadow": "none",
+    "backgroundImage": "none",
+    "backgroundClip": "border-box",
+    "filter": "none",
+    "mixBlendMode": "normal",
+    "opacity": "1",
+    "display": "inline"
+  },
+  "rules": [
+    ".odo-digit { height: 1em; line-height: 1; display: block; }",
+    ".journey-year .odo-digit { color: rgba(0, 0, 0, 0); -webkit-text-stroke: 2px var(--red); }"
+  ],
+  "rect": {
+    "x": 13,
+    "y": 252,
+    "w": 887,
+    "h": 396
+  },
+  "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/"
+}

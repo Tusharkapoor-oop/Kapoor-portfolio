@@ -1,0 +1,24 @@
+{
+  "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "clicked": "Journey",
+  "log": [
+    {
+      "i": 0,
+      "y": 2033,
+      "sy": 6937
+    },
+    {
+      "i": 1,
+      "y": 357,
+      "sy": 8613
+    }
+  ],
+  "arrivedAt": 1,
+  "finalRect": {
+    "x": 13,
+    "y": 357,
+    "w": 887,
+    "h": 396,
+    "sy": 8613
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scenes": [
+    "hero",
+    "about",
+    "work",
+    "journey",
+    "skills",
+    "awards",
+    "contact"
+  ],
+  "tops": {
+    "hero": {
+      "top": 0,
+      "height": 2070
+    },
+    "about": {
+      "top": 2070,
+      "height": 2520
+    },
+    "work": {
+      "top": 4590,
+      "height": 4140
+    },
+    "journey": {
+      "top": 8730,
+      "height": 2160
+    },
+    "skills": {
+      "top": 10890,
+      "height": 2520
+    },
+    "awards": {
+      "top": 13410,
+      "height": 2880
+    },
+    "contact": {
+      "top": 16290,
+      "height": 2160
+    }
+  },
+  "yMid": 17386,
+  "yPill": 16290,
+  "errors": []
+}

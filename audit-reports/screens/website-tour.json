@@ -1,0 +1,13 @@
+{
+  "when": "2026-10-19T08:30:27.734Z",
+  "url": "https://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "scenes": {
+    "hello": "captured",
+    "about": "clicked",
+    "work": "clicked",
+    "journey": "clicked",
+    "toolkit": "clicked",
+    "awards": "clicked",
+    "contact": "clicked"
+  }
+}

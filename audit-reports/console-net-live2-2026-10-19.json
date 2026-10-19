@@ -1,0 +1,16 @@
+{
+  "url": "http://tusharkapoor-oop.github.io/Kapoor-portfolio/",
+  "tag": "live2",
+  "runs": {
+    "desktop": {
+      "console": [],
+      "requestFailed": [],
+      "badStatuses": []
+    },
+    "mobile": {
+      "console": [],
+      "requestFailed": [],
+      "badStatuses": []
+    }
+  }
+}

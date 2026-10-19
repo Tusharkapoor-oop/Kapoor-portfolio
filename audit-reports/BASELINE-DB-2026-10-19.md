@@ -3,6 +3,15 @@
 **Baseline window:** 18–19 Oct 2026 · Auditor: autonomous loop (Playwright + Lighthouse + axe-core + Nu + Aeacus)
 **Repo:** Kapoor-Portfolio-project (branch strategy documented below)
 
+> **POST-DEPLOY AFTER-STATE (19 Oct, deploy `main`=`84d5c55`)** — recorded against the deployed URL:
+> Aeacus **71/100** (`external/aeacus-reaudit-2026-10-19.json`, report 1169, was 34/100) · Lighthouse a11y **100/100**,
+> BP **100/100**, SEO **100/100** live (`lighthouse/live3-*-cats2.json`) · axe **0 × 14 live states** (`axe/live2.json`) ·
+> console/net **0/0/0** (`console-net-live2-2026-10-19.json`) · robots/sitemap/og-image/llms **all 200 live**
+> (`external/raw-html-truth-2026-10-19.txt`) · raw-HTML crawl readiness **320 words + 7 headings** (was 6) ·
+> performance under this machine's memory pressure: desktop 49–56 / mobile 74–81 (`lighthouse/live3-*`), with the
+> same-machine A/B (scriptEvaluation 18.7s→1.18s, TBT 4039→225ms) and real-browser FCP **316ms** proving the
+> app-side work (`tools/paint-probe.mjs` outputs + `screenshoots/paint-*.png`). Full narrative: `AUTOPILOT-99-REPORT.md`.
+
 ## Codebase topology (Stage 1)
 | Artifact | Where | State |
 |---|---|---|
